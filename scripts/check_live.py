@@ -6,10 +6,12 @@ import argparse
 from concurrent.futures import ThreadPoolExecutor
 from html.parser import HTMLParser
 import json
+import hashlib
 from pathlib import Path
 import time
 from urllib.error import URLError
 from urllib.request import Request, urlopen
+from urllib.parse import urljoin, urlsplit, unquote
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = "https://damjan-popic.github.io/"
@@ -21,6 +23,8 @@ class Page(HTMLParser):
         super().__init__()
         self.lang, self.canonical, self.h1 = None, None, 0
         self.links = []
+        self.profile_images = []
+        self.in_profile = False
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
@@ -30,16 +34,29 @@ class Page(HTMLParser):
             self.h1 += 1
         if tag == "link" and attrs.get("rel") == "canonical":
             self.canonical = attrs.get("href")
+        if tag == "figure" and "profile-photo" in attrs.get("class", "").split():
+            self.in_profile = True
+        if tag == "img" and self.in_profile:
+            self.profile_images.append(attrs)
         if tag == "a":
             self.links.append(attrs.get("href", ""))
 
 
-def fetch(path: str) -> str:
+    def handle_endtag(self, tag):
+        if tag == "figure":
+            self.in_profile = False
+
+
+def fetch_bytes(path: str) -> bytes:
     request = Request(BASE + path, headers={"User-Agent": "personal-site-deployment-check", "Cache-Control": "no-cache"})
     with urlopen(request, timeout=20) as response:
         if response.status != 200:
             raise ValueError(f"HTTP {response.status}: {path}")
-        return response.read().decode("utf-8")
+        return response.read()
+
+
+def fetch(path: str) -> str:
+    return fetch_bytes(path).decode("utf-8")
 
 
 def retry(operation):
@@ -87,7 +104,36 @@ def main(expected_commit: str):
     stylesheet = retry(lambda: fetch("assets/style.css"))
     if ".main-nav" not in stylesheet:
         raise ValueError("Published stylesheet is missing")
-    print(f"Verified {len(routes)} public pages and the stylesheet.", flush=True)
+    # Use rendered metadata instead of duplicating the editable image settings.
+    photo_pages = ("", "sl/", "en/", "sl/o-meni/", "en/about/")
+    profile_url = None
+    for route in photo_pages:
+        parsed = Page()
+        parsed.feed(retry(lambda: fetch(route)))
+        if not parsed.profile_images:
+            continue  # The owner can disable the photograph in site.yml.
+        if len(parsed.profile_images) != 1:
+            raise ValueError(f"Expected one profile photograph: {route}")
+        image = parsed.profile_images[0]
+        if not image.get("alt") or not image.get("width") or not image.get("height"):
+            raise ValueError(f"Missing profile image accessibility/layout attributes: {route}")
+        image_url = urljoin(BASE + route, image["src"])
+        if not image_url.startswith(BASE + "assets/"):
+            raise ValueError("Profile photograph must be hosted with the website")
+        if profile_url and image_url != profile_url:
+            raise ValueError("Profile pages do not use the same photograph")
+        profile_url = image_url
+        print(f"PASS profile image and alt text: /{route}", flush=True)
+    if profile_url:
+        asset_path = unquote(urlsplit(profile_url).path).lstrip("/")
+        local_path = (ROOT / asset_path).resolve()
+        if not local_path.is_relative_to((ROOT / "assets").resolve()):
+            raise ValueError("Profile asset path escapes the assets directory")
+        published = retry(lambda: fetch_bytes(asset_path))
+        if hashlib.sha256(published).digest() != hashlib.sha256(local_path.read_bytes()).digest():
+            raise ValueError("Published profile image differs from the committed file")
+        print(f"PASS published profile photograph: {len(published)} bytes, SHA-256 match", flush=True)
+    print(f"Verified {len(routes)} public pages, profile photograph and stylesheet.", flush=True)
 
 
 if __name__ == "__main__":

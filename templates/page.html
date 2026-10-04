@@ -1,3 +1,8 @@
+{%- macro profile_photo() -%}
+<figure class="profile-photo">
+  <img src="{{ asset(site.profile_photo.file) }}" alt="{{ site.profile_photo.alt[page.lang] }}" width="{{ site.profile_photo.width }}" height="{{ site.profile_photo.height }}" decoding="async" fetchpriority="high">
+</figure>
+{%- endmacro -%}
 <!doctype html>
 <html lang="{{ page.lang }}">
 <head>
@@ -15,6 +20,12 @@
   <meta property="og:title" content="{{ page.title }} · {{ site.name }}">
   <meta property="og:description" content="{{ page.description }}">
   <meta property="og:url" content="{{ canonical }}">
+  {% if page.key in ['home', 'bio'] and site.get('profile_photo') %}
+  <meta property="og:image" content="{{ site.url }}assets/{{ site.profile_photo.file }}">
+  <meta property="og:image:alt" content="{{ site.profile_photo.alt[page.lang] }}">
+  <meta property="og:image:width" content="{{ site.profile_photo.width }}">
+  <meta property="og:image:height" content="{{ site.profile_photo.height }}">
+  {% endif %}
   <link rel="stylesheet" href="{{ asset('style.css') }}">
 </head>
 <body class="{% if page.key == 'home' %}homepage{% else %}innerpage{% endif %}">
@@ -40,18 +51,19 @@
         <p class="hero-description">{{ page.intro }}</p>
         <div class="hero-actions"><a class="button" href="{{ link('teaching') }}">{{ ui.nav.teaching }} <span aria-hidden="true">↗</span></a><a class="text-link" href="{{ link('bio') }}">{{ ui.nav.bio }} <span aria-hidden="true">→</span></a></div>
       </div>
-      <aside class="focus-panel">
+      {% if site.get('profile_photo') %}{{ profile_photo() }}{% endif %}
+    </section>
+      <aside class="focus-panel focus-panel--wide" aria-label="{{ ui.now }}">
         <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span>{{ ui.now }}</p>
         <ol>{% for item in page.focus %}<li><span class="focus-number" aria-hidden="true">0{{ loop.index }}</span><span>{{ item }}</span></li>{% endfor %}</ol>
         <a href="{{ link('projects') }}">{{ ui.nav.projects }} <span aria-hidden="true">→</span></a>
       </aside>
-    </section>
     <section class="feature-section" aria-label="{{ ui.explore }}">
       {% for key in ['teaching', 'research', 'projects'] %}{% set entry = pages[(page.lang, key)] %}<a class="feature-card" href="{{ link(key) }}"><span class="card-number">0{{ loop.index }}</span><h2>{{ entry.title }}</h2><p>{{ entry.description }}</p><span class="card-arrow" aria-hidden="true">↗</span></a>{% endfor %}
     </section>
     <section class="home-copy prose">{{ body|safe }}</section>
     {% else %}
-    <header class="page-heading"><p class="eyebrow">{{ page.kicker }}</p><h1 id="page-title">{{ page.title }}</h1><p class="lead">{{ page.description }}</p></header>
+    <header class="page-heading{% if page.key == 'bio' and site.get('profile_photo') %} page-heading--profile{% endif %}"><div><p class="eyebrow">{{ page.kicker }}</p><h1 id="page-title">{{ page.title }}</h1><p class="lead">{{ page.description }}</p></div>{% if page.key == 'bio' and site.get('profile_photo') %}{{ profile_photo() }}{% endif %}</header>
     <div class="reading-layout"><article class="prose">{{ body|safe }}</article><aside class="page-aside">{% if toc %}<nav aria-label="{{ ui.contents }}"><p class="eyebrow">{{ ui.contents }}</p>{% for heading in toc %}<a href="#{{ heading.id }}">{{ heading.title }}</a>{% endfor %}</nav>{% endif %}<a class="aside-contact" href="mailto:{{ site.email }}">{{ ui.write }} <span aria-hidden="true">↗</span></a></aside></div>
     {% endif %}
     <div class="editor-link"><a href="{{ edit_url }}">{{ ui.edit }} <span aria-hidden="true">↗</span></a></div>

@@ -62,6 +62,22 @@ missing files fail validation. Filenames without spaces are simplest.
 The website is public. Never upload grades, student lists, submitted assignments,
 passwords, private correspondence, or readings you are not permitted to share.
 
+## Profilna fotografija / profile photo
+
+Fotografija je v `assets/images/profile.webp`. Prikazana je na domači strani in
+strani **O meni / About** v obeh jezikih. Slika je prikazana v celoti, brez obreza.
+
+To replace it, upload a new image in `assets/images/`. In `site.yml`, update
+`profile_photo.file` (relative to `assets/`), its pixel `width` and `height`, and
+the Slovenian/English `alt` descriptions. A normal JPEG, PNG or WebP works;
+there is no need to edit HTML. Keep `width` and `height` true to the actual image
+so the browser can reserve the right space. The same setting also supplies the
+image for home/about link previews. Remove the whole `profile_photo` block to
+hide the photo. No other content needs to change.
+
+The current image was supplied for this personal site on 4 October 2026.
+The web copy keeps the full composition and contains no EXIF metadata.
+
 ## Nova stran / a new page
 
 Copy a nearby Markdown file in each language. Give both copies the same new

@@ -5,6 +5,14 @@ repository: https://github.com/damjan-popic/damjan-popic.github.io
 branch: main
 source_path: content
 email: damjan.popic@ff.uni-lj.si
+# Replace this file or change the filename and dimensions here to update the photo.
+profile_photo:
+  file: images/profile.webp
+  width: 640
+  height: 640
+  alt:
+    sl: Počitek v zasneženih gorah.
+    en: Taking a break in snowy mountains.
 languages:
   sl:
     name: Slovenščina

@@ -6,3 +6,14 @@
 @media(max-width:440px){.main-nav{display:grid;grid-template-columns:repeat(3,max-content);justify-content:space-between}.main-nav a{margin-right:0}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 @media print{body{font-size:11pt;background:white;color:black}.wrap{max-width:none;padding:0}.site-header,.page-aside,.editor-link,.site-footer,.hero-actions{display:none}.reading-layout,.hero{display:block}.page-heading{padding-top:0}.prose a{color:inherit}.prose a[href^="https://"]:after{content:' (' attr(href) ')';font-size:9pt}.prose h2,.prose h3{break-after:avoid}.prose blockquote,.focus-panel{break-inside:avoid}}
+
+/* Profile photography: preserve the entire frame, without cropping or filters. */
+.profile-photo{margin:0;min-width:0}
+.profile-photo img{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:10px}
+.page-heading--profile{max-width:none;display:grid;grid-template-columns:minmax(0,740px) minmax(180px,1fr);gap:70px;align-items:center}
+.focus-panel--wide{margin:0 0 40px;padding:24px 28px}
+.focus-panel--wide ol{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin-bottom:12px}
+.focus-panel--wide li{padding:10px 0}
+@media(max-width:900px){.page-heading--profile{gap:35px}}
+@media(max-width:690px){.hero .profile-photo,.page-heading--profile .profile-photo{width:100%;max-width:360px;margin-inline:auto}.page-heading--profile{grid-template-columns:1fr;gap:25px}.focus-panel--wide{padding:22px 24px;margin-bottom:30px}.focus-panel--wide ol{grid-template-columns:1fr;gap:0}.focus-panel--wide li{padding:12px 0}}
+@media print{.profile-photo{max-width:50mm;break-inside:avoid}.page-heading--profile{display:block}}
