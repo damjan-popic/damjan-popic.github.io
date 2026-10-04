@@ -31,7 +31,19 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh api "repos/$GITHUB_REPOSITORY/pages" --jq '{status,build_type,html_url,cname,public,source,https_enforced}'
+          PAGES_CONFIG="$(gh api "repos/$GITHUB_REPOSITORY/pages")"
+          echo "$PAGES_CONFIG" | jq '{status,build_type,html_url,cname,public,source,https_enforced}'
+          if [ "$(echo "$PAGES_CONFIG" | jq -r '.build_type')" != "workflow" ]; then
+            echo "::error::GitHub Pages must use GitHub Actions, not Deploy from a branch. Open Settings > Pages > Build and deployment > Source, select GitHub Actions, then rerun this workflow."
+            {
+              echo '### Publication blocked: conflicting Pages publisher'
+              echo
+              echo "[Open Pages settings](https://github.com/$GITHUB_REPOSITORY/settings/pages) and set **Build and deployment > Source > GitHub Actions**."
+              echo
+              echo 'The legacy branch publisher can overwrite the generated website and make /sl/ and /en/ return 404. After changing the source, rerun this workflow.'
+            } >> "$GITHUB_STEP_SUMMARY"
+            exit 1
+          fi
       - name: Check anonymous delivery before publishing
         run: python scripts/check_delivery.py
       - name: Configure Pages
