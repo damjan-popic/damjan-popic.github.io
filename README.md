@@ -3,28 +3,11 @@
 Samostojna dvojezična spletna stran. / A standalone bilingual personal website.
 
 **Repository:** `damjan-popic/damjan-popic.github.io`  
-**Address after deployment:** https://damjan-popic.github.io/  
+**Website:** https://damjan-popic.github.io/  
 **Slovenian:** `/sl/` · **English:** `/en/`
 
 This repository contains only the personal website. The Playbook is a separate
 project, linked from the relevant content pages, not a hosting dependency.
-
-## Prva objava / first publication
-
-The files in this package are ready to publish, but the package itself does not
-create the repository or enable Pages.
-
-1. Create a **public** repository named exactly `damjan-popic.github.io` under
-   `damjan-popic`. Turn **Add README** on so the `main` branch exists.
-2. In **Settings → Pages → Build and deployment → Source**, choose **GitHub Actions**.
-   No template needs to be selected: this package already includes the workflow.
-3. Commit this package's files at the repository root, including the hidden
-   `.github/workflows/pages.yml` file. The workflow builds and publishes the site.
-4. Check that **Actions → Publish personal website** completes successfully and
-   open both language versions before replacing any old links.
-
-The GitHub connection used to upload files must have access to this repository.
-Do not rename, delete or repurpose the Playbook repository to publish this site.
 
 ## Urejanje brez nameščanja / editing without installing anything
 
@@ -121,13 +104,16 @@ external-font dependency or login requirement for readers.
 Institutional sources are listed in `SOURCES.md`. The page copy is an initial
 draft: check it before treating it as formal course regulations or a final CV.
 
-## Moving from the old address
+## Objava in preverjanje / publication and checks
 
-Keep the old public copy unchanged until the standalone site is confirmed live.
-Then remove the three personal-site-specific steps from the Playbook workflow
-and replace the old `/damjan/` pages with links or redirects to their matching
-new pages. Do not redirect the Playbook homepage or change its Pages settings.
-Keep a source backup before removing the old `personal-site/` directory.
+Changes committed to `main` trigger `.github/workflows/pages.yml`. It runs the
+local tests, builds the website and deploys it to GitHub Pages. After deployment,
+`scripts/check_live.py` checks the public HTML pages, language labels, canonical
+addresses, editing links and stylesheet. It also verifies the deployed commit.
+
+The publishing source in **Settings → Pages** must remain **GitHub Actions**.
+The website is independent of the Playbook repository. Do not edit the old
+`personal-site/` files there; use this repository's `content/` directory.
 
 ## GitHub documentation
 

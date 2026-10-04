@@ -40,6 +40,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     permissions:
+      contents: read
       pages: write
       id-token: write
     environment:
@@ -49,3 +50,7 @@ jobs:
       - name: Deploy personal website
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Check out sources for public-page checks
+        uses: actions/checkout@v6
+      - name: Verify live Slovenian and English pages
+        run: python scripts/check_live.py --expected-commit "$GITHUB_SHA"
