@@ -21,6 +21,12 @@ Resources for working with corpora, language data, terminology and language tech
 
 [Open the resources](digital-linguistics.md)
 
+## Lexis and Grammar of Slovene (LSSJ)
+
+Course materials in Slovenian: a course reader, lecture slides, and exercises with solutions.
+
+[Course repository](https://github.com/damjan-popic/lssj) · [Read the course reader](https://github.com/damjan-popic/lssj/blob/main/LSSJ_skripta.md) · [Download the slides (PPTX)](https://github.com/damjan-popic/lssj/raw/refs/heads/main/LSSJ_predavanja.pptx)
+
 ## Practical information
 
 For contact details, questions about assignments and basic guidance, see [For students](../students.md).

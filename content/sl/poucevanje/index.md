@@ -21,6 +21,12 @@ Gradiva in povezave za delo s korpusi, jezikovnimi podatki, terminologijo in jez
 
 [Odpri gradiva in povezave](digitalno-jezikoslovje.md)
 
+## Leksika in slovnica slovenskega jezika (LSSJ)
+
+Gradiva za predmet: skripta, prosojnice ter vaje z rešitvami.
+
+[Repozitorij gradiv](https://github.com/damjan-popic/lssj) · [Preberi skripto](https://github.com/damjan-popic/lssj/blob/main/LSSJ_skripta.md) · [Prenesi prosojnice (PPTX)](https://github.com/damjan-popic/lssj/raw/refs/heads/main/LSSJ_predavanja.pptx)
+
 ## Praktične informacije
 
 Za stik, vprašanja o nalogah in osnovne napotke obiščite [stran za študente](../za-studente.md).
