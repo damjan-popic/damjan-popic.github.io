@@ -27,6 +27,12 @@ Course materials in Slovenian: a course reader, lecture slides, and exercises wi
 
 [Course repository](https://github.com/damjan-popic/lssj) · [Read the course reader](https://github.com/damjan-popic/lssj/blob/main/LSSJ_skripta.md) · [Download the slides (PPTX)](https://github.com/damjan-popic/lssj/raw/refs/heads/main/LSSJ_predavanja.pptx)
 
+## Standard Slovene (SSJ)
+
+A course reader in Slovenian for first-year undergraduate students: capitalization, punctuation and commas, word formation, and exercises with explained solutions.
+
+[Course repository](https://github.com/damjan-popic/ssj) · [Read the course reader](https://github.com/damjan-popic/ssj/blob/main/SSJ_skripta.md)
+
 ## Practical information
 
 For contact details, questions about assignments and basic guidance, see [For students](../students.md).
