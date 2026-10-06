@@ -31,7 +31,7 @@ Gradiva za predmet: skripta, prosojnice ter vaje z rešitvami.
 
 Učno gradivo za 1. letnik dodiplomskega študija: razlage pravopisa, besedotvorja in oblikoslovja ter tematsko urejena zbirka vaj v eni datoteki.
 
-[Repozitorij gradiv](https://github.com/damjan-popic/ssj) · [Odpri učno gradivo](https://github.com/damjan-popic/ssj/blob/main/SSJ_ucno_gradivo.md)
+[Repozitorij gradiv](https://github.com/damjan-popic/ssj) · [Odpri učno gradivo](https://github.com/damjan-popic/ssj/blob/main/SSJ_ucno_gradivo.md) · [Prenesi Markdown](https://raw.githubusercontent.com/damjan-popic/ssj/main/SSJ_ucno_gradivo.md)
 
 ## Praktične informacije
 

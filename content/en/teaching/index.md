@@ -31,7 +31,7 @@ Course materials in Slovenian: a course reader, lecture slides, and exercises wi
 
 Learning materials in Slovenian for first-year undergraduate students: explanations of orthography, word formation and morphology, followed by exercises grouped by topic, all in one file.
 
-[Course repository](https://github.com/damjan-popic/ssj) · [Open the learning materials](https://github.com/damjan-popic/ssj/blob/main/SSJ_ucno_gradivo.md)
+[Course repository](https://github.com/damjan-popic/ssj) · [Open the learning materials](https://github.com/damjan-popic/ssj/blob/main/SSJ_ucno_gradivo.md) · [Download Markdown](https://raw.githubusercontent.com/damjan-popic/ssj/main/SSJ_ucno_gradivo.md)
 
 ## Practical information
 
