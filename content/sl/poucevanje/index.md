@@ -27,6 +27,12 @@ Gradiva za predmet: skripta, prosojnice ter vaje z rešitvami.
 
 [Repozitorij gradiv](https://github.com/damjan-popic/lssj) · [Preberi skripto](https://github.com/damjan-popic/lssj/blob/main/LSSJ_skripta.md) · [Prenesi prosojnice (PPTX)](https://github.com/damjan-popic/lssj/raw/refs/heads/main/LSSJ_predavanja.pptx)
 
+## Slovenski jezikovni standard (SSJ)
+
+Skripta za 1. letnik dodiplomskega študija: začetnica, ločila in vejica, besedotvorje ter vaje s pojasnjenimi rešitvami.
+
+[Repozitorij gradiv](https://github.com/damjan-popic/ssj) · [Preberi skripto](https://github.com/damjan-popic/ssj/blob/main/SSJ_skripta.md)
+
 ## Praktične informacije
 
 Za stik, vprašanja o nalogah in osnovne napotke obiščite [stran za študente](../za-studente.md).
