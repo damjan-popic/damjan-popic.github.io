@@ -29,9 +29,9 @@ Gradiva za predmet: skripta, prosojnice ter vaje z rešitvami.
 
 ## Slovenski jezikovni standard (SSJ)
 
-Skripta za 1. letnik dodiplomskega študija: začetnica, ločila in vejica, besedotvorje ter vaje s pojasnjenimi rešitvami.
+Učno gradivo za 1. letnik dodiplomskega študija: razlage pravopisa, besedotvorja in oblikoslovja ter tematsko urejena zbirka vaj v eni datoteki.
 
-[Repozitorij gradiv](https://github.com/damjan-popic/ssj) · [Preberi skripto](https://github.com/damjan-popic/ssj/blob/main/SSJ_skripta.md)
+[Repozitorij gradiv](https://github.com/damjan-popic/ssj) · [Odpri učno gradivo](https://github.com/damjan-popic/ssj/blob/main/SSJ_ucno_gradivo.md)
 
 ## Praktične informacije
 

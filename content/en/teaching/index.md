@@ -29,9 +29,9 @@ Course materials in Slovenian: a course reader, lecture slides, and exercises wi
 
 ## Standard Slovene (SSJ)
 
-A course reader in Slovenian for first-year undergraduate students: capitalization, punctuation and commas, word formation, and exercises with explained solutions.
+Learning materials in Slovenian for first-year undergraduate students: explanations of orthography, word formation and morphology, followed by exercises grouped by topic, all in one file.
 
-[Course repository](https://github.com/damjan-popic/ssj) · [Read the course reader](https://github.com/damjan-popic/ssj/blob/main/SSJ_skripta.md)
+[Course repository](https://github.com/damjan-popic/ssj) · [Open the learning materials](https://github.com/damjan-popic/ssj/blob/main/SSJ_ucno_gradivo.md)
 
 ## Practical information
 
