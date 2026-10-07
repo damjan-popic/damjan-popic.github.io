@@ -50,6 +50,8 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Install dependencies
         run: python -m pip install -r requirements.txt
+      - name: Check downloadable course packages and schematics
+        run: python scripts/check_course_packages.py
       - name: Test website
         run: python -m unittest discover -s . -p 'test_*.py'
       - name: Build standalone website

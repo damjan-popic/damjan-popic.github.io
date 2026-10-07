@@ -1,10 +1,4 @@
----
-key: agrft
-title: English for Film and Television
-description: English course materials from computer hardware and digital sound to video, cameras and work on set, with precise schematics, professional terminology and individual exercises.
-kicker: AGRFT · 2026/27
-section: teaching
----
+# English for Film and Television
 
 **Course materials / Učno gradivo · Version 2.0**
 
@@ -37,7 +31,7 @@ Check unfamiliar terms in a reliable dictionary and in relevant professional doc
 
 The [current course page](https://damjan-popic.github.io/en/teaching/agrft/) is the reading version. The [editable Markdown source](https://github.com/damjan-popic/damjan-popic.github.io/blob/main/content/en/teaching/agrft.md) holds the complete teaching text. The [version 2.0 archive](https://github.com/damjan-popic/damjan-popic.github.io/blob/agrft-v2.0/content/en/teaching/agrft.md) preserves this edition; [version 1.0](https://github.com/damjan-popic/damjan-popic.github.io/blob/agrft-v1.0/content/en/teaching/agrft.md) remains available.
 
-[Download the Markdown text](https://raw.githubusercontent.com/damjan-popic/damjan-popic.github.io/main/assets/files/AGRFT_English_ucno_gradivo_v2.0.md) or [download version 2.0 with all schematics](/assets/files/AGRFT_English_ucno_gradivo_v2.0.zip). The package contains one Markdown text and the eighteen SVG drawings it uses. Open a drawing's full-size link when studying its connections or using it for projection.
+[Download the Markdown text](https://raw.githubusercontent.com/damjan-popic/damjan-popic.github.io/main/assets/files/AGRFT_English_ucno_gradivo_v2.0.md) or [download version 2.0 with all schematics](https://damjan-popic.github.io/assets/files/AGRFT_English_ucno_gradivo_v2.0.zip). The package contains one Markdown text and the eighteen SVG drawings it uses. Open a drawing's full-size link when studying its connections or using it for projection.
 
 ## 1. How computers work, deep down
 
@@ -51,9 +45,9 @@ The system drawings are **functional schematics**, with their assumptions stated
 
 For the demonstration, shut the computer down, disconnect it from mains power and follow its service instructions before handling internal parts. Handle boards by their edges and use the appropriate precautions against electrostatic discharge. **Leave the power supply's own enclosure closed:** its capacitors can retain a dangerous charge after disconnection. Removing a computer's side panel and opening the power supply are different operations. See Corsair's [power-supply safety instructions](https://www.corsair.com/uk/en/explorer/diy-builder/power-supply-units/power-supply-manual/) and [explanation of stored charge](https://www.corsair.com/fr/hu/explorer/diy-builder/power-supply-units/can-i-open-up-my-power-supply/).
 
-![Functional data paths in a representative desktop: CPU memory controller to DRAM, PCIe to discrete GPU and NVMe SSD, platform link to chipset and additional I/O. Power is described separately.](/assets/images/agrft/v2/computer-system.svg)
+![Functional data paths in a representative desktop: CPU memory controller to DRAM, PCIe to discrete GPU and NVMe SSD, platform link to chipset and additional I/O. Power is described separately.](https://damjan-popic.github.io/assets/images/agrft/v2/computer-system.svg)
 
-[Open schematic at full size](/assets/images/agrft/v2/computer-system.svg)
+[Open schematic at full size](https://damjan-popic.github.io/assets/images/agrft/v2/computer-system.svg)
 
 *Read the arrows as data connections. Power distribution is shown separately. This is a representative desktop with a CPU memory controller, a discrete graphics card and an I/O chipset. Some computers integrate the GPU, memory or more I/O functions in the processor package.*
 
@@ -141,9 +135,9 @@ A **transistor** is a semiconductor device that controls electrical behaviour. I
 
 A transistor used for digital logic is not a miniature mechanical switch with moving contacts. Charge and electric fields alter conduction. Real devices have resistance, capacitance, leakage and operating limits. Contemporary transistor geometries differ from the flat classroom cross-section, but the controlled-channel principle remains useful.
 
-![A static CMOS inverter with a pMOS pull-up to VDD, nMOS pull-down to ground, common input at both gates and common output at both drains. Settled truth states shown.](/assets/images/agrft/v2/computer-cmos.svg)
+![A static CMOS inverter with a pMOS pull-up to VDD, nMOS pull-down to ground, common input at both gates and common output at both drains. Settled truth states shown.](https://damjan-popic.github.io/assets/images/agrft/v2/computer-cmos.svg)
 
-[Open schematic at full size](/assets/images/agrft/v2/computer-cmos.svg)
+[Open schematic at full size](https://damjan-popic.github.io/assets/images/agrft/v2/computer-cmos.svg)
 
 *Static CMOS inverter. The p-channel transistor provides the pull-up path to VDD; the n-channel transistor provides the pull-down path to ground. Both gates receive A. Their drains meet at Y. Body connections to the respective rails and parasitic capacitances are omitted. This is a connectivity schematic, not a drawing of the manufactured geometry.*
 
@@ -233,9 +227,9 @@ A **full adder** also accepts an incoming carry. Its outputs are:
 
 **Cout = (A AND B) OR (Cin AND (A XOR B))**
 
-![Full adder Boolean circuit and a five-bit portion of an eight-bit ripple-carry example computing thirteen plus seven equals twenty.](/assets/images/agrft/v2/computer-adder.svg)
+![Full adder Boolean circuit and a five-bit portion of an eight-bit ripple-carry example computing thirteen plus seven equals twenty.](https://damjan-popic.github.io/assets/images/agrft/v2/computer-adder.svg)
 
-[Open schematic at full size](/assets/images/agrft/v2/computer-adder.svg)
+[Open schematic at full size](https://damjan-popic.github.io/assets/images/agrft/v2/computer-adder.svg)
 
 *The upper circuit implements one full adder using two XOR functions, two AND functions and one OR function. The lower example connects carry outputs to the next more significant bit. It is a ripple-carry teaching design; high-performance processors use more elaborate arrangements to reduce delay.*
 
@@ -273,9 +267,9 @@ A combinational circuit does not by itself remember its previous result. **Seque
 
 A **latch** is level-sensitive: while enabled, it can follow its input; when closed, it retains the state. An edge-triggered **flip-flop** captures a state around a specified transition of a clock. Several such bit positions can form a **register**. A register holding eight bits can retain one of 256 patterns.
 
-![Positive edge D flip-flop with a timing diagram showing D sampled on rising clock edges and Q retained between edges, excluding real setup hold and propagation specifications.](/assets/images/agrft/v2/computer-state.svg)
+![Positive edge D flip-flop with a timing diagram showing D sampled on rising clock edges and Q retained between edges, excluding real setup hold and propagation specifications.](https://damjan-popic.github.io/assets/images/agrft/v2/computer-state.svg)
 
-[Open schematic at full size](/assets/images/agrft/v2/computer-state.svg)
+[Open schematic at full size](https://damjan-popic.github.io/assets/images/agrft/v2/computer-state.svg)
 
 *An idealised positive-edge-triggered D flip-flop and timing example. At each marked rising edge, Q takes the D value, after a small propagation delay. D must meet setup and hold requirements. The diagram illustrates the rule; its drawn time intervals are not the timing specifications of a real chip.*
 
@@ -300,9 +294,9 @@ MIT's [sequential-logic lecture](https://ocw.mit.edu/courses/6-004-computation-s
 | Magnetic disk | A recording layer retains magnetic patterns recovered by read-channel electronics. | Persistent storage with mechanical positioning and rotation. |
 | Optical disc | Manufactured or recorded optical structures alter a detected signal. | Readout needs optics, tracking and decoding, with format-specific rules. |
 
-![DRAM access transistor and capacitor functional circuit, SRAM cross-coupled inverter feedback core, and an illustrative two-bit NAND threshold-state distribution.](/assets/images/agrft/v2/computer-memory.svg)
+![DRAM access transistor and capacitor functional circuit, SRAM cross-coupled inverter feedback core, and an illustrative two-bit NAND threshold-state distribution.](https://damjan-popic.github.io/assets/images/agrft/v2/computer-memory.svg)
 
-[Open schematic at full size](/assets/images/agrft/v2/computer-memory.svg)
+[Open schematic at full size](https://damjan-popic.github.io/assets/images/agrft/v2/computer-memory.svg)
 
 *The DRAM panel shows a functional 1-transistor/1-capacitor cell and its sense/restore connection; it omits shared-array circuitry. The SRAM panel shows the feedback core of a cell and labels the access connections. The NAND panel represents threshold-state intervals rather than a transistor cross-section. These are different physical mechanisms for retaining recoverable information.*
 
@@ -376,9 +370,9 @@ The program is eight bytes long:
 | 0x06 | 11110000 | F0 | HALT opcode |
 | 0x07 | 00000000 | 00 | unused operand, fixed here to zero |
 
-![Functional data paths of a fully specified teaching processor: PC or operand selects byte memory address, instruction register holds fetched bytes, decoder controls an ALU and accumulator, accumulator writes back to memory.](/assets/images/agrft/v2/computer-cpu.svg)
+![Functional data paths of a fully specified teaching processor: PC or operand selects byte memory address, instruction register holds fetched bytes, decoder controls an ALU and accumulator, accumulator writes back to memory.](https://damjan-popic.github.io/assets/images/agrft/v2/computer-cpu.svg)
 
-[Open schematic at full size](/assets/images/agrft/v2/computer-cpu.svg)
+[Open schematic at full size](https://damjan-popic.github.io/assets/images/agrft/v2/computer-cpu.svg)
 
 *Functional datapath for the teaching processor. Thick data connections are eight bits unless marked otherwise; the instruction register retains sixteen bits. The control unit selects addresses, register updates, the ALU operation and memory writes. Real wiring needs control and timing signals as well as the depicted data routes.*
 
@@ -533,9 +527,9 @@ These distinctions explain why moving a microphone can change the sound even whe
 
 ### Follow the signal through the system
 
-![Acquisition chain microphone preamplifier analogue anti alias filtering ADC; PCM buffering encoding and storage; decoding and clocked DAC reconstruction amplification and loudspeaker playback.](/assets/images/agrft/v2/audio-chain.svg)
+![Acquisition chain microphone preamplifier analogue anti alias filtering ADC; PCM buffering encoding and storage; decoding and clocked DAC reconstruction amplification and loudspeaker playback.](https://damjan-popic.github.io/assets/images/agrft/v2/audio-chain.svg)
 
-[Open schematic at full size](/assets/images/agrft/v2/audio-chain.svg)
+[Open schematic at full size](https://damjan-popic.github.io/assets/images/agrft/v2/audio-chain.svg)
 
 The schematic represents functional stages. Several stages may be integrated into one chip or device. A USB microphone, for example, contains an analogue microphone element and electronics as well as a digital interface.
 
@@ -580,9 +574,9 @@ A sample is a value associated with an instant. It is not a tiny audio clip occu
 
 At 48 kHz, that boundary is 24 kHz. At 44.1 kHz, it is 22.05 kHz. Real filters need a transition region; the usable passband cannot simply be assumed to reach an ideal vertical cutoff at the boundary. Exactly two samples per sine-wave cycle also leaves a phase-dependent boundary case: a 24 kHz sine sampled at 48 kHz precisely at its zero crossings yields only zeros. [Walt Kester, Analog Devices MT-002](https://www.analog.com/media/en/training-seminars/tutorials/MT-002.pdf).
 
-![Mathematically plotted thirty-kilohertz and eighteen-kilohertz cosines sampled at forty-eight kilohertz from zero to two hundred fifty microseconds. All thirteen sample dots coincide.](/assets/images/agrft/v2/audio-sampling.svg)
+![Mathematically plotted thirty-kilohertz and eighteen-kilohertz cosines sampled at forty-eight kilohertz from zero to two hundred fifty microseconds. All thirteen sample dots coincide.](https://damjan-popic.github.io/assets/images/agrft/v2/audio-sampling.svg)
 
-[Open schematic at full size](/assets/images/agrft/v2/audio-sampling.svg)
+[Open schematic at full size](https://damjan-popic.github.io/assets/images/agrft/v2/audio-sampling.svg)
 
 Consider the plotted example. A 30 kHz cosine and an 18 kHz cosine have identical values at the sample instants of a 48 kHz system:
 
@@ -751,9 +745,9 @@ For a lecturer demonstration, a sine wave shown both as sample markers and as a 
 
 A standard audio CD carries two-channel, 44.1 kHz, 16-bit linear PCM. It is a digital audio disc, but it does not store an ordinary folder of WAVE files. **Ripping** extracts its audio data and writes that data into a chosen file representation. A data CD containing MP3 files uses a different organisation and requires a player that understands it.
 
-![CD-DA layered arithmetic: stereo sixteen-bit forty-four-point-one kilohertz PCM, logical 2352-byte audio blocks at 75 per second, and CIRC EFM physical frames of 588 channel bits at 7350 per second.](/assets/images/agrft/v2/audio-cd.svg)
+![CD-DA layered arithmetic: stereo sixteen-bit forty-four-point-one kilohertz PCM, logical 2352-byte audio blocks at 75 per second, and CIRC EFM physical frames of 588 channel bits at 7350 per second.](https://damjan-popic.github.io/assets/images/agrft/v2/audio-cd.svg)
 
-[Open schematic at full size](/assets/images/agrft/v2/audio-cd.svg)
+[Open schematic at full size](https://damjan-popic.github.io/assets/images/agrft/v2/audio-cd.svg)
 
 Keep three uses of “frame” separate:
 
@@ -803,9 +797,9 @@ A compressor plug-in may reduce the gain applied above a threshold. Its output c
 
 **Lossless audio compression** permits exact recovery of the sample values supplied to that encoder. **Lossy audio compression** permits a smaller representation by allowing irreversible changes to those values. Losslessness is a relationship between an encoder’s input and its decoder’s output. It does not mean an ADC captured an infinitely precise acoustic event or that an earlier lossy stage never existed.
 
-![Lossless predictive coding stores exact residual information; a representative lossy perceptual codec quantises transformed data. Containers are separate packaging and dynamic range compression is a different operation.](/assets/images/agrft/v2/audio-compression.svg)
+![Lossless predictive coding stores exact residual information; a representative lossy perceptual codec quantises transformed data. Containers are separate packaging and dynamic range compression is a different operation.](https://damjan-popic.github.io/assets/images/agrft/v2/audio-compression.svg)
 
-[Open schematic at full size](/assets/images/agrft/v2/audio-compression.svg)
+[Open schematic at full size](https://damjan-popic.github.io/assets/images/agrft/v2/audio-compression.svg)
 
 ### Lossless coding: store a prediction and an exact correction
 
@@ -1009,9 +1003,9 @@ Technical references: [Analog Devices, “Understanding Analog Video Signals”]
 
 ### What is inside one analogue television line?
 
-![Functional PAL composite line waveform with sync tip minus point three volts, zero blanking reference, nominal white point seven volts, back porch burst and active luma, with 64 microsecond period and approximate 4.7 microsecond sync duration. Horizontal intervals not to scale.](/assets/images/agrft/v2/video-analogue-line.svg)
+![Functional PAL composite line waveform with sync tip minus point three volts, zero blanking reference, nominal white point seven volts, back porch burst and active luma, with 64 microsecond period and approximate 4.7 microsecond sync duration. Horizontal intervals not to scale.](https://damjan-popic.github.io/assets/images/agrft/v2/video-analogue-line.svg)
 
-[Open schematic at full size](/assets/images/agrft/v2/video-analogue-line.svg)
+[Open schematic at full size](https://damjan-popic.github.io/assets/images/agrft/v2/video-analogue-line.svg)
 
 The figure represents a normal picture line in a conventional 625-line PAL system. It is a functional waveform diagram, not an alignment test signal. Vertical synchronisation intervals have a different pulse structure.
 
@@ -1060,9 +1054,9 @@ References: [Library of Congress, videorecording formats](https://loc.gov/marc/b
 
 ### Fields, frames and progressive scanning
 
-![Illustrative alternating-line capture of a moving vertical object in two fields separated by twenty milliseconds, followed by a woven combination showing combing; explains fifty fields and twenty-five field pairs per second.](/assets/images/agrft/v2/video-fields.svg)
+![Illustrative alternating-line capture of a moving vertical object in two fields separated by twenty milliseconds, followed by a woven combination showing combing; explains fifty fields and twenty-five field pairs per second.](https://damjan-popic.github.io/assets/images/agrft/v2/video-fields.svg)
 
-[Open schematic at full size](/assets/images/agrft/v2/video-fields.svg)
+[Open schematic at full size](https://damjan-popic.github.io/assets/images/agrft/v2/video-fields.svg)
 
 A **progressive frame** represents a complete raster in one frame interval. An **interlaced frame** consists of two fields containing alternating lines. In genuinely interlaced acquisition, the fields represent different moments. One field contains one set of line positions, and the following field contains the complementary set.
 
@@ -1180,9 +1174,9 @@ Reference: [ITU-R BT.709-6, signal construction and digital representation](http
 
 ### Chroma subsampling: what 4:4:4, 4:2:2 and 4:2:0 retain
 
-![Separate luma Cb and Cr grids over a two-by-two progressive luma region: four four four has twelve component samples, four two two has eight, and four two zero has six, with chroma positions illustrative only.](/assets/images/agrft/v2/video-chroma.svg)
+![Separate luma Cb and Cr grids over a two-by-two progressive luma region: four four four has twelve component samples, four two two has eight, and four two zero has six, with chroma positions illustrative only.](https://damjan-popic.github.io/assets/images/agrft/v2/video-chroma.svg)
 
-[Open schematic at full size](/assets/images/agrft/v2/video-chroma.svg)
+[Open schematic at full size](https://damjan-popic.github.io/assets/images/agrft/v2/video-chroma.svg)
 
 Chroma subsampling stores colour-difference components at a lower spatial sampling density than luma. It takes advantage of the fact that many pictures tolerate less fine colour detail than fine luma detail. It is already a reduction of information, even before a later codec applies lossy quantisation.
 
@@ -1272,9 +1266,9 @@ References: [CMU, video compression lecture](https://graphics.cs.cmu.edu/courses
 
 ### I, P and B pictures: why playback order can differ
 
-![A four-picture GOP displayed as I0 B1 B2 P3, reference relationships from I0 and P3 to B1 and B2, and a valid decode order I0 P3 B1 B2. B pictures are non-reference only in this example.](/assets/images/agrft/v2/video-gop.svg)
+![A four-picture GOP displayed as I0 B1 B2 P3, reference relationships from I0 and P3 to B1 and B2, and a valid decode order I0 P3 B1 B2. B pictures are non-reference only in this example.](https://damjan-popic.github.io/assets/images/agrft/v2/video-gop.svg)
 
-[Open schematic at full size](/assets/images/agrft/v2/video-gop.svg)
+[Open schematic at full size](https://damjan-popic.github.io/assets/images/agrft/v2/video-gop.svg)
 
 **Intraframe** coding represents a picture without inter-picture prediction. **Interframe** coding permits prediction from other pictures. The traditional I/P/B terminology distinguishes picture or slice prediction capabilities, although the precise structures vary between codecs.
 
@@ -1509,9 +1503,9 @@ An illuminated point on a subject sends light in many directions. The camera cap
 
 A transparent lens changes the direction of light by **refraction** at its surfaces. A converging lens can bring rays from a distant point to a focus. For an ideal thin lens in air, focal length is the distance from the lens plane to the focus of incoming rays parallel to the optical axis. Real photographic lenses contain several elements and groups: their focal length is defined using principal planes, which need not coincide with a visible glass surface.
 
-![Exact paraxial thin lens ray construction with focal length fifty millimetres, object distance two hundred millimetres, image distance sixty-six and two-thirds millimetres, object height twenty and inverted image height six and two-thirds millimetres, equal axis scales.](/assets/images/agrft/v2/camera-optical-path.svg)
+![Exact paraxial thin lens ray construction with focal length fifty millimetres, object distance two hundred millimetres, image distance sixty-six and two-thirds millimetres, object height twenty and inverted image height six and two-thirds millimetres, equal axis scales.](https://damjan-popic.github.io/assets/images/agrft/v2/camera-optical-path.svg)
 
-[Open schematic at full size](/assets/images/agrft/v2/camera-optical-path.svg)
+[Open schematic at full size](https://damjan-popic.github.io/assets/images/agrft/v2/camera-optical-path.svg)
 
 The ray diagram uses an ideal positive thin lens:
 
@@ -1543,9 +1537,9 @@ The **aperture** is the opening that limits the light bundle. The **iris** is th
 
 **N = f / D**, where N is f-number, f is focal length and D is entrance-pupil diameter. At 50 mm and f/2, D = 25 mm. At f/4, D = 12.5 mm. Halving the diameter quarters the area. Consequently, f/2 to f/4 reduces illumination by two stops, assuming other relevant factors remain constant.
 
-![Four precisely area-scaled circular entrance pupils at constant focal length corresponding to f two, f two point eight, f four and f five point six, with relative areas one one-half one-quarter one-eighth.](/assets/images/agrft/v2/camera-stops.svg)
+![Four precisely area-scaled circular entrance pupils at constant focal length corresponding to f two, f two point eight, f four and f five point six, with relative areas one one-half one-quarter one-eighth.](https://damjan-popic.github.io/assets/images/agrft/v2/camera-stops.svg)
 
-[Open schematic at full size](/assets/images/agrft/v2/camera-stops.svg)
+[Open schematic at full size](https://damjan-popic.github.io/assets/images/agrft/v2/camera-stops.svg)
 
 The full-stop sequence is conventionally written **f/1, f/1.4, f/2, f/2.8, f/4, f/5.6, f/8, f/11, f/16, f/22**. The unrounded sequence increases by √2 each time. Because area depends on diameter squared, each step towards a larger f-number halves the admitted light in the ideal comparison. Values such as 2.8 and 5.6 are convenient rounded labels. Lens transmission and close-focus effects require additional care in precision work. [Edmund Optics: f-number and throughput](https://www.edmundoptics.com/knowledge-center/application-notes/imaging/lens-iris-aperture-setting/).
 
@@ -1611,9 +1605,9 @@ A CCD uses a different readout principle: charge packets are shifted through the
 
 An **analogue-to-digital converter**, or ADC, maps the measured analogue signal into numerical codes. Some sensors have column-parallel converters: multiple columns convert signals concurrently rather than sending everything through one distant converter. This connects the camera to the computer lesson: parallel work, timing, signal noise and bandwidth all affect the design. [Sony Semiconductor Solutions: column-parallel conversion](https://www.sony-semicon.com/en/technology/is/columnad.html).
 
-![Invented photodiode charge readout and ADC calculation giving code two hundred fifty, plus a four-by-four Bayer filter mosaic and conceptual demosaicing of single filtered measurements into RGB components.](/assets/images/agrft/v2/camera-sensor.svg)
+![Invented photodiode charge readout and ADC calculation giving code two hundred fifty, plus a four-by-four Bayer filter mosaic and conceptual demosaicing of single filtered measurements into RGB components.](https://damjan-popic.github.io/assets/images/agrft/v2/camera-sensor.svg)
 
-[Open schematic at full size](/assets/images/agrft/v2/camera-sensor.svg)
+[Open schematic at full size](https://damjan-popic.github.io/assets/images/agrft/v2/camera-sensor.svg)
 
 **A complete numerical model.** Consider an invented photosite and readout chain. These values explain the stages; they are not specifications for a production camera.
 
@@ -1657,9 +1651,9 @@ A shorter exposure reduces the distance a moving image travels during the measur
 
 A **mechanical shutter** blocks light physically. An **electronic shutter** controls integration and readout electronically. A focal-plane mechanical shutter may expose different parts of the frame at slightly different times, especially when a moving slit traverses the image. “Mechanical” does not itself guarantee simultaneous exposure across the whole frame.
 
-![Two timing panels on a common zero-to-forty-millisecond scale: simultaneous twenty-millisecond global exposure for four example rows, and rolling row exposures starting at zero four eight twelve milliseconds and ending twenty milliseconds later.](/assets/images/agrft/v2/camera-shutter.svg)
+![Two timing panels on a common zero-to-forty-millisecond scale: simultaneous twenty-millisecond global exposure for four example rows, and rolling row exposures starting at zero four eight twelve milliseconds and ending twenty milliseconds later.](https://damjan-popic.github.io/assets/images/agrft/v2/camera-shutter.svg)
 
-[Open schematic at full size](/assets/images/agrft/v2/camera-shutter.svg)
+[Open schematic at full size](https://damjan-popic.github.io/assets/images/agrft/v2/camera-shutter.svg)
 
 In the diagram, four illustrative rows represent positions across a sensor. Each integrates for 20 ms. In the global example, all begin at 0 ms and end at 20 ms. In the rolling example, the starts are 0, 4, 8 and 12 ms; the corresponding ends are 20, 24, 28 and 32 ms. The first-to-last exposure-start skew is 12 ms. The exposure duration of each row remains 20 ms.
 
