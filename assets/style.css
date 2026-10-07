@@ -17,3 +17,5 @@
 @media(max-width:900px){.page-heading--profile{gap:35px}}
 @media(max-width:690px){.hero .profile-photo,.page-heading--profile .profile-photo{width:100%;max-width:360px;margin-inline:auto}.page-heading--profile{grid-template-columns:1fr;gap:25px}.focus-panel--wide{padding:22px 24px;margin-bottom:30px}.focus-panel--wide ol{grid-template-columns:1fr;gap:0}.focus-panel--wide li{padding:12px 0}}
 @media print{.profile-photo{max-width:50mm;break-inside:avoid}.page-heading--profile{display:block}}
+/* Keep terminology readable on small screens; wide tables scroll internally. */
+@media screen and (max-width:690px){.prose th,.prose td{min-width:10rem;overflow-wrap:normal;vertical-align:top}}
