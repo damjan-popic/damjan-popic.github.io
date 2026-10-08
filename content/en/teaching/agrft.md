@@ -6,10 +6,10 @@ kicker: AGRFT · 2026/27
 section: teaching
 ---
 
-**Course materials / Učno gradivo · Version 2.0**
+**Course materials / Učno gradivo · Version 1.0**
 
 **Author:** Damjan Popič  
-**Edition:** 2.0 · 7 October 2026  
+**Edition:** 1.0 · 8 October 2026  
 **Course:** Angleški jezik, Film and Television, second year, AGRFT, University of Ljubljana  
 **Contact:** [damjan.popic@ff.uni-lj.si](mailto:damjan.popic@ff.uni-lj.si)
 
@@ -35,9 +35,9 @@ For email submissions and questions, use **AGRFT — English** followed by the e
 
 Check unfamiliar terms in a reliable dictionary and in relevant professional documentation. Record the source of a technical definition or specification. Distinguish quotations from your own explanation. When using a language tool, check that the revision preserves your facts, uncertainty and terminology. An assessed text should contain language you understand and can explain; follow the lecturer's instructions on permitted tools and acknowledge substantive assistance.
 
-The [current course page](https://damjan-popic.github.io/en/teaching/agrft/) is the reading version. The [editable Markdown source](https://github.com/damjan-popic/damjan-popic.github.io/blob/main/content/en/teaching/agrft.md) holds the complete teaching text. The [version 2.0 archive](https://github.com/damjan-popic/damjan-popic.github.io/blob/agrft-v2.0/content/en/teaching/agrft.md) preserves this edition; [version 1.0](https://github.com/damjan-popic/damjan-popic.github.io/blob/agrft-v1.0/content/en/teaching/agrft.md) remains available.
+The [current course page](https://damjan-popic.github.io/en/teaching/agrft/) is the reading version. The [editable Markdown source](https://github.com/damjan-popic/damjan-popic.github.io/blob/main/content/en/teaching/agrft.md) holds the complete teaching text. The [version 1.0 archive](https://github.com/damjan-popic/damjan-popic.github.io/blob/agrft-v1.0/assets/files/AGRFT_English_ucno_gradivo_v1.0.md) preserves this edition for citation. Later changes to the current page will be recorded in GitHub; numbered editions provide fixed points of reference.
 
-[Download the Markdown text](https://raw.githubusercontent.com/damjan-popic/damjan-popic.github.io/main/assets/files/AGRFT_English_ucno_gradivo_v2.0.md) or [download version 2.0 with all schematics](/assets/files/AGRFT_English_ucno_gradivo_v2.0.zip). The package contains one Markdown text and the eighteen SVG drawings it uses. Open a drawing's full-size link when studying its connections or using it for projection.
+[Download the Markdown text](https://raw.githubusercontent.com/damjan-popic/damjan-popic.github.io/agrft-v1.0/assets/files/AGRFT_English_ucno_gradivo_v1.0.md) or [download version 1.0 with all schematics](/assets/files/AGRFT_English_ucno_gradivo_v1.0.zip). The package contains one Markdown text and the eighteen SVG drawings it uses. Open a drawing's full-size link when studying its connections or using it for projection.
 
 ## 1. How computers work, deep down
 
@@ -47,13 +47,33 @@ This chapter follows that chain in both directions. Start with the parts visible
 
 The system drawings are **functional schematics**, with their assumptions stated in the captions. They are not wiring instructions for a particular motherboard. The transistor circuit, Boolean tables, binary examples and teaching processor have explicitly defined behaviour. A laptop, an older desktop and a modern system on a chip can distribute the same functions differently.
 
+### From visible parts to a running program
+
+Viewed through an open case, a working computer looks surprisingly still. Inside its chips, however, electrical conditions are continually being established and changed. In the logic circuits considered here, a **transistor** controls a conducting path in response to a voltage. Connected transistors form circuits that produce predictable outputs from their inputs. Other circuits retain a state so that the next operation can depend on an earlier one. Clock signals coordinate many of these state changes, allowing successive operations to build on results already retained.
+
+At the level of digital logic, specified ranges of voltage represent **0** and **1**. These binary values are **bits**. A bit is an interpretation of a distinguishable physical state; different technologies establish that state differently. Grouping bits allows the system to represent numbers, characters, instructions and many other kinds of information. The format and surrounding program determine whether a pattern contributes to a brightness value, a filename or a position on a timeline.
+
+A **program** is a structured collection of instructions and supporting data. When it runs, the **CPU** executes machine instructions: operations such as loading a value, adding values, comparing them or selecting which instruction to execute next. Each instruction is itself encoded as bits. In the processor, decoding circuits use that encoding to select the relevant operations and connections. **Software** specifies work that the **hardware** can carry out. Loading different software changes the work performed by the same physical machine.
+
+Consider pressing Play in an editing application. The mouse or keyboard reports an input event. The operating system makes the event available to the application, whose running code interprets it in the current context. The application changes its playback state and arranges for the required media to be read and processed. The visible result of your action depends on many small operations, including checking values, choosing a path through the program and updating stored information.
+
+Those operations need somewhere to hold their instructions, inputs and intermediate results. **RAM**, or main memory, provides much of this active working space. A **buffer** is a region of memory used to hold data while operations proceed at their required times. The **SSD** provides persistent storage for saved files, including the application and recordings. Ordinary RAM requires continuing power to retain its contents; the SSD is designed to preserve stored data without it. During playback, required portions of the media become available in working memory. Previously read material may already be there.
+
+The CPU carries out general program work and coordinates requests. A **GPU** can perform suitable image calculations across many data items in parallel. A dedicated decoding engine may reconstruct compressed video using specialised circuitry. Which unit does a particular job depends on the computer, the encoding and the application's support. Once image values are ready for presentation, the display system sends a timed representation to the monitor, whose electronics control light. Audio follows a coordinated path to an electrical signal and then, through a loudspeaker, to moving air.
+
+This gives everyday verbs a physical meaning. To **read** is to obtain represented information; to **write** is to establish a stored representation; to **process** is to carry out specified operations on values. A **connection** has to carry information using signalling rules understood at both ends. Playback also has deadlines: the next picture and sound samples must become available when needed. Capacity, processing rate and transfer rate therefore answer different questions about the same machine.
+
+As we identify the visible parts, keep asking what each part receives, what it changes or retains, and what it passes onward. The detailed schematics below progressively expose how these actions become possible.
+
+The technical basis for this introduction is developed in the linked material on [CMOS circuits](https://computationstructures.org/notes/cmos/notes.html), [machine instructions](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/pages/c9/c9s1/), [memory management](https://docs.kernel.org/admin-guide/mm/concepts.html) and [dedicated video decoding](https://docs.nvidia.com/video-technologies/video-codec-sdk/13.1/nvdec-video-decoder-api-prog-guide/index.html).
+
 ### The opened computer: what are we looking at?
 
 For the demonstration, shut the computer down, disconnect it from mains power and follow its service instructions before handling internal parts. Handle boards by their edges and use the appropriate precautions against electrostatic discharge. **Leave the power supply's own enclosure closed:** its capacitors can retain a dangerous charge after disconnection. Removing a computer's side panel and opening the power supply are different operations. See Corsair's [power-supply safety instructions](https://www.corsair.com/uk/en/explorer/diy-builder/power-supply-units/power-supply-manual/) and [explanation of stored charge](https://www.corsair.com/fr/hu/explorer/diy-builder/power-supply-units/can-i-open-up-my-power-supply/).
 
-![Functional data paths in a representative desktop: CPU memory controller to DRAM, PCIe to discrete GPU and NVMe SSD, platform link to chipset and additional I/O. Power is described separately.](/assets/images/agrft/v2/computer-system.svg)
+![Functional data paths in a representative desktop: CPU memory controller to DRAM, PCIe to discrete GPU and NVMe SSD, platform link to chipset and additional I/O. Power is described separately.](/assets/images/agrft/v1/computer-system.svg)
 
-[Open schematic at full size](/assets/images/agrft/v2/computer-system.svg)
+[Open schematic at full size](/assets/images/agrft/v1/computer-system.svg)
 
 *Read the arrows as data connections. Power distribution is shown separately. This is a representative desktop with a CPU memory controller, a discrete graphics card and an I/O chipset. Some computers integrate the GPU, memory or more I/O functions in the processor package.*
 
@@ -141,9 +161,9 @@ A **transistor** is a semiconductor device that controls electrical behaviour. I
 
 A transistor used for digital logic is not a miniature mechanical switch with moving contacts. Charge and electric fields alter conduction. Real devices have resistance, capacitance, leakage and operating limits. Contemporary transistor geometries differ from the flat classroom cross-section, but the controlled-channel principle remains useful.
 
-![A static CMOS inverter with a pMOS pull-up to VDD, nMOS pull-down to ground, common input at both gates and common output at both drains. Settled truth states shown.](/assets/images/agrft/v2/computer-cmos.svg)
+![A static CMOS inverter with a pMOS pull-up to VDD, nMOS pull-down to ground, common input at both gates and common output at both drains. Settled truth states shown.](/assets/images/agrft/v1/computer-cmos.svg)
 
-[Open schematic at full size](/assets/images/agrft/v2/computer-cmos.svg)
+[Open schematic at full size](/assets/images/agrft/v1/computer-cmos.svg)
 
 *Static CMOS inverter. The p-channel transistor provides the pull-up path to VDD; the n-channel transistor provides the pull-down path to ground. Both gates receive A. Their drains meet at Y. Body connections to the respective rails and parasitic capacitances are omitted. This is a connectivity schematic, not a drawing of the manufactured geometry.*
 
@@ -233,9 +253,9 @@ A **full adder** also accepts an incoming carry. Its outputs are:
 
 **Cout = (A AND B) OR (Cin AND (A XOR B))**
 
-![Full adder Boolean circuit and a five-bit portion of an eight-bit ripple-carry example computing thirteen plus seven equals twenty.](/assets/images/agrft/v2/computer-adder.svg)
+![Full adder Boolean circuit and a five-bit portion of an eight-bit ripple-carry example computing thirteen plus seven equals twenty.](/assets/images/agrft/v1/computer-adder.svg)
 
-[Open schematic at full size](/assets/images/agrft/v2/computer-adder.svg)
+[Open schematic at full size](/assets/images/agrft/v1/computer-adder.svg)
 
 *The upper circuit implements one full adder using two XOR functions, two AND functions and one OR function. The lower example connects carry outputs to the next more significant bit. It is a ripple-carry teaching design; high-performance processors use more elaborate arrangements to reduce delay.*
 
@@ -273,9 +293,9 @@ A combinational circuit does not by itself remember its previous result. **Seque
 
 A **latch** is level-sensitive: while enabled, it can follow its input; when closed, it retains the state. An edge-triggered **flip-flop** captures a state around a specified transition of a clock. Several such bit positions can form a **register**. A register holding eight bits can retain one of 256 patterns.
 
-![Positive edge D flip-flop with a timing diagram showing D sampled on rising clock edges and Q retained between edges, excluding real setup hold and propagation specifications.](/assets/images/agrft/v2/computer-state.svg)
+![Positive edge D flip-flop with a timing diagram showing D sampled on rising clock edges and Q retained between edges, excluding real setup hold and propagation specifications.](/assets/images/agrft/v1/computer-state.svg)
 
-[Open schematic at full size](/assets/images/agrft/v2/computer-state.svg)
+[Open schematic at full size](/assets/images/agrft/v1/computer-state.svg)
 
 *An idealised positive-edge-triggered D flip-flop and timing example. At each marked rising edge, Q takes the D value, after a small propagation delay. D must meet setup and hold requirements. The diagram illustrates the rule; its drawn time intervals are not the timing specifications of a real chip.*
 
@@ -300,9 +320,9 @@ MIT's [sequential-logic lecture](https://ocw.mit.edu/courses/6-004-computation-s
 | Magnetic disk | A recording layer retains magnetic patterns recovered by read-channel electronics. | Persistent storage with mechanical positioning and rotation. |
 | Optical disc | Manufactured or recorded optical structures alter a detected signal. | Readout needs optics, tracking and decoding, with format-specific rules. |
 
-![DRAM access transistor and capacitor functional circuit, SRAM cross-coupled inverter feedback core, and an illustrative two-bit NAND threshold-state distribution.](/assets/images/agrft/v2/computer-memory.svg)
+![DRAM access transistor and capacitor functional circuit, SRAM cross-coupled inverter feedback core, and an illustrative two-bit NAND threshold-state distribution.](/assets/images/agrft/v1/computer-memory.svg)
 
-[Open schematic at full size](/assets/images/agrft/v2/computer-memory.svg)
+[Open schematic at full size](/assets/images/agrft/v1/computer-memory.svg)
 
 *The DRAM panel shows a functional 1-transistor/1-capacitor cell and its sense/restore connection; it omits shared-array circuitry. The SRAM panel shows the feedback core of a cell and labels the access connections. The NAND panel represents threshold-state intervals rather than a transistor cross-section. These are different physical mechanisms for retaining recoverable information.*
 
@@ -376,9 +396,9 @@ The program is eight bytes long:
 | 0x06 | 11110000 | F0 | HALT opcode |
 | 0x07 | 00000000 | 00 | unused operand, fixed here to zero |
 
-![Functional data paths of a fully specified teaching processor: PC or operand selects byte memory address, instruction register holds fetched bytes, decoder controls an ALU and accumulator, accumulator writes back to memory.](/assets/images/agrft/v2/computer-cpu.svg)
+![Functional data paths of a fully specified teaching processor: PC or operand selects byte memory address, instruction register holds fetched bytes, decoder controls an ALU and accumulator, accumulator writes back to memory.](/assets/images/agrft/v1/computer-cpu.svg)
 
-[Open schematic at full size](/assets/images/agrft/v2/computer-cpu.svg)
+[Open schematic at full size](/assets/images/agrft/v1/computer-cpu.svg)
 
 *Functional datapath for the teaching processor. Thick data connections are eight bits unless marked otherwise; the instruction register retains sixteen bits. The control unit selects addresses, register updates, the ALU operation and memory writes. Real wiring needs control and timing signals as well as the depicted data routes.*
 
@@ -513,6 +533,24 @@ A microphone, an audio file and a loudspeaker represent the same event in differ
 
 Following that chain lets us answer a practical question precisely: **what changes when we change a recording setting, a file format, a cable or a piece of equipment?** The answer depends on where the change occurs. A higher recording bit depth cannot remove microphone overload. A lossless file cannot restore information discarded earlier. A correct sample rate does not, by itself, synchronise two independent recorders.
 
+### Following a voice from the room to the file
+
+Imagine recording a person saying “Rolling” beside a camera. Their vocal folds and mouth produce changing pressure in the surrounding air. The disturbance travels through the room; nearby air particles move back and forth as it passes. Reflections from walls arrive at the microphone along with the direct voice, ventilation noise and other sounds. The microphone responds to that combined acoustic event at its position. Moving it therefore changes what is captured before any recording setting comes into play.
+
+A sustained vowel contains a repeating pattern. Its repetition rate contributes to the pitch we hear. Larger pressure variations generally produce a louder sensation, although our hearing does not respond equally to every frequency. The relative strengths of the frequency components, and how they change as the word begins and ends, help us recognise the speaker and distinguish one vowel from another. This changing character is part of **timbre**. A waveform can represent these overlapping variations in one changing curve.
+
+The microphone converts movement into an electrical signal. At this stage, a changing voltage carries information about the acoustic event. After suitable amplification and filtering, the recording system assigns numerical values to the signal at regularly timed sample instants. **Sample rate** describes that timing. With integer PCM, **bit depth** determines the available amplitude codes. More codes allow finer numerical distinctions over the same range; they do not make the microphone more selective about whose voice it hears. See Analog Devices on [sampling](https://www.analog.com/media/en/training-seminars/tutorials/MT-002.pdf) and [quantisation](https://www.analog.com/media/en/training-seminars/tutorials/MT-001.pdf).
+
+The computer can now retain a sequence of numbers. A sample value by itself does not say “voice” or “music”; meaning emerges from the ordered sequence, its timing and its interpretation. A stored file also needs information identifying such things as its channels and sample rate. While the computer is switched off, that sequence can remain recorded in the physical states of its storage. Playback later restores the sequence to a timetable. The original speaker does not need to repeat the word.
+
+Encoding determines how the sample information is represented in bytes. Uncompressed PCM stores sample values directly according to a specified layout. **Lossless compression** represents the same sample sequence more economically where its patterns permit; decoding restores those values exactly. **Lossy compression** allows the decoded signal to differ, using decisions intended to reduce the data while controlling audible changes. These choices concern the representation of recorded information. They are separate from how often the original signal was sampled. See Xiph.Org's [introduction to FLAC](https://xiph.org/flac/).
+
+Copying a file can preserve every byte even when the destination uses a different physical storage device. Consequently, a correctly preserved digital recording need not acquire additional hiss each time it is copied. Preservation still requires readable storage and correct data: failures, incomplete transfers or unintended processing can change the result. A checksum can help verify data identity; listening checks whether the recording contains the intended sound. These checks answer different questions.
+
+During playback, the system decodes the file and supplies samples to a converter at the required pace. Conversion and reconstruction filtering produce a continuous electrical signal representing the recorded audio within the system's bandwidth and limitations. An amplifier supplies the electrical power needed to move a loudspeaker diaphragm. That movement creates new pressure variations in the listening room. The loudspeaker, room and listener's position all affect the sound now heard. We have carried a description of an event through several physical representations and used it to produce another acoustic event.
+
+The following sections examine each transition closely: pressure into voltage, voltage into numbers, numbers into bytes, and stored information back into sound.
+
 ### Sound before it becomes data
 
 Sound in air is a travelling variation in pressure. At a fixed point, pressure rises above and falls below the local equilibrium pressure. An audio waveform normally shows this variation over time; its negative values represent the opposite direction of variation, not “negative sound”.
@@ -533,9 +571,9 @@ These distinctions explain why moving a microphone can change the sound even whe
 
 ### Follow the signal through the system
 
-![Acquisition chain microphone preamplifier analogue anti alias filtering ADC; PCM buffering encoding and storage; decoding and clocked DAC reconstruction amplification and loudspeaker playback.](/assets/images/agrft/v2/audio-chain.svg)
+![Acquisition chain microphone preamplifier analogue anti alias filtering ADC; PCM buffering encoding and storage; decoding and clocked DAC reconstruction amplification and loudspeaker playback.](/assets/images/agrft/v1/audio-chain.svg)
 
-[Open schematic at full size](/assets/images/agrft/v2/audio-chain.svg)
+[Open schematic at full size](/assets/images/agrft/v1/audio-chain.svg)
 
 The schematic represents functional stages. Several stages may be integrated into one chip or device. A USB microphone, for example, contains an analogue microphone element and electronics as well as a digital interface.
 
@@ -580,9 +618,9 @@ A sample is a value associated with an instant. It is not a tiny audio clip occu
 
 At 48 kHz, that boundary is 24 kHz. At 44.1 kHz, it is 22.05 kHz. Real filters need a transition region; the usable passband cannot simply be assumed to reach an ideal vertical cutoff at the boundary. Exactly two samples per sine-wave cycle also leaves a phase-dependent boundary case: a 24 kHz sine sampled at 48 kHz precisely at its zero crossings yields only zeros. [Walt Kester, Analog Devices MT-002](https://www.analog.com/media/en/training-seminars/tutorials/MT-002.pdf).
 
-![Mathematically plotted thirty-kilohertz and eighteen-kilohertz cosines sampled at forty-eight kilohertz from zero to two hundred fifty microseconds. All thirteen sample dots coincide.](/assets/images/agrft/v2/audio-sampling.svg)
+![Mathematically plotted thirty-kilohertz and eighteen-kilohertz cosines sampled at forty-eight kilohertz from zero to two hundred fifty microseconds. All thirteen sample dots coincide.](/assets/images/agrft/v1/audio-sampling.svg)
 
-[Open schematic at full size](/assets/images/agrft/v2/audio-sampling.svg)
+[Open schematic at full size](/assets/images/agrft/v1/audio-sampling.svg)
 
 Consider the plotted example. A 30 kHz cosine and an 18 kHz cosine have identical values at the sample instants of a 48 kHz system:
 
@@ -751,9 +789,9 @@ For a lecturer demonstration, a sine wave shown both as sample markers and as a 
 
 A standard audio CD carries two-channel, 44.1 kHz, 16-bit linear PCM. It is a digital audio disc, but it does not store an ordinary folder of WAVE files. **Ripping** extracts its audio data and writes that data into a chosen file representation. A data CD containing MP3 files uses a different organisation and requires a player that understands it.
 
-![CD-DA layered arithmetic: stereo sixteen-bit forty-four-point-one kilohertz PCM, logical 2352-byte audio blocks at 75 per second, and CIRC EFM physical frames of 588 channel bits at 7350 per second.](/assets/images/agrft/v2/audio-cd.svg)
+![CD-DA layered arithmetic: stereo sixteen-bit forty-four-point-one kilohertz PCM, logical 2352-byte audio blocks at 75 per second, and CIRC EFM physical frames of 588 channel bits at 7350 per second.](/assets/images/agrft/v1/audio-cd.svg)
 
-[Open schematic at full size](/assets/images/agrft/v2/audio-cd.svg)
+[Open schematic at full size](/assets/images/agrft/v1/audio-cd.svg)
 
 Keep three uses of “frame” separate:
 
@@ -803,9 +841,9 @@ A compressor plug-in may reduce the gain applied above a threshold. Its output c
 
 **Lossless audio compression** permits exact recovery of the sample values supplied to that encoder. **Lossy audio compression** permits a smaller representation by allowing irreversible changes to those values. Losslessness is a relationship between an encoder’s input and its decoder’s output. It does not mean an ADC captured an infinitely precise acoustic event or that an earlier lossy stage never existed.
 
-![Lossless predictive coding stores exact residual information; a representative lossy perceptual codec quantises transformed data. Containers are separate packaging and dynamic range compression is a different operation.](/assets/images/agrft/v2/audio-compression.svg)
+![Lossless predictive coding stores exact residual information; a representative lossy perceptual codec quantises transformed data. Containers are separate packaging and dynamic range compression is a different operation.](/assets/images/agrft/v1/audio-compression.svg)
 
-[Open schematic at full size](/assets/images/agrft/v2/audio-compression.svg)
+[Open schematic at full size](/assets/images/agrft/v1/audio-compression.svg)
 
 ### Lossless coding: store a prediction and an exact correction
 
@@ -972,9 +1010,29 @@ The Slovene expressions provide orientation; some departments routinely use the 
 
 ## 3. How digital video works
 
-A video file contains instructions and numerical data from which a player can reconstruct changing pictures, sound and their timing. The file does not contain miniature moving photographs. Its images may be stored as independently coded pictures, or a decoder may have to reconstruct one picture using others. Understanding video therefore means following several connected processes: measuring an image, representing its samples, compressing them, organising the results, and displaying them at the intended times.
+A video file contains encoded picture data and information about how to interpret and time it; many files also contain audio. A player uses that data to reconstruct pictures and any accompanying sound. The file does not contain miniature moving photographs. Its images may be stored as independently coded pictures, or a decoder may have to reconstruct one picture using others. Understanding video therefore means following several connected processes: measuring an image, representing its samples, compressing them, organising the results, and displaying them at the intended times.
 
 This chapter begins with analogue television because many digital conventions preserve decisions made for scanning, transmission and compatibility. It then follows a picture into a digital file. The camera chapter explains how light first becomes an electrical signal.
+
+### Following movement from a scene to a screen
+
+Imagine a fixed camera recording an actor entering a room, crossing the frame and closing a door. Light from the scene reaches the camera in a changing pattern. The camera turns that pattern into electrical measurements. It does not need to recognise an actor, a door or a room: the recording can represent their appearance through measured differences across the image and changes over time. Recognising the action is something the viewer does.
+
+A digital representation makes several choices about those measurements. **Spatial sampling** establishes positions across and down the image. **Temporal sampling** establishes when the scene is observed. **Quantisation** represents measured values using a defined set of numerical codes. These are different decisions. A denser image grid can describe finer spatial variation; more frequent observations can describe movement more closely; more available codes can describe smaller differences in represented values. Actual results also depend on the lens, exposure, noise and subsequent processing.
+
+For the walking actor, one frame shows one part of the movement and the next frame shows a later part. An exposure lasts for an interval, so the actor can move while the camera gathers light: this contributes to motion blur. Different sensor rows may also have different exposure timings. A frame is therefore not necessarily an instantaneous measurement of the whole scene. The camera chapter explains these mechanisms; here, remember that picture dimensions and frame rate cannot describe exposure behaviour by themselves.
+
+Analogue television also organises pictures in time. A scanning system represents positions along successive lines through a changing electrical signal. Its amplitude can vary continuously within the system's bandwidth, while lines and fields follow defined timings. Digitising that signal involves taking measurements at selected times, assigning numerical codes and retaining the relationship between the samples and the raster. Analogue video already has a spatial and temporal structure; digital conversion gives the measured signal a numerical representation.
+
+Once represented digitally, the image information can be processed by the computer described in Chapter 1. An encoder may compress it before storage. For example, a codec can predict part of the next picture from already reconstructed material and encode information that corrects the prediction. Lossy coding can also discard information. Compression does not inherently require fewer pixel positions or fewer frames: files with identical dimensions and frame rates can differ substantially in size and reconstructed image quality.
+
+A collection of still images becomes a usable moving sequence when their order and presentation timing are specified. Numbered image files can therefore be a legitimate production format, provided the workflow supplies the necessary interpretation. In a container file, timing information tells the player when reconstructed pictures and audio should be presented. Sound has its own sampling rate; its samples do not have to match video frames one for one. They must occupy the correct places on the same playback timeline, so the door's impact is heard at the intended moment.
+
+During playback, software and hardware read the file, decode its contents and prepare picture values for the display. Colour interpretation and any resizing help determine how those values control the screen. The screen produces or modulates light; that light reaches our eyes. The speaker performs the corresponding physical reconstruction for sound. The digital file remains data throughout storage and processing, while the equipment creates the visible and audible event.
+
+The sections below separate these operations so that a problem can be located precisely. A soft picture, jerky movement, block-shaped artefacts and delayed dialogue can arise at different stages. Describing each stage in English makes “the video looks wrong” into an explanation someone can act on.
+
+References: [ITU-R BT.601: digital sampling and encoding](https://www.itu.int/rec/R-REC-BT.601/en); [Analog Devices: analogue scanning and synchronisation](https://www.analog.com/en/resources/technical-articles/understanding-analog-video-signals.html); [ITU-T H.264: video coding](https://www.itu.int/rec/T-REC-H.264/en); [RFC 9559: media tracks and presentation timestamps in Matroska](https://www.rfc-editor.org/rfc/rfc9559.html#section-11).
 
 ### The questions hidden inside “What format is it?”
 
@@ -1009,9 +1067,9 @@ Technical references: [Analog Devices, “Understanding Analog Video Signals”]
 
 ### What is inside one analogue television line?
 
-![Functional PAL composite line waveform with sync tip minus point three volts, zero blanking reference, nominal white point seven volts, back porch burst and active luma, with 64 microsecond period and approximate 4.7 microsecond sync duration. Horizontal intervals not to scale.](/assets/images/agrft/v2/video-analogue-line.svg)
+![Functional PAL composite line waveform with sync tip minus point three volts, zero blanking reference, nominal white point seven volts, back porch burst and active luma, with 64 microsecond period and approximate 4.7 microsecond sync duration. Horizontal intervals not to scale.](/assets/images/agrft/v1/video-analogue-line.svg)
 
-[Open schematic at full size](/assets/images/agrft/v2/video-analogue-line.svg)
+[Open schematic at full size](/assets/images/agrft/v1/video-analogue-line.svg)
 
 The figure represents a normal picture line in a conventional 625-line PAL system. It is a functional waveform diagram, not an alignment test signal. Vertical synchronisation intervals have a different pulse structure.
 
@@ -1060,9 +1118,9 @@ References: [Library of Congress, videorecording formats](https://loc.gov/marc/b
 
 ### Fields, frames and progressive scanning
 
-![Illustrative alternating-line capture of a moving vertical object in two fields separated by twenty milliseconds, followed by a woven combination showing combing; explains fifty fields and twenty-five field pairs per second.](/assets/images/agrft/v2/video-fields.svg)
+![Illustrative alternating-line capture of a moving vertical object in two fields separated by twenty milliseconds, followed by a woven combination showing combing; explains fifty fields and twenty-five field pairs per second.](/assets/images/agrft/v1/video-fields.svg)
 
-[Open schematic at full size](/assets/images/agrft/v2/video-fields.svg)
+[Open schematic at full size](/assets/images/agrft/v1/video-fields.svg)
 
 A **progressive frame** represents a complete raster in one frame interval. An **interlaced frame** consists of two fields containing alternating lines. In genuinely interlaced acquisition, the fields represent different moments. One field contains one set of line positions, and the following field contains the complementary set.
 
@@ -1180,9 +1238,9 @@ Reference: [ITU-R BT.709-6, signal construction and digital representation](http
 
 ### Chroma subsampling: what 4:4:4, 4:2:2 and 4:2:0 retain
 
-![Separate luma Cb and Cr grids over a two-by-two progressive luma region: four four four has twelve component samples, four two two has eight, and four two zero has six, with chroma positions illustrative only.](/assets/images/agrft/v2/video-chroma.svg)
+![Separate luma Cb and Cr grids over a two-by-two progressive luma region: four four four has twelve component samples, four two two has eight, and four two zero has six, with chroma positions illustrative only.](/assets/images/agrft/v1/video-chroma.svg)
 
-[Open schematic at full size](/assets/images/agrft/v2/video-chroma.svg)
+[Open schematic at full size](/assets/images/agrft/v1/video-chroma.svg)
 
 Chroma subsampling stores colour-difference components at a lower spatial sampling density than luma. It takes advantage of the fact that many pictures tolerate less fine colour detail than fine luma detail. It is already a reduction of information, even before a later codec applies lossy quantisation.
 
@@ -1272,9 +1330,9 @@ References: [CMU, video compression lecture](https://graphics.cs.cmu.edu/courses
 
 ### I, P and B pictures: why playback order can differ
 
-![A four-picture GOP displayed as I0 B1 B2 P3, reference relationships from I0 and P3 to B1 and B2, and a valid decode order I0 P3 B1 B2. B pictures are non-reference only in this example.](/assets/images/agrft/v2/video-gop.svg)
+![A four-picture GOP displayed as I0 B1 B2 P3, reference relationships from I0 and P3 to B1 and B2, and a valid decode order I0 P3 B1 B2. B pictures are non-reference only in this example.](/assets/images/agrft/v1/video-gop.svg)
 
-[Open schematic at full size](/assets/images/agrft/v2/video-gop.svg)
+[Open schematic at full size](/assets/images/agrft/v1/video-gop.svg)
 
 **Intraframe** coding represents a picture without inter-picture prediction. **Interframe** coding permits prediction from other pictures. The traditional I/P/B terminology distinguishes picture or slice prediction capabilities, although the precise structures vary between codecs.
 
@@ -1509,9 +1567,9 @@ An illuminated point on a subject sends light in many directions. The camera cap
 
 A transparent lens changes the direction of light by **refraction** at its surfaces. A converging lens can bring rays from a distant point to a focus. For an ideal thin lens in air, focal length is the distance from the lens plane to the focus of incoming rays parallel to the optical axis. Real photographic lenses contain several elements and groups: their focal length is defined using principal planes, which need not coincide with a visible glass surface.
 
-![Exact paraxial thin lens ray construction with focal length fifty millimetres, object distance two hundred millimetres, image distance sixty-six and two-thirds millimetres, object height twenty and inverted image height six and two-thirds millimetres, equal axis scales.](/assets/images/agrft/v2/camera-optical-path.svg)
+![Exact paraxial thin lens ray construction with focal length fifty millimetres, object distance two hundred millimetres, image distance sixty-six and two-thirds millimetres, object height twenty and inverted image height six and two-thirds millimetres, equal axis scales.](/assets/images/agrft/v1/camera-optical-path.svg)
 
-[Open schematic at full size](/assets/images/agrft/v2/camera-optical-path.svg)
+[Open schematic at full size](/assets/images/agrft/v1/camera-optical-path.svg)
 
 The ray diagram uses an ideal positive thin lens:
 
@@ -1543,9 +1601,9 @@ The **aperture** is the opening that limits the light bundle. The **iris** is th
 
 **N = f / D**, where N is f-number, f is focal length and D is entrance-pupil diameter. At 50 mm and f/2, D = 25 mm. At f/4, D = 12.5 mm. Halving the diameter quarters the area. Consequently, f/2 to f/4 reduces illumination by two stops, assuming other relevant factors remain constant.
 
-![Four precisely area-scaled circular entrance pupils at constant focal length corresponding to f two, f two point eight, f four and f five point six, with relative areas one one-half one-quarter one-eighth.](/assets/images/agrft/v2/camera-stops.svg)
+![Four precisely area-scaled circular entrance pupils at constant focal length corresponding to f two, f two point eight, f four and f five point six, with relative areas one one-half one-quarter one-eighth.](/assets/images/agrft/v1/camera-stops.svg)
 
-[Open schematic at full size](/assets/images/agrft/v2/camera-stops.svg)
+[Open schematic at full size](/assets/images/agrft/v1/camera-stops.svg)
 
 The full-stop sequence is conventionally written **f/1, f/1.4, f/2, f/2.8, f/4, f/5.6, f/8, f/11, f/16, f/22**. The unrounded sequence increases by √2 each time. Because area depends on diameter squared, each step towards a larger f-number halves the admitted light in the ideal comparison. Values such as 2.8 and 5.6 are convenient rounded labels. Lens transmission and close-focus effects require additional care in precision work. [Edmund Optics: f-number and throughput](https://www.edmundoptics.com/knowledge-center/application-notes/imaging/lens-iris-aperture-setting/).
 
@@ -1611,9 +1669,9 @@ A CCD uses a different readout principle: charge packets are shifted through the
 
 An **analogue-to-digital converter**, or ADC, maps the measured analogue signal into numerical codes. Some sensors have column-parallel converters: multiple columns convert signals concurrently rather than sending everything through one distant converter. This connects the camera to the computer lesson: parallel work, timing, signal noise and bandwidth all affect the design. [Sony Semiconductor Solutions: column-parallel conversion](https://www.sony-semicon.com/en/technology/is/columnad.html).
 
-![Invented photodiode charge readout and ADC calculation giving code two hundred fifty, plus a four-by-four Bayer filter mosaic and conceptual demosaicing of single filtered measurements into RGB components.](/assets/images/agrft/v2/camera-sensor.svg)
+![Invented photodiode charge readout and ADC calculation giving code two hundred fifty, plus a four-by-four Bayer filter mosaic and conceptual demosaicing of single filtered measurements into RGB components.](/assets/images/agrft/v1/camera-sensor.svg)
 
-[Open schematic at full size](/assets/images/agrft/v2/camera-sensor.svg)
+[Open schematic at full size](/assets/images/agrft/v1/camera-sensor.svg)
 
 **A complete numerical model.** Consider an invented photosite and readout chain. These values explain the stages; they are not specifications for a production camera.
 
@@ -1657,9 +1715,9 @@ A shorter exposure reduces the distance a moving image travels during the measur
 
 A **mechanical shutter** blocks light physically. An **electronic shutter** controls integration and readout electronically. A focal-plane mechanical shutter may expose different parts of the frame at slightly different times, especially when a moving slit traverses the image. “Mechanical” does not itself guarantee simultaneous exposure across the whole frame.
 
-![Two timing panels on a common zero-to-forty-millisecond scale: simultaneous twenty-millisecond global exposure for four example rows, and rolling row exposures starting at zero four eight twelve milliseconds and ending twenty milliseconds later.](/assets/images/agrft/v2/camera-shutter.svg)
+![Two timing panels on a common zero-to-forty-millisecond scale: simultaneous twenty-millisecond global exposure for four example rows, and rolling row exposures starting at zero four eight twelve milliseconds and ending twenty milliseconds later.](/assets/images/agrft/v1/camera-shutter.svg)
 
-[Open schematic at full size](/assets/images/agrft/v2/camera-shutter.svg)
+[Open schematic at full size](/assets/images/agrft/v1/camera-shutter.svg)
 
 In the diagram, four illustrative rows represent positions across a sensor. Each integrates for 20 ms. In the global example, all begin at 0 ms and end at 20 ms. In the rolling example, the starts are 0, 4, 8 and 12 ms; the corresponding ends are 20, 24, 28 and 32 ms. The first-to-last exposure-start skew is 12 ms. The exposure duration of each row remains 20 ms.
 
@@ -3482,7 +3540,7 @@ Online sources were consulted for this edition on **7 October 2026**. For an act
 
 ### Citing this course material
 
-Popič, Damjan. **2026. *English for Film and Television: Course materials / Učno gradivo*. Version 2.0.** [Version 2.0 source](https://github.com/damjan-popic/damjan-popic.github.io/blob/agrft-v2.0/content/en/teaching/agrft.md).
+Popič, Damjan. **2026. *English for Film and Television: Course materials / Učno gradivo*. Version 1.0.** [Version 1.0 source](https://github.com/damjan-popic/damjan-popic.github.io/blob/agrft-v1.0/assets/files/AGRFT_English_ucno_gradivo_v1.0.md).
 
 Use the version number when referring to this edition. The current course page may be revised; the archived version preserves the teaching text associated with this citation.
 

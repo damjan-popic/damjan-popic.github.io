@@ -12,9 +12,11 @@ section: teaching
 
 ## Učno gradivo
 
-[**English for Film and Television — učno gradivo, različica 2.0**](https://damjan-popic.github.io/en/teaching/agrft/)
+[**English for Film and Television — učno gradivo, različica 1.0**](https://damjan-popic.github.io/en/teaching/agrft/)
 
 Začnemo z opremo: odpremo računalnik, poimenujemo njegove dele v angleščini in razložimo njihovo delovanje. Od električnega signala in bitov preidemo k digitalnemu zvoku, videu in kameri, nato k poklicem, delu na snemanju, produkcijskim dokumentom in postprodukciji.
+
+Uvodne razlage povežejo vsakdanjo izkušnjo z delovanjem opreme: kaj se v računalniku zgodi ob pritisku na gumb, kako glas postane digitalni zapis in kako posneto gibanje znova prikažemo na zaslonu. Tem opisom sledijo podrobnejše tehnične razlage.
 
 Prva štiri poglavja sistematično obravnavajo računalniške komponente in vezja, pomnilnik in shranjevanje, vzorčenje zvoka, zgoščenko in zvočne formate, stiskanje podatkov, analogni in digitalni video, nastanek slike, tipala, zaslonko, osvetlitev in zapis v kameri. Razlago dopolnjuje **18 natančnih shem**, pri katerih so navedene predpostavke in obseg prikaza.
 
@@ -32,11 +34,10 @@ Navodila za pripravo pisnega dela in individualne predstavitve so v zadnjem delu
 
 ## Datoteka in različice
 
-- [Celotno gradivo v obliki Markdown](https://raw.githubusercontent.com/damjan-popic/damjan-popic.github.io/main/assets/files/AGRFT_English_ucno_gradivo_v2.0.md)
-- [Različica 2.0 z vsemi shemami za prenos](/assets/files/AGRFT_English_ucno_gradivo_v2.0.zip)
+- [Celotno gradivo v obliki Markdown](https://raw.githubusercontent.com/damjan-popic/damjan-popic.github.io/agrft-v1.0/assets/files/AGRFT_English_ucno_gradivo_v1.0.md)
+- [Različica 1.0 z vsemi shemami za prenos](/assets/files/AGRFT_English_ucno_gradivo_v1.0.zip)
 - [Izvornik in zgodovina sprememb na GitHubu](https://github.com/damjan-popic/damjan-popic.github.io/blob/main/content/en/teaching/agrft.md)
-- [Ohranjena različica 2.0 za navajanje](https://github.com/damjan-popic/damjan-popic.github.io/blob/agrft-v2.0/content/en/teaching/agrft.md)
-- [Ohranjena različica 1.0](https://github.com/damjan-popic/damjan-popic.github.io/blob/agrft-v1.0/content/en/teaching/agrft.md)
+- [Ohranjena različica 1.0 za navajanje](https://github.com/damjan-popic/damjan-popic.github.io/blob/agrft-v1.0/assets/files/AGRFT_English_ucno_gradivo_v1.0.md)
 
 Paket za prenos vsebuje eno datoteko Markdown in vseh osemnajst shem SVG. Sprotno spletno stran je mogoče dopolnjevati; pri navajanju posamezne izdaje uporabite avtorja, naslov, leto in številko ohranjene različice.
 
