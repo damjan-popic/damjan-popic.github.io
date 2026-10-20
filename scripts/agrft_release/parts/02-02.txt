@@ -1,0 +1,184 @@
+Read **16:00** as *sixteen hundred* or *four p.m.*, depending on context. For a deadline, add the date and time zone when people work in different countries. Write **noon** or **midnight** rather than assuming every reader interprets *12 a.m.* and *12 p.m.* confidently.
+
+### Punctuation in English sentences
+
+English punctuation is not Slovene punctuation with translated words. A particularly important difference is the relationship between punctuation and subordinate clauses.
+
+> **I know that the recording is complete.**
+
+There is normally no comma before *that* in this content clause. Compare the Slovene construction *Vem, da je posnetek končan.* A mechanically transferred comma produces an unnecessary interruption in English.
+
+> **If the recorder stops, check the power connection.**  
+> **Check the power connection if the recorder stops.**
+
+The initial conditional clause normally takes a following comma. A following closely integrated conditional clause normally does not. Meaning and construction matter; the mere presence of *if* does not determine punctuation.
+
+Compare **the recorder that failed yesterday** with **the recorder, which failed yesterday,**. The first identifies which recorder; the second adds supplementary information about a recorder already identified. The comma pattern can change the intended interpretation. More examples appear in the following chapter and in *Language in context*.
+
+Use an apostrophe for appropriate possessives and contractions, not ordinary plurals: **the camera's battery**, **the cameras' batteries**, **it's recording**, but **two cameras**, **three DVDs** and **its battery**. *It's* means *it is* or *it has*; possessive *its* has no apostrophe.
+
+A semicolon can join closely related independent clauses: **The source file is intact; the export is incomplete.** A colon introduces an explanation or a list after an appropriate introductory clause: **Check three things: the file, the connection and the player.** Avoid using a comma alone to join two complete independent clauses.
+
+### Formatting a technical message
+
+Make a reader's task easy. Use a consistent heading, short paragraphs and a table only when the relationships need a table. Keep one property in each table cell. Put filenames, code, settings and literal error messages in a distinct style, for example `scene_012_take_003.wav`. Do not alter an error message to make its grammar more elegant: quote it accurately, then explain it.
+
+Compare these two notes:
+
+> The camera has 25 pictures and sound 48 and the file is 2,5 giga. It is too big.
+
+> The clip is 25 fps progressive video with 48 kHz audio. The exported file is 2.5 GB. It exceeds the upload limit of 2 GB. Please confirm whether we should use a lower video bit rate or another delivery method.
+
+The second version distinguishes a frame rate, an audio sample rate, a file size and a limit. It also requests a decision rather than merely describing frustration. The values here are a teaching example, not a universal delivery specification.
+
+Before sending a technical message, check four things: **what is being measured; whether the value is correct; whether the unit is explicit; and whether the recipient will interpret the notation as intended**.
+
+The individual practice for this chapter is collected under **Numbers and notation: N01–N12** in the exercise section.
+
+
+## 2. Common English mistakes and how to avoid them
+
+The purpose of this chapter is to make your meaning reliable, not to make you sound like somebody else. An accent is not a technical error. A different legitimate English variety is not automatically a mistake. However, an omitted subject, an unclear reference or a misplaced negative can make a production instruction mean something you did not intend.
+
+The comparisons below are especially useful when moving between Slovene and English. Many will also help speakers of other Slavic languages, but those languages do not all have identical grammar. This is a practical set of **contrastive checkpoints**, not a statistical ranking of errors made by every Slavic-speaking learner. The examples are original production situations. Sentences marked **Revise** deliberately contain a problem for the specified meaning; they are not recommended models.
+
+Begin with three questions: **Who or what is the subject? What are we saying about it? What does the listener need to identify?** Then check time, quantity, reference and the strength of the instruction.
+
+### Give an ordinary statement a clear subject
+
+Slovene often permits an unexpressed subject because the verb and context make it recoverable: *Deluje.* In an ordinary complete English statement, say **It works**, **The recorder works**, or **The connection works**, according to the intended reference.
+
+> Revise: **Is connected to the monitor.**  
+> Clear statement: **The camera is connected to the monitor.**
+
+An imperative has a different structure: **Connect the camera to the monitor.** Here the person addressed is understood. Labels, notes and dialogue also permit some ellipsis. The point is to recognise the construction, not to insert *it* into every short expression.
+
+Use **there** to introduce existence or presence: **There is a spare battery in the case.** Use **it** when referring to an identified thing: **It is fully charged.** Compare **There is a problem with the cable** and **The cable is damaged**. The first introduces a problem; the second asserts a specific diagnosis.
+
+For environmental conditions, English also uses a grammatical subject: **It is cold in the studio**, **It is getting late**. Do not translate the Slovene pattern by simply omitting *it*.
+
+### Word order: show who does what to whom
+
+A neutral English declarative clause commonly follows **subject → verb → object**:
+
+> **The editor checked the export.**
+
+Reversing the two noun phrases gives **The export checked the editor**, a different proposition, not just a different emphasis. English noun phrases usually do not carry the range of case endings that helps signal such relationships in Slovene.
+
+Use a dependable starting structure:
+
+> **We / recorded / the dialogue / in the studio / yesterday.**
+
+This does not mean that English permits only one order. **Yesterday, we recorded the dialogue in the studio** is perfectly normal. **The dialogue, we recorded yesterday; the effects are still missing** is marked but possible in an appropriate contrast. Passive voice also changes the organisation: **The dialogue was recorded yesterday.** Learn the neutral pattern before choosing a marked one.
+
+A sentence can be grammatical but make the wrong information prominent. When answering “What happened to the dialogue?”, **It was recorded again** keeps the dialogue as the starting point. When answering “Who recorded it?”, **Maja recorded it** makes the person explicit. Word order, voice and context work together.
+
+**Reference:** Cambridge English Grammar Today, [Word order and focus](https://dictionary.cambridge.org/us/grammar/british-grammar/word-order-and-focus_2), including its discussion of alternative arrangements.
+
+### Keep a verb and its short object together
+
+An adverb often belongs after the object rather than between a transitive verb and a short object.
+
+> Revise: **She explains clearly the problem.**  
+> Neutral: **She explains the problem clearly.**
+
+With frequency adverbs, a useful starting pattern is before a simple main verb, after main-verb *be*, or after the first auxiliary:
+
+> **We usually record room tone.**  
+> **The camera is usually ready.**  
+> **We have already checked the batteries.**
+
+These are useful patterns, not a ban on emphasis or other grammatical positions. In particular, **only** must be placed and stressed so that its scope is clear. **Only the editor changed the title** excludes other people. **The editor changed only the title** excludes other changes. Do not move it casually during proofreading.
+
+For several circumstances, *manner–place–time* is a useful neutral tendency, not an inflexible rule. In a production note, short separate sentences are often clearer than a long sequence of adverbs.
+
+### Direct and embedded questions use different patterns
+
+In many direct questions, an auxiliary comes before the subject:
+
+> **Where is the recorder?**  
+> **Does the recorder work?**  
+> **Why did the export fail?**
+
+In a question embedded within another clause, retain ordinary subject–verb order:
+
+> **Could you tell me where the recorder is?**  
+> **I need to know whether the recorder works.**  
+> **Please explain why the export failed.**
+
+Revise **Could you tell me where is the recorder?** The outer clause already supplies the question construction. Do not build another direct question inside it. A sentence such as **I wonder where the recorder is** is a statement and normally ends with a full stop.
+
+When *who* is itself the subject, no ordinary *do*-inversion is needed: **Who changed the settings?** Compare **Who did you ask?**, where *you* is the subject and *who* the object.
+
+After *does* or *did*, use the base form of the main verb: **Does it work?**, **Did she send it?**, not *does it works* or *did she sent it*. The auxiliary carries the relevant tense or agreement.
+
+**Reference:** British Council, [Reported speech: questions](https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/reported-speech-questions). The same absence of embedded question inversion is useful in polite requests for information.
+
+### Articles: identify the thing, not just the noun
+
+English **a/an** and **the** express distinctions that Slovene does not routinely mark with an equivalent article system. Ask whether the noun is singular and countable, and whether the listener can identify the intended referent.
+
+> **We need a microphone.** — a suitable one; no particular microphone has been identified.  
+> **We need the microphone from the interview.** — a specific one identified by the description.  
+> **Microphones convert sound into electrical signals.** — a general statement about the class.
+
+A singular count noun normally needs a determiner: **a camera**, **the camera**, **this camera**, **my camera**. Revise **I bought camera** to **I bought a camera** for an ordinary first mention. Do not combine incompatible determiners as *the my camera*.
+
+Choose **a/an by the following sound**, not merely the letter: **an editor**, **an hour**, **a university**, **a USB cable**, **an SD card** when *SD* is spoken as letter names. The written abbreviation does not exempt the phrase from its spoken form.
+
+The familiar rule “use *the* on second mention” is only a starting point. You can use *the* on first mention when the context identifies the thing: **Please close the door** in a room with one relevant door. Conversely, a repeated noun can refer to a new item: **We hired a camera yesterday and another camera today**.
+
+Names and established expressions need checking individually. Say **at AGRFT**, but **at the University of Ljubljana**. Do not attach or remove an article from every institution according to one superficial rule.
+
+### Countable and uncountable meanings
+
+A physical object may be countable even when its general category is expressed by an uncountable noun. English **equipment** is normally uncountable: **The equipment is ready**, **some equipment**, **three pieces of equipment**. For an exact inventory, **three microphones** is better than the vaguer last expression.
+
+Useful contrasts are **information / a fact**, **advice / a suggestion**, **footage / a clip**, **research / a study**, and **work / a job**. Do not form routine plurals such as *informations*, *advices* or *equipments* for these meanings. Say **two useful suggestions**, **several clips**, or **three research projects**.
+
+Countability can change with meaning. **Glass** can mean a material; **a glass** a drinking vessel. **Film** can mean a medium or stock; **a film** a work. **Light** can mean illumination; **three lights** can mean three lighting units. Identify the intended sense before applying a memorised rule.
+
+**References:** British Council, [Uncount nouns](https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/uncount-nouns) and [Common problems with count and uncount nouns](https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/common-problems-count-uncount-nouns).
+
+### Agreement: find the head of the subject
+
+The nearest noun is not necessarily the subject's head.
+
+> **The list of missing clips is on the desk.**  
+> **The missing clips are on the list.**
+
+In the first example, *list* determines singular agreement; *clips* is inside a modifying phrase. Also compare **Each camera has a battery** and **Both cameras have batteries**. A Slovene dual form does not transfer into an English dual verb paradigm.
+
+**One of the cameras is faulty** has a singular head, *one*. **The equipment is faulty** is also singular. Avoid judging number from a final letter alone: **The news is encouraging**.
+
+Collective nouns such as *crew* allow variation, particularly between English varieties and between unit and member readings. **The crew is ready** presents a unit; British English can also use **The crew are ready**. For clarity in an international technical instruction, name the relevant people when necessary: **All crew members have received the update**.
+
+### Time and aspect: do not translate tense labels mechanically
+
+**We record interviews every week** describes a regular practice. **We are recording an interview now** describes an activity in progress. **The recorder contains a memory card** describes a state; *is containing* is not the ordinary choice for that meaning.
+
+Compare:
+
+> **I sent the file yesterday.** — a completed event at a specified finished time.  
+> **I have sent the file.** — a completed event presented as relevant to the present situation.  
+> **I have been editing since Monday.** — an activity extending from Monday towards now.
+
+Revise **I have sent it yesterday** in the ordinary intended meaning to **I sent it yesterday**. Revise **I work on this film since Monday** to **I have been working on this film since Monday** when the work continues. *Since* gives a starting point; *for* gives a duration: **since Monday**, **for three days**.
+
+Slovene perfective and imperfective verbs do not map one-to-one onto English simple and progressive forms. Explain the event's timing and viewpoint before selecting a form. In reported accounts, also distinguish **The camera stopped while we were recording** from **The camera had stopped before we began recording**.
+
+The later *Language in context* chapter provides more practice with tense, aspect and professional reporting. These opening examples establish the distinctions needed to read the technical chapters.
+
+### Negatives, conditions and the force of instructions
+
+In standard professional English, use **I did not record anything** or **I recorded nothing**, not ordinary negative concord *I did not record nothing* for the same intended meaning. Negative concord belongs to some English varieties and deliberate dialogue; this course's neutral professional writing uses the first two patterns.
+
+Two particularly consequential expressions are:
+
+> **You must not disconnect the drive.** — prohibition.  
+> **You do not have to disconnect the drive.** — absence of a requirement.
+
+The second does not prohibit disconnection. Likewise, **should** normally expresses advice or expectation rather than the same obligation as **must**. A safety instruction must not become optional merely because a writer wants to sound polite.
+
+For an ordinary future condition, use **If the export finishes tonight, I will upload it tomorrow**. Do not routinely insert *will* into the conditional clause. Other uses of *will*, including willingness, exist; the rule concerns this ordinary prediction pattern.
+
