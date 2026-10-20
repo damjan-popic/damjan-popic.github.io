@@ -17,7 +17,9 @@ jobs:
         with:
           python-version: '3.12'
       - name: Assemble verified course files
-        run: python .agrft-publish/assemble.py
+        run: |
+          python .agrft-publish/assemble.py
+          python .agrft-publish/fix-links.py
       - name: Install website dependencies
         run: python -m pip install -r requirements.txt
       - name: Check course packages and website
