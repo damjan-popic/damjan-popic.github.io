@@ -12,15 +12,17 @@ section: teaching
 
 ## Učno gradivo
 
-[**English for Film and Television — učno gradivo, različica 1.0**](https://damjan-popic.github.io/en/teaching/agrft/)
+[**English for Film and Television — učno gradivo, različica 1.2**](https://damjan-popic.github.io/en/teaching/agrft/)
 
-Začnemo z opremo: odpremo računalnik, poimenujemo njegove dele v angleščini in razložimo njihovo delovanje. Od električnega signala in bitov preidemo k digitalnemu zvoku, videu in kameri, nato k poklicem, delu na snemanju, produkcijskim dokumentom in postprodukciji.
+Po uvodnih poglavjih o številih, merskih enotah in angleščini preidemo k opremi: odpremo računalnik, poimenujemo njegove dele v angleščini in razložimo njihovo delovanje. Od električnega signala in bitov preidemo k digitalnemu zvoku, videu in kameri, nato k poklicem, delu na snemanju, produkcijskim dokumentom in postprodukciji.
+
+Drugo poglavje poleg pogostih slovničnih težav obravnava izgovorjavo: glasovna nasprotja, besedni in stavčni naglas, šibke oblike ter jasnost števil in navodil. Dodani so izgovorni slovarček z 22 strokovnimi izrazi in povezavami do zvočnih zgledov, 12 izvirnih jezikovnih zavozlank ter 12 individualnih vaj z rešitvami.
 
 Uvodne razlage povežejo vsakdanjo izkušnjo z delovanjem opreme: kaj se v računalniku zgodi ob pritisku na gumb, kako glas postane digitalni zapis in kako posneto gibanje znova prikažemo na zaslonu. Tem opisom sledijo podrobnejše tehnične razlage.
 
-Prva štiri poglavja sistematično obravnavajo računalniške komponente in vezja, pomnilnik in shranjevanje, vzorčenje zvoka, zgoščenko in zvočne formate, stiskanje podatkov, analogni in digitalni video, nastanek slike, tipala, zaslonko, osvetlitev in zapis v kameri. Razlago dopolnjuje **18 natančnih shem**, pri katerih so navedene predpostavke in obseg prikaza.
+Poglavja 3–6 sistematično obravnavajo računalniške komponente in vezja, pomnilnik in shranjevanje, vzorčenje zvoka, zgoščenko in zvočne formate, stiskanje podatkov, analogni in digitalni video, nastanek slike, tipala, zaslonko, osvetlitev in zapis v kameri. Razlago dopolnjuje **18 natančnih shem**, pri katerih so navedene predpostavke in obseg prikaza.
 
-Gradivo je napisano v angleščini. Strokovnim izrazom so dodane slovenske ustreznice oziroma razlage. Razlagam in zgledom sledi **105 individualnih vaj z rešitvami in vzorčnimi odgovori**. Vsa besedila in podatki za naloge so vključeni; naloge opazovanja uporabljajo prikazano opremo ali navedeno shemo. Ustno delo obsega individualno predstavitev, razlago in odgovore na izvajalčeva vprašanja.
+Gradivo je napisano v angleščini. Strokovnim izrazom so dodane slovenske ustreznice oziroma razlage. Razlagam in zgledom sledi **152 individualnih vaj z rešitvami in vzorčnimi odgovori**. Vsa besedila in podatki za naloge so vključeni; naloge opazovanja uporabljajo prikazano opremo ali navedeno shemo. Ustno delo obsega individualno predstavitev, razlago in odgovore na izvajalčeva vprašanja.
 
 Knjižna referenca za strokovno sporazumevanje ostaja *Cambridge English for the Media* Nicka Ceramelle in Elizabeth Lee (2008). Tehnično razlago podpirajo primarni viri in standardi, navedeni ob posameznih temah.
 
@@ -34,10 +36,10 @@ Navodila za pripravo pisnega dela in individualne predstavitve so v zadnjem delu
 
 ## Datoteka in različice
 
-- [Celotno gradivo v obliki Markdown](https://raw.githubusercontent.com/damjan-popic/damjan-popic.github.io/agrft-v1.0/assets/files/AGRFT_English_ucno_gradivo_v1.0.md)
-- [Različica 1.0 z vsemi shemami za prenos](/assets/files/AGRFT_English_ucno_gradivo_v1.0.zip)
+- [Celotno gradivo v obliki Markdown](https://raw.githubusercontent.com/damjan-popic/damjan-popic.github.io/agrft-v1.2/assets/files/AGRFT_English_ucno_gradivo_v1.2.md)
+- [Različica 1.2 z vsemi shemami za prenos](/assets/files/AGRFT_English_ucno_gradivo_v1.2.zip)
 - [Izvornik in zgodovina sprememb na GitHubu](https://github.com/damjan-popic/damjan-popic.github.io/blob/main/content/en/teaching/agrft.md)
-- [Ohranjena različica 1.0 za navajanje](https://github.com/damjan-popic/damjan-popic.github.io/blob/agrft-v1.0/assets/files/AGRFT_English_ucno_gradivo_v1.0.md)
+- [Ohranjena različica 1.2 za navajanje](https://github.com/damjan-popic/damjan-popic.github.io/blob/agrft-v1.2/assets/files/AGRFT_English_ucno_gradivo_v1.2.md)
 
 Paket za prenos vsebuje eno datoteko Markdown in vseh osemnajst shem SVG. Sprotno spletno stran je mogoče dopolnjevati; pri navajanju posamezne izdaje uporabite avtorja, naslov, leto in številko ohranjene različice.
 

@@ -1,23 +1,23 @@
 ---
 key: agrft
 title: English for Film and Television
-description: English course materials from computer hardware and digital sound to video, cameras and work on set, with precise schematics, professional terminology and individual exercises.
-kicker: AGRFT · 2026/27
+description: Course materials on professional English, numbers and measurements, grammar and pronunciation, computers, analogue and digital sound and video, cameras, and production work.
+kicker: 2026/27 · WINTER SEMESTER
 section: teaching
 ---
 
-**Course materials / Učno gradivo · Version 1.0**
+**Course materials / Učno gradivo · Version 1.2**
 
 **Author:** Damjan Popič  
-**Edition:** 1.0 · 8 October 2026  
+**Edition:** 1.2 · 20 October 2026  
 **Course:** Angleški jezik, Film and Television, second year, AGRFT, University of Ljubljana  
 **Contact:** [damjan.popic@ff.uni-lj.si](mailto:damjan.popic@ff.uni-lj.si)
 
-We begin with the equipment used to make and edit audiovisual work. Opening a computer lets us name its components and explain their functions. Following the signal leads from electricity and bits to digital sound, moving images and the camera. We then move onto the set: the people, responsibilities, instructions, documents and decisions through which a production works.
+We begin with the language needed to describe a production precisely: numbers, measurements, notation and common English–Slovene contrasts. We then open the equipment. Naming a computer's parts leads to explaining their functions; following a signal leads from electricity and bits to sound, moving images and the camera. Historical analogue and early digital devices make the differences between recording systems concrete. Finally, we move onto the set: the people, responsibilities, instructions, documents and decisions through which a production works.
 
-The first four chapters provide the technical foundations. They move from visible components to mechanisms, with schematics, numerical examples and English explanations. Read them alongside the lecturer's demonstration and return to the deeper examples as the course progresses. A drawing's caption identifies its scope: a functional connection, a mathematical model or a specified teaching circuit. Actual equipment must be interpreted through its own documentation.
+Chapters 3–6 provide the technical foundations. They move from visible components to mechanisms, with schematics, numerical examples and English explanations. Read them alongside the lecturer's demonstration and return to the deeper examples as the course progresses. A drawing's caption identifies its scope: a functional connection, a mathematical model or a specified teaching circuit. Actual equipment must be interpreted through its own documentation.
 
-The remaining chapters develop professional terminology, creative and technical explanation, correspondence, project presentation and post-production. The final section contains **105 individual exercises**, followed by answers and model responses. Oral work consists of explaining, presenting and answering the lecturer's questions. All exercise texts and calculation data are included; observation tasks use the demonstration or the indicated schematic.
+The remaining chapters develop professional terminology, creative and technical explanation, correspondence, project presentation and post-production. The final section contains **152 individual exercises**, followed by answers and model responses. Oral work consists of explaining, presenting and answering the lecturer's questions. All exercise texts and calculation data are included; observation tasks use the demonstration or the indicated schematic.
 
 Nick Ceramella and Elizabeth Lee's *Cambridge English for the Media* (2008) remains the main book reference for language and professional communication. Its printed page numbers are cited throughout the relevant chapters. The technical foundations draw on primary engineering and standards documentation identified beside the explanations. The worked examples, model texts, diagrams and exercises are original teaching material. Hypothetical hardware and production requirements are labelled as such.
 
@@ -35,11 +35,652 @@ For email submissions and questions, use **AGRFT — English** followed by the e
 
 Check unfamiliar terms in a reliable dictionary and in relevant professional documentation. Record the source of a technical definition or specification. Distinguish quotations from your own explanation. When using a language tool, check that the revision preserves your facts, uncertainty and terminology. An assessed text should contain language you understand and can explain; follow the lecturer's instructions on permitted tools and acknowledge substantive assistance.
 
-The [current course page](https://damjan-popic.github.io/en/teaching/agrft/) is the reading version. The [editable Markdown source](https://github.com/damjan-popic/damjan-popic.github.io/blob/main/content/en/teaching/agrft.md) holds the complete teaching text. The [version 1.0 archive](https://github.com/damjan-popic/damjan-popic.github.io/blob/agrft-v1.0/assets/files/AGRFT_English_ucno_gradivo_v1.0.md) preserves this edition for citation. Later changes to the current page will be recorded in GitHub; numbered editions provide fixed points of reference.
+The [current course page](https://damjan-popic.github.io/en/teaching/agrft/) is the reading version. The [editable Markdown source](https://github.com/damjan-popic/damjan-popic.github.io/blob/main/content/en/teaching/agrft.md) contains the complete teaching text. The [version 1.2 archive](https://github.com/damjan-popic/damjan-popic.github.io/blob/agrft-v1.2/assets/files/AGRFT_English_ucno_gradivo_v1.2.md) preserves this edition for citation. [Version 1.0](https://github.com/damjan-popic/damjan-popic.github.io/blob/b48ab3170988f8d28421ba1b4579f8d4454473bd/assets/files/AGRFT_English_ucno_gradivo_v1.0.md) remains available. Later changes belong to later numbered editions; do not treat different editions as identical texts.
 
-[Download the Markdown text](https://raw.githubusercontent.com/damjan-popic/damjan-popic.github.io/agrft-v1.0/assets/files/AGRFT_English_ucno_gradivo_v1.0.md) or [download version 1.0 with all schematics](/assets/files/AGRFT_English_ucno_gradivo_v1.0.zip). The package contains one Markdown text and the eighteen SVG drawings it uses. Open a drawing's full-size link when studying its connections or using it for projection.
+[Download the complete Markdown](https://damjan-popic.github.io/assets/files/AGRFT_English_ucno_gradivo_v1.2.md) or [download version 1.2 with all schematics](/assets/files/AGRFT_English_ucno_gradivo_v1.2.zip). The offline package contains one Markdown text and eighteen SVG drawings. The reading chapters come first, exercises follow in teaching order, and answers follow all exercise prompts. Dictionary audio is linked from the pronunciation section and requires an internet connection; it is not bundled in the package.
 
-## 1. How computers work, deep down
+
+## 1. Numbers, measurements and clear notation
+
+A production depends on people understanding the same quantity in the same way. “Fifteen” is not “fifty”; a billion euros is not a *bilijon* euros; 100 megabits per second is not 100 megabytes per second. An error that looks small in a sentence can change a budget, a delivery time or a recording specification.
+
+This chapter starts with ordinary counting, then connects spoken English to the numbers on equipment, call sheets, invoices and media files. The aim is to be able to **say a value, write it unambiguously, identify its unit and explain what it measures**. You do not have to guess unfamiliar specifications. A good professional response is: “Could you confirm the value and the unit?”
+
+The English examples below use a decimal point. Slovene examples use a decimal comma where appropriate. Technical data formats have their own syntax: never change a decimal separator inside a command or a file merely to make it look more Slovene.
+
+### A quantity, a position or a label?
+
+First establish what the number is doing.
+
+| Example | Function | A clear spoken form |
+| --- | --- | --- |
+| 12 microphones | A quantity: how many? | twelve microphones |
+| the 12th microphone | A position in an ordered sequence: which one? | the twelfth microphone |
+| microphone 12 | An identifying label | microphone twelve |
+| take 003 | An identifier whose leading zeros may matter | take zero zero three |
+| 12.5 metres | A measured quantity | twelve point five metres |
+| version 1.10 | A version identifier, not necessarily the decimal number 1.1 | version one dot ten; confirm the project's naming convention |
+
+Identifiers are not automatically quantities. Do not remove zeros from a filename, round a timecode, translate a model number or assume that version 1.10 is the same release as 1.1. A catalogue number and a measurement can contain similar characters but require different operations.
+
+### Counting in English
+
+Learn the irregular forms first: **one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve**. The next group is **thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen**. The tens are **twenty, thirty, forty, fifty, sixty, seventy, eighty, ninety**. Notice *forty*, not *fourty*.
+
+English puts the tens before the units: **twenty-one**, literally twenty plus one. Slovene *enaindvajset* puts the unit first. This is an important difference when reading a value quickly rather than translating a familiar phrase.
+
+| Value | English | Slovene orientation |
+| --- | --- | --- |
+| 21 | twenty-one | enaindvajset |
+| 35 | thirty-five | petintrideset |
+| 108 | one hundred and eight | sto osem |
+| 250 | two hundred and fifty | dvesto petdeset |
+| 1,024 | one thousand and twenty-four | tisoč štiriindvajset |
+| 2,500 | two thousand five hundred | dva tisoč petsto |
+
+The examples use the common British-English *and* after hundreds when a remainder follows. American English often omits it: *one hundred eight*. Both conventions are intelligible. In a specification, clarity matters more than forcing everyone to use one national counting style.
+
+After an exact number, *hundred*, *thousand* and *million* normally remain singular: **three hundred frames**, **two million samples**. For an indefinite large quantity, use **hundreds of frames**, **millions of samples**. Do not combine the two patterns as *three hundreds frames*.
+
+### Thirteen or thirty?
+
+Pairs such as *thirteen/thirty*, *fourteen/forty* and *fifteen/fifty* deserve deliberate practice. The ending of *thirteen* contains an /n/ that *thirty* lacks. Stress also helps distinguish the forms, particularly when correcting a misunderstanding, but stress changes in connected speech. Do not rely on stress alone.
+
+A useful confirmation is:
+
+> “Did you say thirteen or thirty?”  
+> “Thirteen. One three.”
+
+Read equipment values in manageable groups. Avoid saying an entire string twice at the same speed. Repeating the individual digits is especially helpful over a poor connection. Use **zero** rather than the letter name *O* when the distinction could affect a filename, serial number or value.
+
+Useful phrases include **a leading zero**, **a trailing zero**, **the last digit**, **a decimal place**, **round it to two decimal places**, and **read the digits back to me**.
+
+### Ordinals and numbered items
+
+An ordinal expresses position: **first, second, third, fourth, fifth, sixth, seventh, eighth, ninth, tenth, eleventh, twelfth**. Later forms include **twentieth**, **twenty-first**, **thirtieth**, **hundredth**. Write *1st, 2nd, 3rd, 4th*, but *11th, 12th, 13th*. For a larger whole number, the last digit normally determines the suffix, except when its last two digits are 11, 12 or 13: *21st*, *32nd*, *43rd*, but *111th*, *112th* and *113th*.
+
+Compare **the second scene** with **scene two**. The first can mean the second scene in the current sequence; the second names a scene. After restructuring an edit, scene two might no longer be the second scene shown. The same distinction applies to *the third camera* and *camera three*.
+
+English normally does not mark an ordinal with the Slovene full stop: Slovene *2. prizor* becomes **the second scene**, **scene 2**, or an appropriate document label, not automatically *2. scene*.
+
+### Million, billion, trillion
+
+Contemporary general English uses **billion for 10⁹** and **trillion for 10¹²**. The equivalent Slovene words are **milijarda** and **bilijon**, respectively. Similar spelling is not evidence of equal value.
+
+| Value | Power of ten | English | Slovene |
+| --- | --- | --- | --- |
+| 1 000 | 10³ | a thousand | tisoč |
+| 1 000 000 | 10⁶ | a million | milijon |
+| 1 000 000 000 | 10⁹ | a billion | milijarda |
+| 1 000 000 000 000 | 10¹² | a trillion | bilijon |
+
+Thus **2.5 billion bytes = 2,5 milijarde bajtov**, not *2,5 bilijona bajtov*. The incorrect translation is a thousand times too large. Older British texts sometimes use *billion* differently; identify the period and the source rather than presenting this as the normal British–American distinction today.
+
+In a calculation, powers of ten are often safer than number names. **10⁹** means a one followed by nine zeros; **10⁻³** means one thousandth. In scientific notation, **2.5 × 10⁶** means 2,500,000. Software may write the same value as **2.5e6**. Here *e* introduces an exponent; it does not mean euros.
+
+**References:** Cambridge Dictionary, [billion](https://dictionary.cambridge.org/us/dictionary/english/billion); SSKJ² and Slovenski pravopis on Fran, [milijarda](https://fran.si/iskanje?Query=milijarda&View=1) and [bilijon](https://fran.si/iskanje?Query=bilijon&View=1).
+
+### Decimal points, commas and groups of digits
+
+English **1,250.75** and Slovene **1.250,75** can express the same quantity. In international technical writing, grouping with spaces can reduce confusion: **1 250.75**, with the decimal convention stated. Do not mix conventions within one column.
+
+Read the digits after a decimal point separately: **0.125** is *zero point one two five*, not *zero point one hundred and twenty-five*. Say **minus six point five**, rather than using *negative* as a vague description of whether the value is undesirable.
+
+| Meaning | Typical English notation | Typical Slovene notation |
+| --- | --- | --- |
+| Two and a half seconds | 2.5 s | 2,5 s |
+| One thousand two hundred and fifty euros and seventy-five cents | €1,250.75 | 1.250,75 € |
+| A frequency of forty-eight thousand hertz | 48,000 Hz or 48 000 Hz | 48.000 Hz or 48 000 Hz |
+| One tenth of a second | 0.1 s | 0,1 s |
+
+These are examples of conventions, not permission to reformat machine-readable data arbitrarily. A comma in a CSV file may separate fields or represent a decimal separator. A project must define which convention it uses. A subtitle file may require a comma before milliseconds even though its dialogue is in English.
+
+Use the leading zero in **0.5**, not just *.5*. Distinguish an exact value from its rounding: **24000/1001 frames per second** is approximately **23.976 fps**. A display label can be a convenient abbreviation without being a complete mathematical specification.
+
+### Fractions, ratios and percentages
+
+Say **a half**, **a third**, **a quarter**, **three quarters**, and **one eighth**. With a variable denominator or a technical expression, **one over fifty** is unambiguous. Exposure time **1/50 s** can be read as *one fiftieth of a second*.
+
+For **16:9**, say *sixteen to nine*. A ratio compares quantities; it does not state a physical width. A 16:9 screen can be small or large. **1920 × 1080** gives sample-grid dimensions, not millimetres. In technical speech, *nineteen twenty by ten eighty* is common, but be able to give the full values when clarification is needed.
+
+A percentage is a fraction of one hundred. **25% = 25/100 = 0.25**. State the quantity of which it is a percentage: disk capacity, completed shots, audience responses or something else.
+
+**Percentage points** describe the direct difference between percentages. If occupancy rises from 40% to 50%, it rises by **10 percentage points**. Relative to the original 40%, the increase is **25%**, because `(50 − 40) / 40 = 0.25`. Both statements are correct; they answer different questions.
+
+Avoid *two times smaller* when it could mean either half the size or some other reduction. Prefer **half as large**, **twice as large**, **reduced by 50%**, or **reduced to 50% of its original value**. *Reduced by* and *reduced to* are not interchangeable.
+
+### What does a measurement tell us?
+
+A measurement needs a **quantity**, a **numerical value**, a **unit** and sufficient context. In **the cable is 5 m long**, length is the quantity, five the value and metre the unit. In **the recording lasts 5 s**, the identical value measures something completely different.
+
+A specification can state a nominal value, a limit or a measured result. **A 50 mm lens** is a focal-length designation; it does not mean its barrel is 50 mm long. **A 750 W power supply** is rated to supply power under specified conditions; it does not consume exactly 750 W continuously. **A 1 TB drive** gives a capacity, not a transfer rate.
+
+Distinguish **accuracy** from **precision**. Accuracy concerns closeness to the appropriate reference or true value; precision concerns agreement among repeated measurements under stated conditions. Displaying more decimal places does not automatically improve either. A value such as **2.000000 s** should not imply a measurement capability that the method does not support.
+
+| Quantity or property | Common unit or notation | How to read it |
+| --- | --- | --- |
+| Duration | ms, s, min, h | milliseconds, seconds, minutes, hours |
+| Length and focal length | mm, cm, m | millimetres, centimetres, metres |
+| Mass | g, kg | grams, kilograms |
+| Frequency | Hz, kHz, MHz | hertz, kilohertz, megahertz |
+| Voltage; current; power | V; A; W | volts; amperes or amps; watts |
+| Data capacity | B, kB, MB, GB, TB | bytes, kilobytes, megabytes, gigabytes, terabytes |
+| Data rate | bit/s, Mbit/s; MB/s | bits per second; megabits per second; megabytes per second |
+| Plane angle | ° | degrees |
+| Temperature | °C | degrees Celsius |
+| Image-sampling dimensions | 1920 × 1080 | nineteen twenty by ten eighty, or the full numbers |
+| Exposure ratio notation | f/2.8 | f two point eight |
+
+**Per** means *for each*: 25 frames per second describes a rate. If the rate remains constant for 12 seconds, the total is `25 × 12 = 300 frames`. The unit helps explain the calculation: frames per second multiplied by seconds gives frames.
+
+**Reference:** NIST, [Guide to the SI, Chapter 7](https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-7-rules-and-style-conventions-expressing-values). The later technical chapters explain the quantities specific to sound, video and cameras.
+
+### Prefixes, bits and bytes
+
+A prefix multiplies a unit. In SI, **milli-** means 10⁻³, **micro-** 10⁻⁶, **kilo-** 10³, **mega-** 10⁶ and **giga-** 10⁹. Case matters: **mW** is milliwatts; **MW** is megawatts. **ms** means milliseconds, not metres per second; that is **m/s**.
+
+A byte contains eight bits. At the same numerical rate, megabytes per second represent eight times as much data as megabits per second. An ideal payload stream of **80 Mbit/s** corresponds to **10 MB/s**, before any additional traffic or storage overhead. In speech, say *bits* or *bytes*, not merely *megs*.
+
+Decimal and binary prefixes differ. **1 GB = 1,000,000,000 B**, whereas **1 GiB = 1,073,741,824 B**. **1 kB = 1,000 B** and **1 KiB = 1,024 B**. A program's labelling practice should be checked rather than assumed. Also distinguish a manufacturer's advertised drive capacity from space available after formatting and other reservations.
+
+For a simple uncompressed audio example, 48,000 samples per second per channel × 24 bits per sample × 2 channels gives **2,304,000 bit/s**, or **288,000 B/s**. You need not yet know how the samples were produced to check the units in that multiplication. The sound chapter will explain the mechanism.
+
+**Reference:** NIST, [Prefixes for binary multiples](https://physics.nist.gov/cuu/Units/binary.html).
+
+### Spaces, symbols and compound modifiers
+
+Technical typography is part of the meaning. Use **25 mm**, **48 kHz**, **24 bit** and **20 °C** when stating quantities. Unit symbols normally do not take plural endings or a full stop: *5 kgs.* is not the SI form. Write **5 kg**. A full stop may still end the sentence after the symbol.
+
+The angle exception is **180°**, with no space before the degree symbol. Temperature is **20 °C**, with a space before °C. Celsius and Fahrenheit are different scales; specify the unit rather than writing an unexplained temperature.
+
+For compound modifiers, distinguish ordinary English from strict quantity notation. **A ten-second clip** and **a 24-bit recording** use hyphens in normal prose. SI style retains the space in **a 35 mm lens**. Spelling the unit out gives the normal English compound **a 35-millimetre lens**. Follow a consistent house style; do not automatically turn every space next to a unit into a hyphen.
+
+For a range, **5 m to 10 m** is exceptionally clear. For dimensions, **20 mm × 30 mm** states the unit of each factor. The multiplication sign **×**, the letter **x**, the hyphen **-** and a minus sign **−** are different characters. A filename or command may require the plain ASCII character; prose and typeset equations can use the appropriate typographic sign.
+
+SI-oriented formatting places a space before `%`, as in **25 %**. General English publishing frequently uses **25%**. This material uses the latter in ordinary prose and retains source-specific technical notation where necessary. Consistency and compatibility with the required format matter more than declaring one convention universally correct.
+
+### Time, dates and timecode
+
+Write calendar dates so that the month is unmistakable: **15 October 2026**. In American prose, **October 15, 2026** is normal. The numeric date **10/11/2026** is ambiguous internationally. The ISO-style date **2026-10-15** is useful for filenames and structured records when that convention is agreed.
+
+English names of days, months, languages and nationalities take capitals: **Wednesday, October, English, Slovene, Slovenian**. Slovene follows different conventions for several of these categories.
+
+Distinguish a clock time, a duration and a frame address. **16:00** can be a clock time; **00:16:00** might mean sixteen minutes in a duration format; **00:00:16:00** can be a video timecode. A timecode requires the frame rate and counting convention. Its final field generally counts frames, not hundredths of a second.
+
+At 25 fps, timecode **00:00:10:12** is ten seconds and twelve frames after zero, or **10.48 seconds**, under the simple non-drop-frame interpretation. Twelve frames are `12/25` of a second, not 0.12 seconds. The video chapter develops this further.
+
+Read **16:00** as *sixteen hundred* or *four p.m.*, depending on context. For a deadline, add the date and time zone when people work in different countries. Write **noon** or **midnight** rather than assuming every reader interprets *12 a.m.* and *12 p.m.* confidently.
+
+### Punctuation in English sentences
+
+English punctuation is not Slovene punctuation with translated words. A particularly important difference is the relationship between punctuation and subordinate clauses.
+
+> **I know that the recording is complete.**
+
+There is normally no comma before *that* in this content clause. Compare the Slovene construction *Vem, da je posnetek končan.* A mechanically transferred comma produces an unnecessary interruption in English.
+
+> **If the recorder stops, check the power connection.**  
+> **Check the power connection if the recorder stops.**
+
+The initial conditional clause normally takes a following comma. A following closely integrated conditional clause normally does not. Meaning and construction matter; the mere presence of *if* does not determine punctuation.
+
+Compare **the recorder that failed yesterday** with **the recorder, which failed yesterday,**. The first identifies which recorder; the second adds supplementary information about a recorder already identified. The comma pattern can change the intended interpretation. More examples appear in the following chapter and in *Language in context*.
+
+Use an apostrophe for appropriate possessives and contractions, not ordinary plurals: **the camera's battery**, **the cameras' batteries**, **it's recording**, but **two cameras**, **three DVDs** and **its battery**. *It's* means *it is* or *it has*; possessive *its* has no apostrophe.
+
+A semicolon can join closely related independent clauses: **The source file is intact; the export is incomplete.** A colon introduces an explanation or a list after an appropriate introductory clause: **Check three things: the file, the connection and the player.** Avoid using a comma alone to join two complete independent clauses.
+
+### Formatting a technical message
+
+Make a reader's task easy. Use a consistent heading, short paragraphs and a table only when the relationships need a table. Keep one property in each table cell. Put filenames, code, settings and literal error messages in a distinct style, for example `scene_012_take_003.wav`. Do not alter an error message to make its grammar more elegant: quote it accurately, then explain it.
+
+Compare these two notes:
+
+> The camera has 25 pictures and sound 48 and the file is 2,5 giga. It is too big.
+
+> The clip is 25 fps progressive video with 48 kHz audio. The exported file is 2.5 GB. It exceeds the upload limit of 2 GB. Please confirm whether we should use a lower video bit rate or another delivery method.
+
+The second version distinguishes a frame rate, an audio sample rate, a file size and a limit. It also requests a decision rather than merely describing frustration. The values here are a teaching example, not a universal delivery specification.
+
+Before sending a technical message, check four things: **what is being measured; whether the value is correct; whether the unit is explicit; and whether the recipient will interpret the notation as intended**.
+
+The individual practice for this chapter is collected under **Numbers and notation: N01–N12** in the exercise section.
+
+
+## 2. Common English mistakes and how to avoid them
+
+The purpose of this chapter is to make your meaning reliable, not to make you sound like somebody else. An accent is not a technical error. A different legitimate English variety is not automatically a mistake. However, an omitted subject, an unclear reference or a misplaced negative can make a production instruction mean something you did not intend.
+
+The comparisons below are especially useful when moving between Slovene and English. Many will also help speakers of other Slavic languages, but those languages do not all have identical grammar. This is a practical set of **contrastive checkpoints**, not a statistical ranking of errors made by every Slavic-speaking learner. The examples are original production situations. Sentences marked **Revise** deliberately contain a problem for the specified meaning; they are not recommended models.
+
+Begin with three questions: **Who or what is the subject? What are we saying about it? What does the listener need to identify?** Then check time, quantity, reference and the strength of the instruction.
+
+### Give an ordinary statement a clear subject
+
+Slovene often permits an unexpressed subject because the verb and context make it recoverable: *Deluje.* In an ordinary complete English statement, say **It works**, **The recorder works**, or **The connection works**, according to the intended reference.
+
+> Revise: **Is connected to the monitor.**  
+> Clear statement: **The camera is connected to the monitor.**
+
+An imperative has a different structure: **Connect the camera to the monitor.** Here the person addressed is understood. Labels, notes and dialogue also permit some ellipsis. The point is to recognise the construction, not to insert *it* into every short expression.
+
+Use **there** to introduce existence or presence: **There is a spare battery in the case.** Use **it** when referring to an identified thing: **It is fully charged.** Compare **There is a problem with the cable** and **The cable is damaged**. The first introduces a problem; the second asserts a specific diagnosis.
+
+For environmental conditions, English also uses a grammatical subject: **It is cold in the studio**, **It is getting late**. Do not translate the Slovene pattern by simply omitting *it*.
+
+### Word order: show who does what to whom
+
+A neutral English declarative clause commonly follows **subject → verb → object**:
+
+> **The editor checked the export.**
+
+Reversing the two noun phrases gives **The export checked the editor**, a different proposition, not just a different emphasis. English noun phrases usually do not carry the range of case endings that helps signal such relationships in Slovene.
+
+Use a dependable starting structure:
+
+> **We / recorded / the dialogue / in the studio / yesterday.**
+
+This does not mean that English permits only one order. **Yesterday, we recorded the dialogue in the studio** is perfectly normal. **The dialogue, we recorded yesterday; the effects are still missing** is marked but possible in an appropriate contrast. Passive voice also changes the organisation: **The dialogue was recorded yesterday.** Learn the neutral pattern before choosing a marked one.
+
+A sentence can be grammatical but make the wrong information prominent. When answering “What happened to the dialogue?”, **It was recorded again** keeps the dialogue as the starting point. When answering “Who recorded it?”, **Maja recorded it** makes the person explicit. Word order, voice and context work together.
+
+**Reference:** Cambridge English Grammar Today, [Word order and focus](https://dictionary.cambridge.org/us/grammar/british-grammar/word-order-and-focus_2), including its discussion of alternative arrangements.
+
+### Keep a verb and its short object together
+
+An adverb often belongs after the object rather than between a transitive verb and a short object.
+
+> Revise: **She explains clearly the problem.**  
+> Neutral: **She explains the problem clearly.**
+
+With frequency adverbs, a useful starting pattern is before a simple main verb, after main-verb *be*, or after the first auxiliary:
+
+> **We usually record room tone.**  
+> **The camera is usually ready.**  
+> **We have already checked the batteries.**
+
+These are useful patterns, not a ban on emphasis or other grammatical positions. In particular, **only** must be placed and stressed so that its scope is clear. **Only the editor changed the title** excludes other people. **The editor changed only the title** excludes other changes. Do not move it casually during proofreading.
+
+For several circumstances, *manner–place–time* is a useful neutral tendency, not an inflexible rule. In a production note, short separate sentences are often clearer than a long sequence of adverbs.
+
+### Direct and embedded questions use different patterns
+
+In many direct questions, an auxiliary comes before the subject:
+
+> **Where is the recorder?**  
+> **Does the recorder work?**  
+> **Why did the export fail?**
+
+In a question embedded within another clause, retain ordinary subject–verb order:
+
+> **Could you tell me where the recorder is?**  
+> **I need to know whether the recorder works.**  
+> **Please explain why the export failed.**
+
+Revise **Could you tell me where is the recorder?** The outer clause already supplies the question construction. Do not build another direct question inside it. A sentence such as **I wonder where the recorder is** is a statement and normally ends with a full stop.
+
+When *who* is itself the subject, no ordinary *do*-inversion is needed: **Who changed the settings?** Compare **Who did you ask?**, where *you* is the subject and *who* the object.
+
+After *does* or *did*, use the base form of the main verb: **Does it work?**, **Did she send it?**, not *does it works* or *did she sent it*. The auxiliary carries the relevant tense or agreement.
+
+**Reference:** British Council, [Reported speech: questions](https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/reported-speech-questions). The same absence of embedded question inversion is useful in polite requests for information.
+
+### Articles: identify the thing, not just the noun
+
+English **a/an** and **the** express distinctions that Slovene does not routinely mark with an equivalent article system. Ask whether the noun is singular and countable, and whether the listener can identify the intended referent.
+
+> **We need a microphone.** — a suitable one; no particular microphone has been identified.  
+> **We need the microphone from the interview.** — a specific one identified by the description.  
+> **Microphones convert sound into electrical signals.** — a general statement about the class.
+
+A singular count noun normally needs a determiner: **a camera**, **the camera**, **this camera**, **my camera**. Revise **I bought camera** to **I bought a camera** for an ordinary first mention. Do not combine incompatible determiners as *the my camera*.
+
+Choose **a/an by the following sound**, not merely the letter: **an editor**, **an hour**, **a university**, **a USB cable**, **an SD card** when *SD* is spoken as letter names. The written abbreviation does not exempt the phrase from its spoken form.
+
+The familiar rule “use *the* on second mention” is only a starting point. You can use *the* on first mention when the context identifies the thing: **Please close the door** in a room with one relevant door. Conversely, a repeated noun can refer to a new item: **We hired a camera yesterday and another camera today**.
+
+Names and established expressions need checking individually. Say **at AGRFT**, but **at the University of Ljubljana**. Do not attach or remove an article from every institution according to one superficial rule.
+
+### Countable and uncountable meanings
+
+A physical object may be countable even when its general category is expressed by an uncountable noun. English **equipment** is normally uncountable: **The equipment is ready**, **some equipment**, **three pieces of equipment**. For an exact inventory, **three microphones** is better than the vaguer last expression.
+
+Useful contrasts are **information / a fact**, **advice / a suggestion**, **footage / a clip**, **research / a study**, and **work / a job**. Do not form routine plurals such as *informations*, *advices* or *equipments* for these meanings. Say **two useful suggestions**, **several clips**, or **three research projects**.
+
+Countability can change with meaning. **Glass** can mean a material; **a glass** a drinking vessel. **Film** can mean a medium or stock; **a film** a work. **Light** can mean illumination; **three lights** can mean three lighting units. Identify the intended sense before applying a memorised rule.
+
+**References:** British Council, [Uncount nouns](https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/uncount-nouns) and [Common problems with count and uncount nouns](https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/common-problems-count-uncount-nouns).
+
+### Agreement: find the head of the subject
+
+The nearest noun is not necessarily the subject's head.
+
+> **The list of missing clips is on the desk.**  
+> **The missing clips are on the list.**
+
+In the first example, *list* determines singular agreement; *clips* is inside a modifying phrase. Also compare **Each camera has a battery** and **Both cameras have batteries**. A Slovene dual form does not transfer into an English dual verb paradigm.
+
+**One of the cameras is faulty** has a singular head, *one*. **The equipment is faulty** is also singular. Avoid judging number from a final letter alone: **The news is encouraging**.
+
+Collective nouns such as *crew* allow variation, particularly between English varieties and between unit and member readings. **The crew is ready** presents a unit; British English can also use **The crew are ready**. For clarity in an international technical instruction, name the relevant people when necessary: **All crew members have received the update**.
+
+### Time and aspect: do not translate tense labels mechanically
+
+**We record interviews every week** describes a regular practice. **We are recording an interview now** describes an activity in progress. **The recorder contains a memory card** describes a state; *is containing* is not the ordinary choice for that meaning.
+
+Compare:
+
+> **I sent the file yesterday.** — a completed event at a specified finished time.  
+> **I have sent the file.** — a completed event presented as relevant to the present situation.  
+> **I have been editing since Monday.** — an activity extending from Monday towards now.
+
+Revise **I have sent it yesterday** in the ordinary intended meaning to **I sent it yesterday**. Revise **I work on this film since Monday** to **I have been working on this film since Monday** when the work continues. *Since* gives a starting point; *for* gives a duration: **since Monday**, **for three days**.
+
+Slovene perfective and imperfective verbs do not map one-to-one onto English simple and progressive forms. Explain the event's timing and viewpoint before selecting a form. In reported accounts, also distinguish **The camera stopped while we were recording** from **The camera had stopped before we began recording**.
+
+The later *Language in context* chapter provides more practice with tense, aspect and professional reporting. These opening examples establish the distinctions needed to read the technical chapters.
+
+### Negatives, conditions and the force of instructions
+
+In standard professional English, use **I did not record anything** or **I recorded nothing**, not ordinary negative concord *I did not record nothing* for the same intended meaning. Negative concord belongs to some English varieties and deliberate dialogue; this course's neutral professional writing uses the first two patterns.
+
+Two particularly consequential expressions are:
+
+> **You must not disconnect the drive.** — prohibition.  
+> **You do not have to disconnect the drive.** — absence of a requirement.
+
+The second does not prohibit disconnection. Likewise, **should** normally expresses advice or expectation rather than the same obligation as **must**. A safety instruction must not become optional merely because a writer wants to sound polite.
+
+For an ordinary future condition, use **If the export finishes tonight, I will upload it tomorrow**. Do not routinely insert *will* into the conditional clause. Other uses of *will*, including willingness, exist; the rule concerns this ordinary prediction pattern.
+
+Distinguish **unless** from *if*: **Do not begin unless the lecturer has confirmed the setup** means that confirmation is a necessary condition for beginning. It does not mean that confirmation alone guarantees every other condition is safe.
+
+### Prepositions and the patterns that verbs require
+
+English verbs select particular constructions. Translating a preposition word for word often produces a phrase that is understandable but awkward or misleading.
+
+| Revise for the intended meaning | Use | What to notice |
+| --- | --- | --- |
+| explain me the problem | explain the problem to me | *explain* does not normally take the same double-object pattern as *give* |
+| discuss about the scene | discuss the scene | no *about* after *discuss* in this pattern |
+| listen the recording | listen to the recording | *listen to*, but *hear the recording* |
+| depend from the setting | depend on the setting | the conventional preposition is *on* |
+| responsible of sound | responsible for sound | *responsible for* a task |
+| arrive to the studio | arrive at the studio | *arrive at* a building; *arrive in* a city |
+| in Monday | on Monday | days use *on*; clock times generally use *at* |
+| until Friday, meaning a latest completion time | by Friday | *by* gives a deadline; *until* describes continuation to a boundary |
+
+Learn useful units such as **connect A to B**, **replace A with B**, **convert A into B**, **prevent A from happening**, **ask someone to do something**, and **suggest doing something**. They help you explain the technical transformations in this book.
+
+Particle verbs also require care: **Turn the recorder off / Turn off the recorder**, but **Turn it off**, not *Turn off it*. *Plug it in* and *back it up* follow the same pronoun placement pattern in these uses.
+
+### Adjectives, adverbs and the noun phrase
+
+Use **a sensitive microphone**, not *a sensible microphone*, to refer to sensitivity. Use **the microphone works well**, not *works good*, in neutral professional prose. An adjective describes a noun or a state after a linking verb; an adverb can describe an action: **The picture looks good**, but **The operator framed the shot carefully**.
+
+Distinguish **bored/boring**, **interested/interesting** and **confused/confusing**. **The explanation is confusing** attributes an effect to the explanation. **I am confused by the explanation** describes your response. *I am boring* does not mean *dolgčas mi je*.
+
+English adjectives normally precede the noun: **a damaged cable**, **an analogue recorder**, **two spare batteries**. A noun used as a modifier is also common: **a camera battery**, **a recording level**, **a signal path**. Do not assume that every pair of nouns requires an apostrophe. The relationship can be classificatory rather than possessive.
+
+Long noun strings can hide relationships. **Camera battery charging station maintenance instructions** is harder to read than **instructions for maintaining the camera-battery charging station**. In a safety-critical explanation, a short clause can be better still.
+
+### Words that look familiar but do different work
+
+Use the following as contrasts, not as a one-word translation dictionary. The right choice depends on the intended sense.
+
+| English expression | Intended meaning | Contrast worth checking |
+| --- | --- | --- |
+| actual; actually | real; in fact | *aktualen* often needs *current* or *topical* |
+| current | belonging to the present time | current version = sedanja/aktualna različica |
+| eventually | in the end, after time or difficulty | *eventualno* meaning possibly needs *possibly* or *perhaps* |
+| sensible | reasonable, showing good judgement | *sensitive* concerns susceptibility or responsiveness |
+| control | regulate, govern or operate | *kontrolirati* may instead mean *check*, *inspect* or *monitor* |
+| realise | become aware of; sometimes achieve | for carrying out a plan, *carry out*, *implement* or *produce* may be more precise |
+| evidence | material supporting a claim | *evidenca* may mean a *record*, *register* or *log* |
+| sympathetic | understanding another person's feelings | *simpatičen* may need *likeable*, *pleasant* or *charming* |
+| possibly | perhaps; it may be possible | not the same as *eventually* |
+| take; record; shoot | distinct recording actions in context | say *take a photograph*, *record sound*, *shoot a scene* |
+
+The word **camera** covers both still and moving-image equipment in English. Specify **still camera**, **film camera**, **video camera** or **digital cinema camera** when the distinction matters. In a filmmaking context, *film camera* may mean a camera using photographic film, not just any camera used to make a film.
+
+**Actually, the file is ready** often corrects an assumption. It is not a neutral substitute for **At present, the file is ready**. **We eventually found the fault** means that the fault was found after some process or delay, not that finding it is merely a possibility.
+
+### Reference, articles and commas can change a technical instruction
+
+Compare:
+
+> **The cameras that have charged batteries are ready.**  
+> **The cameras, which have charged batteries, are ready.**
+
+The first identifies a subset by its batteries. The second supplies supplementary information about the already identified cameras. Do not remove or add commas without checking whether the claim about the whole set is intended.
+
+In **The operator told the editor that she had replaced the card**, *she* may be unclear. Repeating the relevant role is better than leaving responsibility ambiguous: **The operator told the editor, “I have replaced the card.”** Alternatively, rewrite the report to identify who acted without changing its meaning.
+
+Avoid separating a subject from its predicate with a comma just because the subject is long: **The memory card containing yesterday's interviews is in the case.** An inserted supplementary phrase needs paired punctuation, but a long subject alone does not.
+
+### A worked revision of a production email
+
+The following message deliberately combines several problems:
+
+> Dear all,  
+> Yesterday I have checked the equipments. Is missing one cable and I don't know where is the adapter. Please explain me, if we must to order new one. I wait your answer since Monday. We need it until Friday.  
+> Best, Maja
+
+For the intended meaning—yesterday's check, a missing adapter, an unanswered earlier request and a Friday deadline—write:
+
+> Dear all,  
+> I checked the equipment yesterday. One cable is missing, and I do not know where the adapter is. Could you confirm whether we need to order a replacement adapter? I have been waiting for a reply to Monday's request. We need the replacement by Friday.  
+> Best, Maja
+
+**Checked** fits the finished time *yesterday*. **Equipment** is uncountable. **One cable is missing** has a clear subject. **Where the adapter is** has embedded question order. **Need to order** avoids *must to*. **A replacement adapter** makes the object explicit rather than leaving *new one* underspecified. **Have been waiting** connects the earlier request to the present. **By Friday** expresses the latest required arrival time.
+
+The revision also reveals a factual question: does the sender need a replacement adapter, a cable, or both? A proofreader should query that ambiguity rather than invent a purchase. Language correction must preserve the production facts.
+
+### Pronunciation: make the distinction audible
+
+Knowing the right word includes recognising it when somebody else says it and being able to say it clearly yourself. On a set, *thirteen* and *thirty*, *code* and *coat*, or *live* and *leave* can be different instructions. Pronunciation therefore belongs beside grammar and terminology, not in a competition to sound like a particular nationality.
+
+The priorities below are practical checkpoints for learners of English, with particular attention to Slovene and some other Slavic-language backgrounds. **Slavic languages do not have one shared sound system.** A contrast that troubles one learner may be easy for another. Even within Slovene, dialect, previous learning and experience with English matter. These are useful targets to check, not a frequency-ranked list or a diagnosis based on someone's first language.
+
+Research specifically on Slovene learners supports comparing the two sound systems, but also warns against predicting every difficulty from that comparison alone. See Šuštaršič's [contrastive study](https://www.internationalphoneticassociation.org/icphs-proceedings/ICPhS1999/p14_0763.html) and Stopar's [study of English-vowel perception](https://hrcak.srce.hr/231459). The explanations and production-related drills below are original course material, added to the book-based language chapters; they are not reproduced exercises from *Cambridge English for the Media*.
+
+#### Read the pronunciation, not just the spelling
+
+A **phoneme** is a sound category that can distinguish words in a language. A **minimal pair** contains two words differing in one phoneme: *ship* and *sheep*, for example. A **syllable** is a spoken unit organised around a syllabic centre, usually a vowel. Letters, phonemes and syllables are different things: *shot* has four letters, three phonemes in the model used here, and one syllable.
+
+Slashes enclose a broad pronunciation model: **/ʃɒt/**. The sign **/ˈ/** comes immediately before the primarily stressed syllable; **/ˌ/** marks secondary stress. **/ː/** is a length mark within the transcription system, not an instruction to hold a vowel for a fixed number of milliseconds. **/ə/** is schwa, a weak central vowel. The **/j/** in *yes* is a consonant like Slovene *j*, not the first sound of English *job*. English **/ʃ, ʒ, tʃ, dʒ/** are approximately the sound categories represented by Slovene *š, ž, č, dž*, although their exact realisation need not be identical.
+
+Unless labelled otherwise, the transcriptions here use a conventional broad British-English dictionary model. They are learning aids, not a narrow transcription of every speaker. General American and other established varieties can differ in vowels, /r/, stress or individual words without being wrong. British *go* /ɡəʊ/ and American /ɡoʊ/, for example, are both appropriate models. Choose a dictionary recording for the word and meaning you need, and compare your production with that recording. Do not invent a pronunciation by reading an English word according to Slovene spelling rules.
+
+#### Vowels: a different sound, not simply a longer one
+
+For many learners, the difficulty is hearing a distinction before it is producing it. A familiar first-language vowel can seem to cover two English categories. Listen to contrasting words, then compare the tongue and jaw positions as well as their duration. **Length alone is not a reliable explanation of the English vowel system.** The following broad contrasts are useful starting points, with actual pronunciation depending on accent and context.
+
+| Contrast | Words to compare | What to attend to |
+| --- | --- | --- |
+| /ɪ/ and /iː/ | *ship–sheep; fill–feel; bit–beat; pitch–peach* | The vowels differ in quality as well as typical duration. Simply stretching the vowel of *ship* does not reliably produce *sheep*. |
+| /e/ and /æ/ | *pen–pan; bed–bad; said–sad* | In this model, /æ/ has a more open jaw and lower tongue position than /e/. Keep *a bad edit* distinct from *a bed edit* even though context may make one unlikely. |
+| /æ/ and /ʌ/ | *cap–cup; track–truck; bag–bug* | Both are relatively open, but the tongue position differs. Do not collapse them into one Slovene *a*-like category. |
+| /ʊ/ and /uː/ | *full–fool; pull–pool* | Compare the quality and movement of the vowel, not just lip rounding or duration. The exact position of /uː/ varies considerably across English accents. |
+| /ɒ/ and /əʊ/ in the British model | *not–note; cod–code* | /əʊ/ involves a glide. American models use different vowel realisations for these sets; preserve the contrast rather than copying one IPA symbol across accents. |
+| Common diphthongs | *frame* /eɪ/; *white* /aɪ/; *sound* /aʊ/; *noise* /ɔɪ/ | Let the vowel move within one syllable. A diphthong is not two separately counted syllables. |
+
+A useful progression is **word → contrasting word → phrase → ordinary explanation**: *fill–feel; fill the frame; feel the vibration; explain what the camera records*. In *live transmission*, *live* has /aɪ/; the verb in *I live in Ljubljana* has /ɪ/. They share spelling, not pronunciation. The verb *leave* has /iː/. Check meaning before deciding how a written word should sound.
+
+Stopar's [2019 experiment](https://hrcak.srce.hr/231459) is the source for the Slovene-specific discussion of vowel perception. The table is a teaching selection of contrasts, not a claim that all participants or all Slavic speakers confuse every pair.
+
+#### /w/ and /v/: watch the lips and teeth
+
+For English **/v/**, the upper teeth approach the lower lip and the escaping air produces friction, normally with voicing. For **/w/**, round the lips and move smoothly into the following vowel without using that teeth–lip friction. The back of the tongue also participates in /w/; it is not merely an unusually short /v/.
+
+Practise **west–vest, wine–vine, wet–vet**. Then use **white balance, wide shot, waveform, viewfinder, video, voice-over**. In **a wide view**, the first word begins with /w/ and the second with /v/. In **a very wide view**, all three consonant positions need attention.
+
+Do not say that Slovene speakers have never produced a [w]-like sound. Slovene *v* has different realisations in different environments. The English task is to make the /w/–/v/ distinction where it separates English words and to avoid overcorrecting every *v* into /w/. Metruk's [study of Slovak learners](https://jle.hse.ru/en/article/view/7384) documents substitutions in both directions; that Slovak finding is not automatically a measurement of the present Slovene class.
+
+#### The two “th” sounds: /θ/ and /ð/
+
+In **think, three, thin, both**, *th* represents **/θ/**. In **this, that, these, other**, it represents **/ð/**. For both, bring the tongue tip lightly to the upper teeth or just between the teeth and let air continue through the narrow opening. Do not close the airflow completely as for /t/ or /d/. In /ð/, add voicing; in /θ/, there is no voiced buzz. There is no need to push the tongue far out or bite it.
+
+Compare **thin–tin, three–tree, thought–taught** and **then–den, they–day, breathe–breed**. These comparisons identify specific contrasts; they do not imply that every regional English substitution is a learner error. For our practice model, keep *three takes* distinct from *tree takes* and keep the final sound audible in *both*.
+
+Spelling still needs checking. **Breath** /breθ/ is a noun; **breathe** /briːð/ is a verb, so both the vowel and final consonant differ. **Thomas** begins with /t/, despite its spelling. Use the dictionary's entries for [three](https://dictionary.cambridge.org/pronunciation/english/three), [this](https://dictionary.cambridge.org/pronunciation/english/this), [breath](https://dictionary.cambridge.org/pronunciation/english/breath) and [breathe](https://dictionary.cambridge.org/pronunciation/english/breathe) to hear the models.
+
+#### Word endings: keep the contrast, not an exaggerated buzz
+
+In Slovene and several other Slavic languages, word-final obstruents can be devoiced. English word-final contrasts require different treatment. Compare **cap–cab, coat–code, back–bag, safe–save, ice–eyes**. A word ending written with *d* or *g* should not automatically be treated as its *t* or *k* counterpart.
+
+However, English final “voiced” consonants are not necessarily voiced throughout. The preceding vowel's duration and other cues help distinguish the words; final stop releases can also be weak or absent. The goal is **a recoverable word contrast**, not a forced vocal buzz or an added vowel after every consonant. Compare a dictionary recording of *code* with *coat*, and listen to the entire syllable. Do not produce *code-uh* to make the ending obvious. Šuštaršič's [contrastive account](https://www.internationalphoneticassociation.org/icphs-proceedings/ICPhS1999/p14_0763.html) discusses why the English fortis–lenis contrast cannot be reduced to the Slovene voicing pattern.
+
+Consonant clusters also carry information: **script, scripts, text, texts, next take, first frame, asked, mixed**. Many Slavic languages already allow substantial clusters, so the existence of several adjacent consonants is not itself a Slavic-specific difficulty. Check the unfamiliar English combinations and the endings that mark grammar. Build *scripts* from *script + s*, then put it in a phrase: **three scripts**. Do not add a syllable between /p/, /t/ and /s/.
+
+In fast speech, speakers may simplify clusters. Practise a careful form first, but do not require an artificial explosion of every stop in ordinary speech. A listener must still be able to distinguish **one script** from **three scripts** and **we mix** from **we mixed**. See the British Council's [cluster explanation and listening examples](https://africa.teachingenglish.org.uk/classroom/pronunciation/consonant-clusters).
+
+#### Small endings that carry grammar: -s and -ed
+
+The pronunciation of these endings depends primarily on the **last sound of the base**, not its last letter. The tables describe regular grammatical endings; individual lexical adjectives and irregular forms need separate checking.
+
+| Regular -s/-es ending | Environment | Production vocabulary |
+| --- | --- | --- |
+| /s/ | After a voiceless non-sibilant consonant | *clips, tracks, takes* |
+| /z/ | After a vowel or a voiced non-sibilant consonant | *cameras, files, frames* |
+| /ɪz/ | After a sibilant: /s, z, ʃ, ʒ, tʃ, dʒ/ | *lenses, mixes, changes* |
+
+Thus **lenses** belongs in the third group because the singular **lens** ends in /z/. The written ending alone cannot decide the answer. In the second row, *cameras, files* and *frames* do not gain a syllable. The vowel in the extra syllable of /ɪz/ can vary in actual speech; /ɪz/ is the broad teaching notation used here.
+
+| Regular -ed ending | Environment | Production vocabulary |
+| --- | --- | --- |
+| /t/ | After a voiceless consonant other than /t/ | *checked, mixed, stopped, watched* |
+| /d/ | After a vowel or voiced consonant other than /d/ | *filmed, played, moved, saved* |
+| /ɪd/ | After /t/ or /d/; adds a syllable | *edited, recorded, wanted, needed* |
+
+**Filmed** remains one syllable in this model; **edited** has three. Do not pronounce every *-ed* as a separate *ed*, and do not remove the ending merely because the cluster is unfamiliar. In **We checked the files**, the ending supplies grammatical information. For lexical exceptions, compare *a learned scholar* with *she learned the procedure*: the same letters do not guarantee the same spoken form. Dictionary audio for [filmed](https://dictionary.cambridge.org/dictionary/english/film), [edited](https://dictionary.cambridge.org/dictionary/english/edit) and [learned](https://dictionary.cambridge.org/dictionary/english/learned) provides useful checks.
+
+#### /h/, /r/, /ŋ/ and aspiration
+
+**English /h/** in *head, hand, headphone, ahead* is a breathy onset, not the strong back-of-the-mouth friction of a Slovene *h*-like /x/. Keep the difference between **heat** and **eat** when the word requires /h/. Conversely, **hour, honest** and **honour** have no initial /h/ in the common dictionary models. An article follows the next sound: **a headphone**, but **an hour**.
+
+For a common English **/r/** model, the tongue approaches a constriction without tapping or repeatedly striking the roof of the mouth. A Slovene tap or trill may make an accent audible without making the word unintelligible; it is not the first thing to repair when the actual problem is a missing word or wrong number. Practise **record, room, reel, red** in a chosen model. General American is typically rhotic: the post-vocalic /r/ in *card* and *recorder* is pronounced; in many non-rhotic British models, post-vocalic /r/ is absent before a consonant or pause. Do not add or remove /r/ mechanically across accents.
+
+In **sing, recording, lighting**, the final **/ŋ/** uses a closure at the back of the mouth with air passing through the nose. Do not automatically add /ɡ/ after it. **Singer** normally has /ŋ/ without /ɡ/ in the common models; **finger** normally has /ŋɡ/. Treat the word, not the spelling *ng*, as the unit to check.
+
+At the beginning of a stressed syllable, **/p, t, k/** in common English models are usually accompanied by aspiration, a brief interval of breath before voicing starts: **take, camera, paper**. After /s/ in **stop, scan, speaker**, they are generally not aspirated in the same way. Compare **pin–spin** and **top–stop**. Aspiration is not a separately added /h/ syllable. These are optional refinement targets after important word contrasts, stress and endings are clear. Šuštaršič's [English–Slovene comparison](https://www.internationalphoneticassociation.org/icphs-proceedings/ICPhS1999/p14_0763.html) supplies the contrastive background.
+
+#### Stress and weak syllables: do not give every vowel equal weight
+
+**Word stress** makes one syllable more prominent than others. It involves a combination of duration, vowel quality, pitch and intensity, not simply shouting. Capital letters in the following **stress guides** identify the stressed part; these guides are not phonetic transcriptions or exact syllabification rules.
+
+| Word or contrast | Stress guide | What changes? |
+| --- | --- | --- |
+| *computer; equipment* | com-PU-ter; e-QUIP-ment | The first syllable is not the main stress. |
+| *camera; microphone; monitor* | CAM-era; MI-cro-phone; MON-i-tor | The first syllable is prominent. |
+| *a record / to record* | RE-cord / re-CORD | Noun and verb differ in their usual stress. |
+| *a project / to project* | PRO-ject / pro-JECT | The noun naming a project differs from the verb meaning to project an image. |
+| *photograph / photography / photographic* | PHO-to-graph / pho-TOG-ra-phy / pho-to-GRAPH-ic | Related words do not necessarily retain the same stress. |
+| *cinematography* | cin-e-ma-TOG-ra-phy | Do not transfer the stress pattern of a familiar Slovene technical word. |
+| *technician; production; resolution* | tech-NI-cian; pro-DUC-tion; res-o-LU-tion | Learn the entire spoken word, not a universal rule about an ending. |
+
+Compare **We need a record of the sound** with **We need to record the sound**. Not every noun–verb pair shifts stress: *film* and *edit* do not follow the *record* pattern. A dictionary is more reliable than extrapolating from one example. See the British Council on [word stress](https://www.teachingenglish.org.uk/professional-development/teachers/knowing-subject/word-stress) and Cambridge on [photography](https://dictionary.cambridge.org/pronunciation/english/photography) and [cinematography](https://dictionary.cambridge.org/us/pronunciation/english/cinematography).
+
+An unstressed vowel may be **schwa /ə/**, as at the beginning of **about** /əˈbaʊt/ and **computer** /kəmˈpjuːtə/ in a non-rhotic British model. Slovene has schwa too; what needs learning is its English distribution and relationship to stress. Do not pronounce every written vowel fully, but do not replace every unstressed vowel with schwa either. In **video** /ˈvɪdiəʊ/, the second vowel is not automatically /ə/. Listen to the actual word.
+
+In connected speech, common grammatical words can have **weak forms**: *can* /kən/, *to* /tə/, *a* /ə/, and *and* /ən/ in suitable unstressed contexts. Compare an unstressed *can* in **We can record it** with the stressed reply **Yes, we CAN**. Weak forms are especially important for listening. In your own speech, retain clarity rather than trying to erase as many sounds as possible. English rhythm is not a metronome: stress intervals are not all exactly equal. See the British Council's explanations of [schwa](https://www.teachingenglish.org.uk/professional-development/teachers/teaching-knowledge-database/q-s/schwa) and [weak forms](https://www.teachingenglish.org.uk/professional-development/teachers/teaching-knowledge-database/t-w/weak-forms).
+
+#### Sentence emphasis, pauses and numbers
+
+Stress can identify the information being corrected:
+
+> **Move the BLUE light.** — Not the red light.  
+> **MOVE the blue light.** — Do not switch it off; change its position.  
+> **Move the blue LIGHT.** — Not the blue reflector.
+
+Practise the change in meaning, not merely the increase in volume. Use short thought groups: **After the interview / save the original files / and label the copy.** The slashes indicate useful spoken boundaries, not punctuation that must appear in the written instruction. A pause can help a listener understand which action or limitation belongs to which clause.
+
+Do not claim that every question must rise in pitch or every statement must fall. Intonation depends on the kind of question, the intended attitude, the speaker and the variety of English. Ask a genuine clarification question rather than imitating an exaggerated “question voice”.
+
+For critical information, clarity takes priority over reduction. In **Do NOT format the card**, keep the negative explicit; on a poor connection, **Do not** may be safer than an easily missed contraction. For **thirteen/thirty, fourteen/forty, fifteen/fifty**, retain the different ending and confirm digits when needed: **“Thirteen. One three.”** Stress may shift before another stressed word, so the rule is not simply “-teen always has final stress”. This connects with the number-reading and read-back examples in Chapter 1.
+
+#### A pronunciation word bank for film and television
+
+Read the phrase after the isolated word. The entries below use broad British models; /r/ in parentheses marks the familiar dictionary convention for linking /r/ in non-rhotic speech, not an extra syllable. Other established pronunciations are acceptable. Each linked word opens a dictionary pronunciation page with model audio; the recordings are linked, not bundled in this file.
+
+| Word | Broad model | Phrase for practice |
+| --- | --- | --- |
+| [video](https://dictionary.cambridge.org/pronunciation/english/video) | /ˈvɪdiəʊ/ | a video interview |
+| [audio](https://dictionary.cambridge.org/pronunciation/english/audio) | /ˈɔːdiəʊ/ | the original audio |
+| [camera](https://dictionary.cambridge.org/pronunciation/english/camera) | /ˈkæmərə/ | camera three |
+| [computer](https://dictionary.cambridge.org/pronunciation/english/computer) | /kəmˈpjuːtə(r)/ | the editing computer |
+| [microphone](https://dictionary.cambridge.org/pronunciation/english/microphone) | /ˈmaɪkrəfəʊn/ | a microphone cable |
+| [equipment](https://dictionary.cambridge.org/pronunciation/english/equipment) | /ɪˈkwɪpmənt/ | check the equipment |
+| [aperture](https://dictionary.cambridge.org/pronunciation/english/aperture) | /ˈæpətʃə(r)/ | a wider aperture |
+| [exposure](https://dictionary.cambridge.org/pronunciation/english/exposure) | /ɪkˈspəʊʒə(r)/ | correct the exposure |
+| [focus](https://dictionary.cambridge.org/pronunciation/english/focus) | /ˈfəʊkəs/ | pull focus |
+| [lens](https://dictionary.cambridge.org/pronunciation/english/lens) | /lenz/ | clean lenses |
+| [frame](https://dictionary.cambridge.org/pronunciation/english/frame) | /freɪm/ | the first frame |
+| [scene](https://dictionary.cambridge.org/pronunciation/english/scene) | /siːn/ | the final scene |
+| [sequence](https://dictionary.cambridge.org/pronunciation/english/sequence) | /ˈsiːkwəns/ | an opening sequence |
+| [dialogue](https://dictionary.cambridge.org/pronunciation/english/dialogue) | /ˈdaɪəlɒɡ/ | intelligible dialogue |
+| [analogue](https://dictionary.cambridge.org/pronunciation/english/analogue) | /ˈænəlɒɡ/ | an analogue recording |
+| [digital](https://dictionary.cambridge.org/pronunciation/english/digital) | /ˈdɪdʒɪtəl/ | a digital signal |
+| [acetone](https://dictionary.cambridge.org/pronunciation/english/acetone) | /ˈæsətəʊn/ | the word acetone |
+| [diaphragm](https://dictionary.cambridge.org/pronunciation/english/diaphragm) | /ˈdaɪəfræm/ | a microphone diaphragm |
+| [technique](https://dictionary.cambridge.org/pronunciation/english/technique) | /tekˈniːk/ | an editing technique |
+| [photography](https://dictionary.cambridge.org/pronunciation/english/photography) | /fəˈtɒɡrəfi/ | a director of photography |
+| [cinematography](https://dictionary.cambridge.org/us/pronunciation/english/cinematography) | /ˌsɪnəməˈtɒɡrəfi/ | the film's cinematography |
+| [resolution](https://dictionary.cambridge.org/pronunciation/english/resolution) | /ˌrezəˈluːʃən/ | image resolution |
+
+The spelling of **scene** does not contain a spoken /k/; **diaphragm** has no separately pronounced /ɡ/ in the model above. The final letters *-gue* in **dialogue** and **analogue** do not supply an extra vowel syllable. **Acetone** has initial stress and /s/, not the Slovene pronunciation of *aceton*. Knowing the word's pronunciation does not authorise a chemical-handling procedure; the materials and safety distinctions in the video chapter still apply.
+
+#### Tongue twisters: accuracy before speed
+
+The following **twelve original classroom tongue twisters and articulation drills** use our course vocabulary. Some are deliberately repetitive. They are not authentic instructions or recommended technical procedures. Work individually: hear the lecturer's model, identify the target, say the line slowly, and repeat at a comfortable speaking pace. A recording can help you compare attempts. Stop speeding up when distinctions disappear. Being able to race through a tongue twister is not evidence that an ordinary explanation is clear.
+
+| No. | Target | Say this |
+| --- | --- | --- |
+| T01 | /w/ and /v/ | **Vera views a very wide view while Will waves a white wire.** |
+| T02 | /θ/ | **Three thin threads run through three thick theatre curtains.** |
+| T03 | /ð/ and /d/ | **Those directors read those other directors' notes.** |
+| T04 | /s/ and /ʃ/ | **Six sound assistants check six short shots.** |
+| T05 | /ɪ/ and /iː/ | **The ship slips past the sheep; the sheep keep still.** |
+| T06 | /æ/ and /ʌ/ | **Pack the black camera bag; pick up the cup by the truck.** |
+| T07 | /r/ and /l/, in the chosen model | **Rory rolls the reel while Lily labels the little roll.** |
+| T08 | Final clusters and grammatical endings | **Six script editors checked six scripts and mixed six tracks.** |
+| T09 | Regular -ed endings | **We checked, filmed and edited; we stopped, moved and recorded.** |
+| T10 | Stress-changing noun and verb | **Record the record; project the project; object to the object.** |
+| T11 | /h/ and vowel-initial words | **Harry holds his headphones here for half an hour.** |
+| T12 | /ŋ/ and /ŋɡ/ | **The singer keeps singing while a finger taps the ringing bell.** |
+
+T10 is intentionally an articulation puzzle: *project the project* is not offered as the preferred wording for asking somebody to screen a film. Use the noun–verb pairs to hear the stress difference, then say a normal sentence such as **Please project the final sequence**.
+
+For transfer to useful speech, finish each drill by explaining one real thing: what the viewfinder does, why a take was rejected, or which recording must be kept. Retain the target sounds without making the whole explanation sound like an exercise. The assessed aim is comprehensibility and control, not speed or the disappearance of your accent.
+
+#### A short individual practice routine
+
+Choose **one contrast or stress pattern**, not every issue at once. Listen to the lecturer or linked dictionary recording. Say two contrasting words, then a short phrase. Record one ordinary production sentence. Listen for the chosen feature and check that the message remains clear. Repeat once after making a specific adjustment.
+
+A useful note is **“I keep turning /w/ into /v/ at the start of *wide*”**, followed by the word, a model and a later recording. **“My English pronunciation is bad”** is not a workable diagnosis. Speech recognition can provide an extra observation, but its transcription is not a reliable pronunciation score: it may guess a word from context or reject a perfectly intelligible accent.
+
+The independent tasks **P01–P12**, including a lecturer-read listening script, technical words, endings, stress, read-back and tongue-twister practice, are collected after G01–G12 in the final exercise section. No pair or group task is required.
+
+### A short self-editing routine
+
+Read once for the intended action and once for language. Underline the subject and verb of each complete statement. Check whether each singular count noun has an appropriate determiner. Check reference: can the reader identify *it*, *this*, *they* and *the other one*? Then inspect time expressions, negatives, numbers and units.
+
+Finally, read the message aloud. A sentence that you cannot explain confidently may be more elaborate than you need. Prefer an accurate short explanation to impressive wording that obscures who should do what.
+
+The individual practice for this chapter is collected under **English checkpoints: G01–G12** and **Pronunciation checkpoints: P01–P12**. Later chapters revisit these patterns in longer professional texts; that repetition is intentional.
+
+
+## 3. How computers work, deep down
+
+### Start with pressing a key
+
+You press a key and a letter appears on a screen. The keyboard reports an event, the running program interprets it, and the display system changes the picture. Several parts do different jobs. A **processor** carries out instructions. **Memory** keeps the information those instructions need at that moment. **Storage** keeps saved information for later. Connections move information between parts, and the power supply makes the electrical work possible.
+
+A computer can edit a film because the film's recorded information has a representation on which instructions can operate. Trimming a clip may initially change an edit decision rather than erase the original pictures. Increasing audio gain changes numerical values in a processing path. Exporting requires the machine to produce an output according to the chosen instructions and format. Those are related tasks, but they are not the same operation.
+
+While looking into the opened case, begin with function rather than specifications: **this part supplies power; this part retains working data; this part stores files; this part processes values; this part moves heat**. Then ask how it accomplishes that function. The details below follow those questions from familiar equipment into the circuits inside it. You do not need to understand every circuit before learning to identify and describe the visible parts.
+
+### From the overview to the mechanism
 
 A computer does not begin with an app. It begins with physical devices whose electrical states can be controlled and distinguished. Circuits use those states to represent bits; other circuits combine bits, retain them and move them. Instructions determine which operations happen. A video editor eventually presents the result as pictures, waveforms, buttons and a timeline.
 
@@ -127,6 +768,8 @@ Compare that with “This is the memory.” The longer explanation identifies th
 
 ### Power, signals and heat
 
+Think of a powered computer as having two overlapping needs. It needs **energy** to operate, and its circuits need **signals** whose changing values represent information. A cable can carry one or both, depending on its design. A fan running proves that some power is present; it does not prove that the processor has successfully booted. Heat is an effect of energy use, not the information that the machine is trying to compute.
+
 **Voltage** is an electrical potential difference, measured in volts. **Current** is the rate of charge flow, measured in amperes. **Power** is the rate of energy transfer, measured in watts. For a DC example with constant values, power equals voltage multiplied by current.
 
 A hypothetical circuit drawing 10 A at 1 V receives 10 W. That does not mean its individual logic inputs are each supplied with a ten-ampere “one”. Supply rails provide energy; signal connections convey changing electrical states. A ground connection provides a common reference and a return path. It is not a drain into which unwanted information disappears.
@@ -156,6 +799,8 @@ This separation explains why digital information can survive modest physical var
 Do not imagine a digital signal as mathematically vertical edges painted onto a wire. Real edges take time, can ring or overshoot, and propagate at finite speed. Binary interpretation is a rule applied to the physical signal.
 
 ### The transistor: from a voltage to a controlled path
+
+The key idea is **control**. One electrical condition changes how readily another path conducts. A transistor does not decide what a zero means, and it does not move a mechanical contact. Its physical behaviour lets connected circuits establish outputs that can be interpreted reliably as logical states. Once you understand one controlled path, the inverter below shows how two such devices cooperate to reverse a logical value.
 
 A **transistor** is a semiconductor device that controls electrical behaviour. In a MOS field-effect transistor, a voltage on the **gate** influences a conducting channel between **source** and **drain**. The gate is separated from the channel by an insulating structure. The **body** or bulk is a fourth electrical terminal, often tied to an appropriate supply in the introductory circuit.
 
@@ -201,6 +846,8 @@ MIT's [combinational-logic notes](https://computationstructures.org/notes/combin
 
 ### Binary numbers, bytes and interpretation
 
+The pattern `01000001` does not announce what it means. Interpreted as an unsigned eight-bit integer, it is 65; interpreted as an ASCII character code, it identifies capital A. The physical pattern does not change between those examples: the **interpretation** changes. A file format and a running program supply the rules. This is why eight bits of an audio file cannot be understood by simply asking which letter they spell.
+
 In ordinary decimal notation, each position has ten times the weight of the position to its right. In binary, each position has twice the weight. For an unsigned eight-bit quantity, the weights are:
 
 | Position | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
@@ -245,6 +892,8 @@ The binary prefixes follow the [definitions explained by NIST](https://physics.n
 
 ### How the computer adds
 
+An adder is a circuit whose outputs follow the rules of addition. Put the input bits for two numbers at its inputs, allow the electrical changes to settle, and the output bits represent a result. A carry communicates the overflow from one position into the next position. This is the binary counterpart of carrying a one when adding decimal numbers on paper, but it happens through connected logic rather than written symbols.
+
 A **half adder** takes two input bits. Its sum bit is A XOR B; its carry is A AND B. For 1 + 1, the sum position becomes 0 and the carry becomes 1: binary 10.
 
 A **full adder** also accepts an incoming carry. Its outputs are:
@@ -288,6 +937,8 @@ A fixed width limits the result. In eight-bit unsigned arithmetic, 255 + 1 produ
 The circuit and arithmetic here are original worked constructions from the stated truth tables. They show how a numerical operation reduces to reproducible local rules.
 
 ### Retaining a state: latches, flip-flops and clocks
+
+A calculation is useful only if its result is available when the next operation needs it. A state-holding circuit provides that continuity. The **clock** helps specify when particular circuits capture a value; it does not mean that the entire computer completes one application task at every tick. Think of the clock as part of the timing arrangement and the register as a place that retains selected bits. The timing diagram makes that distinction visible.
 
 A combinational circuit does not by itself remember its previous result. **Sequential logic** includes retained state. Feedback allows a circuit to remain in one of two stable configurations until an input changes it.
 
@@ -360,6 +1011,8 @@ Suppose a program processes neighbouring samples in order. After it reads one sa
 In an editing system, insufficient RAM can cause repeated loading, eviction or paging. Buying a large SSD increases persistent capacity; it does not give it DRAM's access properties. Conversely, adding RAM will not solve every slow export. The slowest relevant stage has to be identified.
 
 ### A processor we can trace completely
+
+A processor repeatedly uses encoded instructions to select operations. To see what that means without hiding behind a modern chip's complexity, we define a very small machine below. Every instruction, register and memory location used in the example is specified. It is a teaching model, not a claim that a current desktop processor has only these parts. Follow one instruction at a time and ask which value was read, which operation was selected and where the result went.
 
 A **CPU core** contains working state, arithmetic and logic circuits, control mechanisms and connections to memory. Its **instruction set architecture / ISA** defines the visible operations and their meaning. The hardware implementation can change while retaining the same architectural behaviour. MIT's [processor-design lecture](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/pages/c9/c9s1/) establishes this relationship.
 
@@ -527,7 +1180,17 @@ Technical explanations usually need a category, a mechanism and a consequence. S
 
 The computer demonstration can follow a manageable first pass: identify the power, processing, memory and storage parts; follow the functional connections; explain a voltage-coded bit; trace the inverter and addition; then follow a clip to the screen. The deeper circuit, memory and processor examples support subsequent explanation and individual study. Knowing the labels is the starting point. The goal is to explain what changes, what retains a state and what information is required to interpret it.
 
-## 2. How digital sound works
+## 4. How digital sound works
+
+### Start with a voice and a loudspeaker
+
+Someone speaks into a microphone. Later, a loudspeaker reproduces the recorded words. The speaker's breath has not been stored in a file, and air from the recording room has not travelled through the cable. What travels through the system is a succession of **representations of the changing sound**. The microphone changes an acoustic event into an electrical signal. Digital recording represents that signal with numbers. Playback uses the numbers to control an electrical output, which moves the loudspeaker and produces sound again.
+
+Three different jobs are hidden in the word *record*. The system must first **capture** a useful signal, then **represent** it, then **keep** that representation. A badly placed microphone may capture too much traffic. An overloaded input may distort the signal. A wrong file setting may affect representation or compatibility. Correcting the third problem cannot automatically undo the first two.
+
+Begin by tracing one sentence from mouth to microphone, through the recorder, and back through a loudspeaker. Only then attach the technical labels: sampling, quantisation, PCM, codec and reconstruction. The analogue examples show other ways of retaining or transmitting sound, making it easier to see what the digital stages add.
+
+### From the overview to the mechanism
 
 A microphone, an audio file and a loudspeaker represent the same event in different ways. Air pressure moves a diaphragm. An electrical circuit represents that movement as a changing voltage. A converter produces numbers. A computer stores and processes those numbers. During playback, another converter and an amplifier produce the electrical signal that moves a loudspeaker.
 
@@ -594,6 +1257,109 @@ The schematic represents functional stages. Several stages may be integrated int
 
 A useful English explanation follows the connection: **“The preamplifier raises the microphone signal so that the converter can represent it at a suitable level.”** This is more informative than “the preamp makes the sound better”.
 
+### Before the file: cylinders, records and magnetic tape
+
+Imagine keeping a voice without storing a list of sample values. One solution is to make the voice change the shape of a groove. Another is to make it change a magnetic recording. During playback, a device follows that physical pattern and produces a corresponding electrical or mechanical variation. **Analogue recording retains a varying representation of the signal; digital recording retains coded values.** Both require physical media and both have limitations.
+
+Do not confuse the **carrier**, the **representation** and the **playback device**. A disc is a shape, not a guarantee of digital encoding. A vinyl record and an audio CD are both discs but use different recording principles. Magnetic tape can carry analogue audio, analogue video or digital data. A cassette shell by itself does not tell us which.
+
+#### A sound that moves a stylus
+
+In an early acoustic phonograph, sound acted on a diaphragm connected to a stylus. The stylus produced a varying trace in a moving recording surface. During replay, following that trace moved a diaphragm, making sound again. There was no need for an ADC, PCM samples or a digital file. Mechanical construction, the recording material and the acoustic horn all affected the result.
+
+The historical distinction matters. Édouard-Léon Scott de Martinville's phonautograph traced sound before Edison's phonograph, but tracing a waveform is not the same achievement as providing practical replay. Edison's 1877 phonograph combined recording and reproduction. Later cylinder and disc systems developed different materials and mechanisms. These are milestones with defined functions, not a single undifferentiated “first sound device”. See the US National Park Service on [the inventors of sound recording](https://home.nps.gov/edis/learn/historyculture/origins-of-sound-recording-the-inventors.htm) and [the phonograph](https://www.nps.gov/edis/learn/kidsyouth/the-phonograph.htm).
+
+In an electrically amplified record player, the groove moves the stylus and the **cartridge** converts motion into an electrical signal. A **phono preamplifier** supplies suitable gain and playback equalisation. A power amplifier then drives the loudspeaker. The pickup is therefore an input transducer: it does not contain the complete music as a ready-made audio file.
+
+Not every old disc is vinyl. Many coarse-groove records are shellac-based mixtures; instantaneous lacquer discs have a cuttable coating and often contain unique recordings. The historical name **acetate disc** can be misleading: the recording lacquer was commonly cellulose nitrate on a supporting base. It must not be treated as synonymous with cellulose-acetate motion-picture film. For these material distinctions, see IASA's [coarse-groove and instantaneous-disc guidance](https://www.iasa-web.org/tc05/2112-coarse-groove-discs-gramophone-discs).
+
+#### A sound that changes magnetisation
+
+In a representative analogue tape recorder, a recording amplifier drives the **record head**. Its changing magnetic field establishes a varying magnetic pattern in the recording layer as the tape passes. Later, the **reproduce head**, also called a playback head, recovers an electrical signal from the moving recorded pattern. Appropriate playback amplification and equalisation are necessary; the head's raw output is not yet a loudspeaker-level signal.
+
+The machine must control movement as well as electronics. A **capstan** is a precision rotating shaft. In a common transport, a **pinch roller** presses the tape against it to establish the tape's linear speed. The reels supply and collect tape while maintaining suitable tension. The take-up reel cannot simply turn at one fixed speed throughout: its effective diameter changes as tape accumulates.
+
+This explains several audible problems. If the transport speed fluctuates, a sustained note can waver: slow fluctuations are commonly called **wow**, faster ones **flutter**. Poor head alignment can reduce high-frequency recovery. Damage or loss of contact can produce a **dropout**, a brief loss or reduction of signal. A copy made through analogue playback and rerecording can introduce additional noise and changes at each generation.
+
+Many analogue recorders use high-frequency **AC bias** during recording to improve the relationship between the input signal and the retained magnetic pattern. That oscillation is not an audio sample clock. **Record/playback equalisation** compensates for the recording system's frequency-dependent behaviour; it is not the same as a creative EQ decision made to alter a voice. Tape speed, track layout, equalisation and any noise-reduction system must match the recording when it is reproduced.
+
+These terms describe mechanisms, not a servicing procedure. For an archival transfer, use a documented, appropriate playback system and specialist guidance rather than experimenting on the only surviving tape. The International Association of Sound and Audiovisual Archives provides its technical guidance through [IASA technical guidelines](https://www.iasa-web.org/technical-guidelines).
+
+#### Optical sound: a soundtrack that changes light
+
+An analogue optical soundtrack on film carries a changing photographic pattern beside the picture. A **variable-area** track changes the geometry of a transparent region; a **variable-density** track changes optical density. In a reader, controlled illumination passes through the track and a light-sensitive device produces a changing electrical response. An amplifier and loudspeaker recover audible sound.
+
+An optical soundtrack is not automatically digital merely because light reads it. Conversely, some film-release systems carry digitally coded sound information on the film. The question is whether the reader recovers a continuously varying audio representation or decodes symbols into data. The picture strip can therefore coexist with different sound representations.
+
+For a film projector, sound needs sufficiently smooth movement through the reader. The picture needs intermittent movement at the gate. The film path accommodates those different requirements, and the sound recording is offset from the corresponding picture position. The offset depends on the format; it is not one universal number for all film. The projector section develops this distinction.
+
+### Vocabulary for analogue sound equipment
+
+Read a term together with its function. In particular, *head*, *track*, *channel*, *reel* and *record* can refer to different things in different contexts.
+
+| Term | What it means or does | Slovene orientation |
+| --- | --- | --- |
+| **phonograph** | A recording/reproducing device, historically associated with cylinders and Edison's systems; usage varies by period and country. | fonograf |
+| **gramophone** | A historically disc-based sound-reproduction system; distinguish the device from the record. | gramofon |
+| **record / disc** | The physical sound carrier; its material and recording method must be identified. | plošča |
+| **groove** | The continuous track whose modulated shape carries a mechanical recording. | brazda |
+| **stylus / needle** | The small contact element that follows or cuts a groove; the correct type matters. | igla |
+| **soundbox / reproducer** | In an acoustic system, the assembly linking stylus movement to a diaphragm. | zvočnica; mehanski reproduktor |
+| **horn** | An acoustic structure coupling sound to the surrounding air; not necessarily an electrical loudspeaker. | rog; zvočni lijak |
+| **turntable; platter** | The player or rotating support on which a disc turns. | gramofon; krožnik |
+| **tonearm** | Supports the cartridge/stylus assembly and lets it follow the groove. | ročica gramofona |
+| **cartridge / pickup** | Converts stylus motion into an electrical signal in an electrical record player. | odjemna doza |
+| **phono preamplifier** | Provides the gain and equalisation needed for the relevant pickup and record system. | gramofonski predojačevalnik |
+| **reel-to-reel / open-reel recorder** | A tape machine using separate exposed supply and take-up reels. | kolutni magnetofon |
+| **supply reel; take-up reel** | The reel feeding tape and the reel collecting it. | odvijalni; navijalni kolut |
+| **reel; spool** | A physical carrier around which tape or film is wound; do not confuse it with a channel. | kolut; tuljava |
+| **cassette deck** | A machine that plays or records a specified cassette format. | kasetofon; kasetna enota |
+| **tape transport** | The mechanical system moving and guiding the tape at the required speed and tension. | mehanizem transporta traku |
+| **record head; reproduce head; erase head** | Assemblies that respectively establish, recover or remove the relevant magnetic recording. Some machines combine functions. | snemalna; reprodukcijska; brisalna glava |
+| **head gap** | A small feature in a head's magnetic circuit involved in coupling to the tape. | reža magnetne glave |
+| **capstan** | A precision shaft helping establish linear tape speed. | pogonska os |
+| **pinch roller** | A roller pressing tape against the capstan in a common transport design. | pritisni valj |
+| **guide; tension arm** | Parts that establish the tape path and help manage tape tension. | vodilo; napenjalna ročica |
+| **track** | A recorded region or path on the medium; not necessarily identical to a complete programme channel. | sled; zapisna steza |
+| **channel** | A separately handled signal path, such as left or right audio. | kanal |
+| **azimuth** | The relevant head-gap orientation relative to the recorded tracks. Misalignment can affect recovery. | azimut; usmerjenost glave |
+| **bias** | In analogue magnetic recording, an additional signal or condition used to improve recording behaviour. | predmagnetenje |
+| **tape hiss** | Background noise associated with the recording medium and reproduction chain. | šum traku |
+| **wow and flutter** | Slow and faster speed variations that can modulate reproduced pitch. | počasno in hitrejše nihanje hitrosti |
+| **dropout** | A brief loss or reduction of the recovered signal. Its cause requires investigation. | izpad signala |
+| **print-through** | Unwanted transfer of a magnetic pattern between adjacent tape layers, potentially heard as an echo. | preslikava med plastmi traku |
+| **leader tape** | Non-programme material used at the beginning, end or between sections of a tape assembly. | uvodni; zaščitni trak |
+| **splicing block; splice** | A tool for aligning tape ends and the resulting joint. | montažna šablona; spoj |
+| **VU meter** | An indicating instrument with defined response characteristics; it does not show every brief peak. | merilnik VU |
+| **valve / vacuum tube** | An electronic device controlling current in a vacuum; found in some older and specialist amplifiers. | elektronka |
+| **line level; speaker level** | Different electrical signal/power contexts; outputs and inputs are not interchangeable merely because an adapter fits. | linijski nivo; nivo za zvočnik |
+| **optical soundtrack; magnetic stripe** | Two different methods of carrying sound alongside film pictures. | optična zvočna sled; magnetna proga |
+
+For related physical examples, inspect the Smithsonian's [early phonograph collection object](https://www.si.edu/object/nmah_855475) and its [America's Listening exhibition](https://americanhistory.si.edu/explore/exhibitions/americas-listening/online/edisons-talking-machine). The definitions above distinguish functions across devices; they are not an assertion that every model contains every listed part.
+
+### The Great Seal: hearing a conversation without digitising it
+
+On **4 August 1945**, Soviet schoolchildren presented a carved Great Seal of the United States to **W. Averell Harriman, the US ambassador to the Soviet Union**. It was hung in the office at the ambassador's **Moscow residence**. A concealed listening device was discovered in 1952. This was not a gift hung by a US president in the White House. The NSA's [museum account](https://www.nsa.gov/History/National-Cryptologic-Museum/Exhibits-Artifacts/Exhibit-View/Article/2718563/cold-war-great-seal/) identifies the recipient, place and dates.
+
+The device, often called **the Great Seal bug** or **the Thing**, is valuable here because it separates transduction from digital recording. It had no battery of its own. External radio-frequency illumination supplied the energy involved in its response. Sound moved a thin diaphragm associated with a resonant cavity, changing that cavity's response to the incoming radio signal. A receiver could recover the sound-related modulation. A diaphragm is therefore a moving physical element; it is not an array of binary samples.
+
+In functional terms, distinguish the stages and their contributions:
+
+| Contribution | Role |
+| --- | --- |
+| Pressure variations in the room | Moved the diaphragm and changed the device's response. |
+| External radio-frequency illumination | Supplied the radio energy interacting with the passive device. |
+| Modulated response and external receiver | Carried and recovered information related to the diaphragm's movement. |
+
+This is a conceptual explanation, not a circuit or construction specification. The historical source describes a **passive analogue listening system**. It does not describe a PCM recorder, a digital codec or a memory device. The absence of a battery is not the absence of energy; the presence of radio is not evidence of digital coding.
+
+The CIA's [account of the compromise](https://www.cia.gov/stories/story/compromise-of-the-great-seal/) also explains that Ambassador **Henry Cabot Lodge Jr.** displayed a replica at the United Nations on **26 May 1960**. Lodge's public demonstration and Harriman's receipt of the original gift are different events. Distinguishing them is part of describing the object accurately.
+
+Three useful English verbs are **detect**, **transmit** and **record**. Detecting sound does not by itself preserve it for later replay. Transmitting a sound-related signal does not by itself turn it into numerical samples. Recording at an external receiver would be another stage. When explaining any audio system, identify which of these functions is actually present rather than calling everything “recording”.
+
+The individual exercises **A16–A18** revisit analogue carriers, tape transport and this historical case after the main sound exercises.
+
+
 ### Inside the microphone and audio interface
 
 In a moving-coil dynamic microphone, a diaphragm moves a coil in a magnetic field. This motion generates a voltage. In a condenser microphone, diaphragm movement changes a capacitance; associated electronics turn that change into a usable signal. A condenser microphone requires an appropriate power source, but its powering arrangement depends on the design. “Condenser”, “directional” and “wireless” describe different properties: transducer type, pickup behaviour and connection method.
@@ -607,6 +1373,8 @@ Connector names also require care. **XLR** describes a connector family; an XLR 
 Read the actual labels: *mic input, line input, instrument input, headphone output, digital input, clock input*. A microphone output and a powered loudspeaker output serve different electrical purposes. The shape of a plug is insufficient evidence of compatibility. [Analog Devices, common-mode signals](https://www.analog.com/en/resources/glossary/common-mode-signals.html).
 
 ### Sampling: choosing when to measure
+
+A **sample** here is one numerical observation of a signal at a specified sampling instant, not a short musical excerpt. Imagine making measurements of a changing voltage at regularly spaced times. The resulting ordered sequence can describe a changing waveform. Whether it describes the relevant changes adequately depends on the signal's bandwidth, the sampling rate and filtering. More samples per second and more precise sample values answer different questions.
 
 The sample rate tells us how many sample instants occur per second, **per channel**. At 48 kHz, each channel has 48,000 samples per second:
 
@@ -631,6 +1399,8 @@ The equality holds for every integer sample index `n`. The samples alone cannot 
 A higher sample rate can accommodate a wider bandwidth and affect processing requirements. It does not automatically make a correctly captured signal sound better. Ask what bandwidth the microphone, source, processing and delivery actually require.
 
 ### Quantisation: choosing a numerical value
+
+A recording system has a finite set of codes available. It must assign an input value to one of them. Imagine a ruler whose smallest marked division is one millimetre: recording only whole-millimetre readings loses distinctions within a division. The digital-audio case uses electrical ranges and numerical codes rather than ruler marks, but the question is similar: **which representable value will stand for this input?** The model below defines those ranges precisely.
 
 Sampling makes time discrete. **Quantisation** assigns an amplitude to one of a finite set of representable values. **Linear PCM**, pulse-code modulation, uses equally spaced amplitude values. Sample rate and bit depth therefore answer different questions: *when are values recorded?* and *which values can be represented?*
 
@@ -733,6 +1503,8 @@ Software usually works on **buffers** of samples. A buffer of 256 sample frames 
 A buffer underrun occurs when the playback system runs out of required data at the deadline. More RAM or a faster processor may help a particular bottleneck, but neither changes the acoustic waveform’s sample rate by itself. The component lesson now has a practical application: memory holds buffers; the processor executes the calculations; the audio device consumes or produces samples according to its clock.
 
 ### Dither and the limits of rounding
+
+Reducing numerical precision requires a decision about rounding. Repeated rounding errors can become related to the signal and produce an unwanted pattern. **Dither** deliberately adds a suitably chosen small noise signal before quantisation so that the resulting error behaves differently. It is not a restoration of missing information or a noise-removal tool. The deeper explanation below asks why accepting controlled noise can be preferable to correlated distortion.
 
 Reducing integer bit depth requires another quantisation. Simply truncating or rounding a quiet, regular signal can produce an error related to that signal. That error may be heard as distortion rather than as a steady noise floor.
 
@@ -892,6 +1664,8 @@ Stereo coding may exploit similarities between channels. This does not necessari
 
 ### Codecs, containers and filenames
 
+A **codec** defines how media information is encoded and decoded. A **container** organises one or more streams and the information needed to use them. A **filename extension** is a label that may suggest the container; changing that label does not transcode the media. An envelope analogy helps with packaging, but remember that real containers also describe timing, tracks and metadata. Inspect those properties rather than guessing all of them from `.mov` or `.wav`.
+
 A **codec** specifies how audio is encoded and decoded. A **container** organises streams and associated information. A **file extension** is a naming convention. These categories overlap in everyday speech, so describe the actual contents when precision matters.
 
 | Name | Type and typical role | Essential distinction |
@@ -1008,9 +1782,19 @@ The Slovene expressions provide orientation; some departments routinely use the 
 | stem | podmiks sorodnih elementov | For example, dialogue, music or effects submix |
 | master | osnovni končni zapis | Agreed source for subsequent deliverables |
 
-## 3. How digital video works
+## 5. How digital video works
 
-A video file contains encoded picture data and information about how to interpret and time it; many files also contain audio. A player uses that data to reconstruct pictures and any accompanying sound. The file does not contain miniature moving photographs. Its images may be stored as independently coded pictures, or a decoder may have to reconstruct one picture using others. Understanding video therefore means following several connected processes: measuring an image, representing its samples, compressing them, organising the results, and displaying them at the intended times.
+### Start with one picture, then make it move
+
+Take a single picture of a person standing beside a door. To reproduce it electronically, a system needs information about the picture and a way of turning that information into light on a display. Now record the person opening the door. You also need successive pictures and the right timing. If the order or timing is wrong, the action will not be reproduced as intended, even if every individual picture looks clear.
+
+A digital video system therefore has to answer **where**, **what value** and **when**. Where in the image is this information used? What picture value does it represent? When should the resulting picture be shown? Sound adds another timed sequence that must line up with the action.
+
+Compression is a further operation. Rather than store every picture value independently, a format may describe patterns, predictions and differences. Decoding reconstructs the pictures from that description. This is why a file can be small without merely containing miniature pictures, and why opening an unfamiliar file is more complicated than reading a succession of photographs. We first distinguish film, analogue video and digital video; the later sections then open each of these operations in detail.
+
+### From the overview to the mechanism
+
+A video file contains instructions and numerical data from which a player can reconstruct changing pictures, sound and their timing. The file does not contain miniature moving photographs. Its images may be stored as independently coded pictures, or a decoder may have to reconstruct one picture using others. Understanding video therefore means following several connected processes: measuring an image, representing its samples, compressing them, organising the results, and displaying them at the intended times.
 
 This chapter begins with analogue television because many digital conventions preserve decisions made for scanning, transmission and compatibility. It then follows a picture into a digital file. The camera chapter explains how light first becomes an electrical signal.
 
@@ -1024,7 +1808,7 @@ For the walking actor, one frame shows one part of the movement and the next fra
 
 Analogue television also organises pictures in time. A scanning system represents positions along successive lines through a changing electrical signal. Its amplitude can vary continuously within the system's bandwidth, while lines and fields follow defined timings. Digitising that signal involves taking measurements at selected times, assigning numerical codes and retaining the relationship between the samples and the raster. Analogue video already has a spatial and temporal structure; digital conversion gives the measured signal a numerical representation.
 
-Once represented digitally, the image information can be processed by the computer described in Chapter 1. An encoder may compress it before storage. For example, a codec can predict part of the next picture from already reconstructed material and encode information that corrects the prediction. Lossy coding can also discard information. Compression does not inherently require fewer pixel positions or fewer frames: files with identical dimensions and frame rates can differ substantially in size and reconstructed image quality.
+Once represented digitally, the image information can be processed by the computer described in Chapter 3. An encoder may compress it before storage. For example, a codec can predict part of the next picture from already reconstructed material and encode information that corrects the prediction. Lossy coding can also discard information. Compression does not inherently require fewer pixel positions or fewer frames: files with identical dimensions and frame rates can differ substantially in size and reconstructed image quality.
 
 A collection of still images becomes a usable moving sequence when their order and presentation timing are specified. Numbered image files can therefore be a legitimate production format, provided the workflow supplies the necessary interpretation. In a container file, timing information tells the player when reconstructed pictures and audio should be presented. Sound has its own sampling rate; its samples do not have to match video frames one for one. They must occupy the correct places on the same playback timeline, so the door's impact is heard at the intended moment.
 
@@ -1052,6 +1836,123 @@ A seventh question is **purpose**: is this a camera original, an editing proxy, 
 **Model explanation:** “The file is a 1920-by-1080 progressive recording at twenty-five frames per second. The video is ten-bit 4:2:2. I still need to check the codec, colour metadata and audio layout before preparing the export.”
 
 The separation of colour-identification fields from compression is formalised in [ITU-T H.273](https://www.itu.int/rec/T-REC-H.273). Containers such as [Matroska, specified in RFC 9559](https://www.rfc-editor.org/rfc/rfc9559.html), organise several kinds of media and metadata.
+
+### Three different things: film, analogue video and digital video
+
+Imagine three ways of keeping the same view of a doorway. A film camera exposes a photosensitive strip and the processed strip carries a photographic image. An analogue video camera produces an electrical picture signal that can be transmitted or recorded. A digital system represents picture information as numerical codes that can be stored and decoded. These are different operations even when the eventual screen image looks similar.
+
+**Photochemical film is not the same as analogue electronic video.** Both can be described as analogue in a relevant respect, but their carriers, readers and processing differ. Nor does “digital” mean “made entirely without analogue processes”: a digital camera still begins with light and charge, and a digital display ultimately produces physical light.
+
+| System | What the recording retains | What reproduction requires |
+| --- | --- | --- |
+| Photochemical motion-picture film | A sequence of photographic images, with density and colour variation in processed material | A suitable film projector, or a scanner followed by electronic display |
+| Analogue videotape | Magnetic recording patterns from which a timed electrical video signal is recovered | A compatible tape machine, signal processing and a suitable display or capture system |
+| Digital video on tape, disc or solid-state storage | Encoded data representing pictures, timing and associated information | Compatible data reading, decoding, interpretation and display |
+
+A filmstrip already separates successive exposures in time. That does not make its photographic image information a binary code. Conversely, magnetic tape can carry digital video. Look at the **representation**, not just whether the medium moves, whether there is a disc, or whether the camera uses electricity.
+
+### What a film projector actually does
+
+A projector does not create new camera views between the frames on a filmstrip. It illuminates each picture, forms an enlarged optical image of it and replaces it with the next picture at the required rate. The viewer sees the succession as movement under suitable viewing conditions.
+
+A traditional intermittent film projector has two coordinated paths. The **light path** carries illumination through the picture and projection lens to the screen. The **film path** carries the strip from the supply reel through guides, sprockets and the gate to the take-up system. At the **gate**, one frame must be positioned for projection. During the pull-down to the next frame, a shutter blocks the beam so that the audience does not see the film moving through the aperture.
+
+The reels cannot simply stop and start the entire length of film for every picture. **Loops** in the film path help accommodate the difference between intermittent movement at the gate and smoother transport elsewhere. A sound reader needs especially regular movement. For a documented introduction to these mechanisms, see the Australian Council of Film Societies' [How it works](https://www.acofs.org.au/chapter_2.htm). Its examples concern particular film-projection arrangements; a real machine must be used according to its own instructions.
+
+#### Why 24 frames can involve more than 24 flashes
+
+In a specified two-flash arrangement at 24 frames per second, each stationary frame is illuminated twice before the next one replaces it. The screen then receives **48 flashes per second but only 24 different film frames per second**. Repeated illumination can reduce visible flicker; it does not supply the intervening stages of an actor's movement. Shutter arrangements differ, so this arithmetic describes the stated example rather than every projector.
+
+The distinction will return in digital display. Source frame rate, display refresh rate and exposure time are different quantities. A monitor refreshing at 120 Hz does not prove that its source contains 120 independently captured frames each second.
+
+#### Projector parts and their functions
+
+| Term | Function | Slovene orientation |
+| --- | --- | --- |
+| **film projector** | Reproduces pictures carried on photographic film by optical projection. | filmski projektor |
+| **lamphouse** | Encloses the projection light source and associated optical or cooling parts. | ohišje projekcijske svetilke |
+| **lamp; arc lamp** | Supplies illumination. Technologies and handling requirements differ. | žarnica; obločnica |
+| **reflector; condenser** | Redirects or concentrates illumination through the intended optical path. | reflektor; kondenzor |
+| **gate** | The region that positions film at the picture aperture. | filmsko okno; sklop za vodenje filma pri oknu |
+| **aperture plate** | Defines the projected picture opening in a relevant projector arrangement. | maska; ploščica filmskega okna |
+| **pressure plate** | Helps keep film in the required position and plane. | pritisna ploščica |
+| **sprocket; perforation** | A toothed transport element and a hole in the film edge that it engages. | zobati valj; perforacija |
+| **claw / pull-down mechanism** | Advances the film intermittently by engaging the perforations in a suitable design. | grabilnik; mehanizem za korakovanje |
+| **registration** | Accurate positioning of successive pictures; poor registration can produce an unsteady image. | natančno pozicioniranje; registracija slike |
+| **shutter** | Interrupts the beam at defined parts of the movement/display cycle. | zaklop; rotacijska zaslonka projektorja |
+| **film loop** | A controlled length of slack accommodating different transport motions. | filmska zanka |
+| **feed reel; take-up reel** | Supply and collection reels for the film. | odvijalni; navijalni kolut |
+| **projection lens** | Forms the enlarged image on the screen. | projekcijski objektiv |
+| **throw distance** | The relevant projector-to-screen distance used in projection setup. | projekcijska razdalja |
+| **soundhead / sound reader** | Recovers a supported soundtrack format. It is not the picture gate. | zvočni sklop; čitalnik zvočne sledi |
+| **exciter lamp** | Illuminates an optical soundtrack in a traditional reader. | žarnica za odčitavanje optične zvočne sledi |
+| **photocell / photodetector** | Converts received light variation into an electrical response. | fotocelica; svetlobni detektor |
+| **sound drum** | Supports controlled film movement through a sound-reading region. | zvočni boben |
+| **rewind; rewinder** | Returning film to a reel; the device used for that operation. | previjanje; previjalna naprava |
+| **leader; tail** | Protective or identifying material at the beginning; the end of the film assembly. | vodilni trak; konec filma |
+| **splice; splicer** | A physical joint in film; a device for making an appropriate joint. | spoj; naprava za spajanje filma |
+| **workprint; release print** | A print used in production/editing; a print prepared for exhibition. | delovna kopija; distribucijska kopija |
+| **flatbed editor; viewing table** | Equipment for viewing and physically editing picture and, on suitable systems, separate sound material. | montažna miza |
+
+These terms also explain language that survives in digital editing: *cut*, *splice*, *reel*, *bin* and *timeline* need not refer to the same physical objects that gave rise to earlier workflows. A digital cut changes an edit decision; it does not normally cut the camera-original recording medium.
+
+### Acetone, acetate and film handling
+
+These similar-looking words refer to different materials and must not be used interchangeably.
+
+| Term | Meaning | Why the distinction matters |
+| --- | --- | --- |
+| **acetone** | A volatile, highly flammable solvent; Slovene *aceton*. | It can attack plastics, coatings and recording materials. It is not a generic “film-cleaning liquid”. |
+| **cellulose acetate** | A polymer used as the base of many photographic films; Slovene *celulozni acetat*. | It is a supporting material, not a bottle of solvent. |
+| **cellulose nitrate** | A different historical film-base material with serious fire hazards. | Unknown old film requires specialist identification and handling. |
+| **polyester film base** | A different plastic support used in many films. | Its joining behaviour differs from acetate-based stock. |
+| **emulsion** | The image-forming coating carried on a base. | Base damage and image-layer damage are different problems. |
+| **film cement** | A formulated product for joining compatible film bases. | It is not universal glue and is not interchangeable with any solvent. |
+| **splicing tape** | Adhesive material made for an appropriate film-splicing method. | Its dimensions, condition and compatibility matter. |
+| **acetic acid; vinegar syndrome** | Acetic acid is associated with the degradation of cellulose-acetate material; vinegar syndrome names this deterioration process. | It is not a synonym for acetone or evidence that household cleaning is appropriate. |
+
+The Museum of Fine Arts' CAMEO database identifies [acetone](https://cameo.mfa.org/wiki/Acetone) as a solvent that can dissolve or damage numerous materials and gives its hazards. Its separate entry for [acetate film](https://cameo.mfa.org/wiki/Acetate_film) concerns the film base. The similarity in English names is not a safe guide to compatibility.
+
+A **cement splice** and a **tape splice** are different ways of making a joint. The method depends on the film base; conventional film cement is not a method for joining polyester stock. ACMI's [film-splicer collection](https://www.acmi.net.au/works/100531--film-splicers/) illustrates the different equipment and distinguishes the compatible material groups. This is terminology for understanding a workflow, not an instruction to mix solvents or experiment on an original print.
+
+Useful safety language includes **flammable**, **vapour**, **ignition source**, **ventilation**, **material compatibility**, **safety data sheet (SDS)** and **specialist conservation advice**. Do not deliberately sniff, burn or apply solvent to an unknown film as a classroom identification test. Do not open powered projector electronics or handle specialist arc lamps without the appropriate training. *Safety film* distinguishes a historical material category; it does not promise that any film is undamaged, harmless or suitable for any projector.
+
+### Analogue video equipment: following the electrical picture
+
+A video camera and a film projector need different explanations. A video camera converts a spatial light pattern into an electrical representation. In some historical cameras, a **pickup tube** and scanning system performed the conversion; later cameras commonly used solid-state sensors. Neither a tube nor a CCD label alone tells us how the eventual recording is encoded.
+
+A **videotape recorder (VTR)** records and reproduces video on tape. A **videocassette recorder (VCR)** uses an enclosed cassette format. In many helical-scan systems, rapidly moving heads on a rotating drum make diagonal tracks across the slowly advancing tape. The relative head-to-tape motion supports the required recording bandwidth. The picture signal is processed for magnetic recording; it is not stored as a miniature photograph on each tape track.
+
+The playback machine must recover the signal with suitable speed, tracking and timing. A **time-base corrector (TBC)** addresses timing variations; it is not an automatic repair for every kind of picture damage. A monitor then interprets the recovered signal. When digitising an analogue source, a capture system samples and codes the signal, which is why a suitable player, clean signal path and correct timing matter before a file exists.
+
+In a **cathode-ray tube (CRT) display**, electron beams excite phosphors to produce light while scanning and timing circuits establish the picture. This is a display tube, not the same component as a camera pickup tube. Old CRT equipment can contain dangerous stored energy even after disconnection; identify it from outside rather than dismantling it in an unsupervised demonstration.
+
+For the electrical signal's organisation, use the source already underlying this chapter: Analog Devices, [Understanding Analog Video Signals](https://www.analog.com/en/resources/technical-articles/understanding-analog-video-signals.html). For preservation workflows, consult [IASA's technical guidelines](https://www.iasa-web.org/technical-guidelines), particularly its video guidance, rather than treating a consumer converter's output as automatically archival.
+
+| Term | Functional meaning | Slovene orientation |
+| --- | --- | --- |
+| **pickup tube / camera tube** | An image-conversion component in a tube-based electronic camera. | slikovna cev kamere |
+| **viewfinder** | Lets the operator inspect framing and other image information. | iskalo |
+| **camera control unit / CCU** | Supports control and, depending on the system, signal handling for a connected camera. | krmilna enota kamere |
+| **VTR; VCR** | Videotape recorder; a cassette-based recorder. | videomagnetofon; kasetni videorekorder |
+| **head drum / headwheel** | A rotating assembly carrying video heads in a relevant tape system. | boben z videoglavo; vrteči sklop glav |
+| **helical scan** | A method producing diagonal recording tracks through relative tape/head motion. | poševno snemanje; vijačno skeniranje |
+| **tracking** | The relationship between playback-head motion and the recorded track path. | sledenje zapisni sledi |
+| **control track** | A recorded timing/control reference in formats that use one. | krmilna sled |
+| **time-base corrector / TBC** | Corrects relevant timing irregularities in a video signal. | korektor časovne baze |
+| **frame synchroniser** | Aligns a source with a required output timing reference, commonly using buffering. | sinhronizator slik |
+| **CRT; phosphor; deflection** | Picture-tube technology, its light-emitting coating and the steering of the electron beam. | katodna cev; luminofor; odklon |
+| **waveform monitor; vectorscope** | Instruments for inspecting signal levels/timing or colour-related properties. | monitor valovne oblike; vektorskop |
+| **composite video; component video** | Combined or separately carried picture components; the precise interface must be named. | kompozitni; komponentni video |
+| **telecine** | Transfer equipment/process converting film imagery into a television/video representation. | telekino |
+| **film scanner** | Equipment producing digital image data from film, with format-dependent scanning and transport. | filmski skener |
+| **video projector** | Projects an electronically supplied image; it does not necessarily use a filmstrip. | videoprojektor |
+| **digital cinema projector** | Projects images prepared and supplied through a digital-cinema system. | digitalni kinoprojektor |
+
+**8 mm film and Video8 are not the same medium.** Film width, cassette branding and a signal standard belong to different classifications. Similarly, **VHS** names a recording format, **PAL** a colour-television encoding family, and **25 fps** a rate. The sections below explain why those labels cannot substitute for one another.
+
+The additional individual exercises **V13–V15** compare the three recording systems, projector timing and material terminology.
+
 
 ### Analogue video: a changing voltage with a timetable
 
@@ -1117,6 +2018,8 @@ A **LaserDisc** is an optical carrier whose conventional video is analogue. The 
 References: [Library of Congress, videorecording formats](https://loc.gov/marc/bibliographic/bd007v.html); [Library of Congress, DV encoding](https://www.loc.gov/preservation/digital/formats/fdd/fdd000183.shtml); [IASA-TC 06](https://www.iasa-web.org/tc06/guidelines-preservation-video-recordings).
 
 ### Fields, frames and progressive scanning
+
+An interlaced television picture is assembled from alternating sets of lines captured at different times. If something moves between those times, combining the two sets as though they were one instant can produce a comb-like edge. A **field** is therefore not just a smaller full picture that can be discarded without consequence. The drawing below exaggerates the motion on a small grid so that the timing problem is visible.
 
 ![Illustrative alternating-line capture of a moving vertical object in two fields separated by twenty milliseconds, followed by a woven combination showing combing; explains fifty fields and twenty-five field pairs per second.](/assets/images/agrft/v1/video-fields.svg)
 
@@ -1216,6 +2119,8 @@ References: [ITU-R BT.2020](https://www.itu.int/rec/r-rec-bt.2020/en); [DCI, Dig
 
 ### From RGB to luma and colour difference
 
+One way of representing a colour picture uses red, green and blue components. Another uses a luma component and two colour-difference components. This does not turn the image into “a black-and-white picture plus two coloured photographs”; it changes the numerical description used for processing and coding. The definitions below explain how the components are related and why the prime marks matter.
+
 In a linear-light RGB representation, the component values are proportional to the corresponding light contributions. Many video representations first apply a non-linear transfer function. A prime mark, as in **R′G′B′**, indicates the non-linear quantities.
 
 **Luminance** is a light-related quantity with a defined colorimetric meaning. **Luma**, Y′, is a weighted combination of non-linear video components. They are related, but they are not interchangeable terms. Calling luma “brightness” can orient a beginner, provided the more precise distinction follows.
@@ -1303,6 +2208,8 @@ Ten significant bits may occupy sixteen bits in a memory surface. A packed forma
 Storage capacity is only one constraint. A drive must sustain the required rate, interfaces must carry it, and the processor must decode and process the stream quickly enough. A small, heavily compressed file can be more demanding to edit than a much larger intraframe file.
 
 ### Compression: predict, describe the difference, code efficiently
+
+Imagine describing a mostly unchanged scene to someone who already has the previous picture. Rather than describe every region from nothing, you can describe a prediction and what differs from it. A real codec does this with specified operations on numerical blocks, not with an understanding that a door is opening. The decoder must have the required references and correction information. The next sections distinguish efficient description from deliberately discarding precision.
 
 A video encoder tries to represent useful picture information with fewer bits. A common hybrid coding pipeline predicts a block, subtracts that prediction from the actual block, transforms the remaining difference, quantises transform coefficients and entropy-codes the result. It also writes the information needed to reproduce its choices.
 
@@ -1428,6 +2335,8 @@ The transition from physical video carriers to network delivery did not remove c
 
 ### Colour management: numbers need the right destination
 
+A stored colour value is not a promise that every screen will emit the same light. The value needs an interpretation, and the display has its own capabilities and settings. **Colour management** is the organised handling of those relationships. It helps a pipeline transform image information for the intended destination instead of letting each device make an unrelated guess. It cannot make an incapable display reproduce every possible colour or brightness.
+
 A colour description must distinguish **primaries**, **transfer function**, **matrix coefficients** and **range**. The primaries define the colour basis. The transfer function relates encoded values to a light-related domain. The matrix specifies conversion between component representations such as RGB and Y′CbCr. Range specifies numerical scaling.
 
 A camera’s **log** encoding redistributes code values over a broad scene range. Log footage commonly appears low in contrast when displayed without the intended conversion. The required transform depends on the actual log curve and camera colour space. “Apply a log LUT” is too vague: a LogC3 transform is not automatically appropriate for LogC4, and neither is a universal transform for other manufacturers’ log formats.
@@ -1517,7 +2426,17 @@ These are hypotheses to investigate, not diagnoses guaranteed by the visible sym
 
 The model specifies a coherent example, not a compulsory institutional capture standard. The required master, working copy and delivery file must be agreed for each production or collection.
 
-## 4. How cameras form and record images
+## 6. How cameras form and record images
+
+### Start with light entering a box
+
+A camera keeps unwanted light out and admits selected light through a lens. The lens forms an image at the recording surface. In a film camera, that surface is photographic material. In an electronic camera, a sensor converts received light into an electrical response. Further processing and recording are needed before there is a useful finished image or file.
+
+Several controls answer different questions. **Focus** determines which distances form a sharp image at the recording plane. **Aperture** affects the light admitted and contributes to depth of field. **Exposure time** determines how long light is gathered and affects motion blur. **Focal length**, together with the recording area, influences how much of the scene fits into the frame. They interact, but they are not interchangeable ways of making an image “better”.
+
+Point at the lens, body, viewfinder and recording medium first. Explain what each receives and what it contributes. Then follow the light to the image plane and the recorded information towards storage. The historical examples make this easier: a camera can have sophisticated electronics and still record on photographic film; a filmless camera can produce an analogue video recording; and a digital camera can store its data on magnetic tape.
+
+### From the overview to the mechanism
 
 A camera connects the physical world to the computer. Light carries information about a scene. The lens forms an image; the sensor makes electrical measurements of that image; the camera processes and encodes those measurements. The recording medium stores a file that editing software can interpret.
 
@@ -1563,6 +2482,8 @@ The mount also establishes **flange focal distance**: the specified distance fro
 
 ### How a lens forms an image
 
+Light from one point in the scene reaches different parts of the lens. For a point that is in focus, the lens brings those rays together at the appropriate image location. If the recording surface is in the wrong position for that point, the rays form a blur instead. Focus is therefore a relationship among the scene, the lens and the image plane, not an electronic command that labels an object “important”. The thin-lens model below isolates that relationship.
+
 An illuminated point on a subject sends light in many directions. The camera captures only part of that light. A small pinhole can form an image by admitting a narrow selection of rays from each point; a lens admits a much larger bundle and brings it towards the corresponding image point.
 
 A transparent lens changes the direction of light by **refraction** at its surfaces. A converging lens can bring rays from a distant point to a focus. For an ideal thin lens in air, focal length is the distance from the lens plane to the focus of incoming rays parallel to the optical axis. Real photographic lenses contain several elements and groups: their focal length is defined using principal planes, which need not coincide with a visible glass surface.
@@ -1596,6 +2517,8 @@ A **prime lens** has one focal length; it can still focus at different distances
 An **anamorphic lens** has different image magnification in the horizontal and vertical directions. A stated 2× horizontal squeeze requires the corresponding de-squeeze for intended proportions. If the recorded picture has a 1.20:1 aspect ratio and square pixels, a 2× horizontal de-squeeze produces 2.40:1 before any further crop. This is geometry, not video compression: an optical squeeze is different from a codec removing or predicting data. Choose the lens, active recording area and monitoring de-squeeze together. A 16:9 frame with a 2× squeeze would yield about 3.56:1 before cropping, so an anamorphic lens does not automatically create a 2.39:1 deliverable. [ARRI: anamorphic formats](https://www.arri.com/en/learn-help/learn-help-camera-system/frequently-asked-questions/alexa-sxt-faq/why-6-5-i-thought-you-needed-4-3-for-anamorphic--41676), [ARRI: monitoring de-squeeze](https://www.arri.com/resource/blob/374970/87726e6d9ad7fe7c2e8d80b79e157a5f/2024-05-22-ccm-1-anamorphic-desqueeze-quickguide-en-data.pdf).
 
 ### Aperture, f-stops, T-stops and neutral density
+
+Opening the lens aperture generally admits more light; closing it admits less. The familiar f-number expresses a ratio, so a **smaller f-number means a larger relative aperture**, not less light. T-stops additionally account for transmission. An ND filter reduces transmitted light without requiring the same aperture change. These controls can lead to a similar exposure value while having different consequences for depth of field and motion rendering.
 
 The **aperture** is the opening that limits the light bundle. The **iris** is the mechanism, usually overlapping blades, that varies that opening. Looking through the front of a lens, we see an optical image of the aperture stop: the **entrance pupil**. Its diameter, rather than the bare mechanical hole measured inside a complex lens, is used in the conventional f-number.
 
@@ -1657,7 +2580,80 @@ A motion-picture film camera forms an optical image too, but records it through 
 
 A reflex mirror-shutter system can direct the lens image towards an optical viewfinder during the closed part of the cycle. Its mechanism differs from an electronic viewfinder displaying a sensor-derived image. Film grain is not a fixed rectangular array of digital pixels. When developed film is scanned, a scanner illuminates it and measures the transmitted image with an electronic sensor; digitization occurs in that later system. Film capture and analogue electronic video are distinct recording methods, even when both ultimately feed a digital edit. [Kodak: Essential Reference Guide for Filmmakers](https://www.kodak.com/content/products-brochures/Film/kodak-essential-reference-guide-for-filmmakers.pdf).
 
+### From early photographic cameras to digital cinema
+
+“The first camera” is not a sufficiently precise historical category. A camera obscura forms an image without necessarily recording it. A photographic camera exposes a light-sensitive material. A motion-picture camera records a sequence. An electronic camera produces an electrical picture signal. A digital camera encodes image information as data. A prototype, a marketed product and a widely adopted production system can mark different milestones.
+
+The examples below are selected because each makes a mechanism visible. They are not an exhaustive list of inventors, and they should not be read as a claim that one machine single-handedly invented photography or cinema.
+
+#### Giroux's daguerreotype camera, 1839: an image on a plate
+
+The Science Museum Group preserves a [daguerreotype camera and plate holder made by Alphonse Giroux in 1839](https://collection.sciencemuseumgroup.org.uk/objects/co15025/daguerreotype-camera-with-plate-holder-made-by-alphonse-giroux). The visible architecture is already familiar: an enclosure excludes unwanted light, a lens forms an image, and a holder positions the light-sensitive material.
+
+For our comparison, the important point is the absence of a sampled electronic image pipeline. The exposure acts on a prepared photographic plate; viewing the finished image requires the relevant photographic process, not decoding a media file. **Plate holder**, **image plane**, **exposure** and **light-tight** are useful terms. The object lets us recognise continuity in camera design without pretending that its chemistry is the same as modern colour-film stock.
+
+#### The Kodak camera, 1888: capture and processing as a service
+
+Kodak's [historical milestones](https://www.kodak.com/en/company/page/milestones/) date the original Kodak camera's market introduction to 1888. It is an example of a camera sold as part of a system that made taking photographs easier for a non-specialist, while processing remained a separate operation. Do not call it the first photographic camera.
+
+The distinction between **capture**, **processing** and **delivery** survives. Making an exposure is not the same as having a finished print; recording camera data is not the same as delivering a graded film. The equipment distributes work between the operator, the laboratory and later users. A convenient camera interface can hide a technically complicated process without abolishing it.
+
+#### The Lumière Cinématographe, 1895: one mechanism, several jobs
+
+The Cinématographe combined camera, printer and projector functions. A museum account describes its hand-driven mechanism and intermittent transport: a claw advanced the film, then left it stationary for exposure. The same broad need—position a picture, expose or illuminate it, then advance—connects camera and projector design. See the National Science and Media Museum's [account of the Lumière apparatus](https://blog.scienceandmediamuseum.org.uk/the-lumiere-brothers-pioneers-of-cinema-and-colour-photography/) and a [surviving 1895/96 example](https://collection.sciencemuseumgroup.org.uk/objects/co241514/lumiere-cinematographe).
+
+The famous Paris screening on 28 December 1895 is an important cinema milestone, not a reason to erase other early motion-picture experiments and public screenings. For technical English, explain **hand-cranked**, **intermittent movement**, **perforation**, **shutter** and **projection**. These words state what the machine does rather than merely placing it on a timeline.
+
+#### ARRIFLEX 35, 1937: seeing through the taking lens
+
+ARRI records a prototype in 1936 and a production-ready ARRIFLEX 35 at the Leipzig Fair in 1937. Its rotating mirror shutter enabled reflex viewing through the taking lens. This helped the operator judge framing and focus without the separate viewpoint of an offset finder. See ARRI's [historical account](https://www.arri.com/en/company/the-arri-philosophy/history/the-history-of-arri-in-a-century-of-cinema).
+
+The principle is worth describing before memorising the name. During the relevant part of the cycle, the mirror directs light towards the viewing system; during exposure, the film receives the image. **Reflex** refers to this viewing arrangement. It does not mean digital, autofocus or mirrorless. A modern electronic viewfinder instead displays an electronically produced image and has its own processing and timing characteristics.
+
+#### Kodak's portable digital-camera prototype, 1975: film replaced by a data chain
+
+Steven Sasson's Kodak prototype combined optics, a **100 × 100 CCD image sensor**, temporary RAM and digital cassette storage. The IEEE milestone carefully identifies the achievement as a self-contained portable solid-state still camera, rather than the first use of electronic imaging of any kind. See [Handheld Digital Camera, 1975](https://ethw.org/Milestones:Handheld_Digital_Camera,_1975).
+
+The revealing detail is the cassette. A tape can store coded digital image data; tape is not inherently analogue. The sensor provides measurements, electronic circuits encode them, RAM temporarily buffers the result, and the recording system preserves the data. Later reading and interpretation reconstruct a viewable image. This connects directly to our computer chapter: the camera is becoming an image-acquisition and data-handling system.
+
+#### Sony Mavica, 1981, and Canon RC-701, 1986: electronic does not necessarily mean digital
+
+Sony's original 1981 Mavica prototype used a CCD and recorded still-picture signals on a two-inch magnetic disc. Sony's [product history](https://www.sony.com/en/SonyInfo/CorporateInfo/History/sonyhistory-g.html) describes the sensor and Mavi-Pak recording medium. This belongs to the early **still-video** approach, not the later digital-file workflow associated with the Mavica brand.
+
+Canon's RC-701 provides a well-documented commercial comparison. Canon dates its introduction to **July 1986**, and explicitly describes the still-video recording system as **analogue** in its [historical account](https://global.canon/en/c-museum/history/story06.html). Its [RC-701 museum entry](https://global.canon/en/c-museum/product/svc443.html) specifies the CCD and still-video floppy. The Swiss Camera Museum likewise [distinguishes analogue still-video recordings](https://www.cameramuseum.ch/en/discover/permanent-exhibition/the-digital-revolution/1986-the-first-still-video-machines/) from digital photography.
+
+These examples prevent a common inference: **no film → digital**. An electronic camera could avoid photographic processing while still retaining an analogue video representation. A magnetic disc does not automatically contain JPEG files. Always identify the particular model and recording system; a brand name can continue across a major change in technology.
+
+#### Kodak DCS, 1991: a professional photographic system
+
+Kodak's milestones identify the 1991 **Professional Digital Camera System**, using a Nikon F3 camera fitted with Kodak's 1.3-megapixel sensor. It illustrates a commercial professional digital system rather than a laboratory proof of concept. The milestone is different from Sasson's 1975 portable prototype. See [Kodak's 1991 entry](https://www.kodak.com/en/company/page/milestones/).
+
+This example also shows why the visible camera body is not the whole workflow. An established lens and camera interface can be combined with a new capture and data system. Operators need to understand storage, transfer and downstream compatibility as well as exposure and focus.
+
+#### ARRI D-20 and ALEXA: digital capture within a cinema workflow
+
+ARRI dates its first digital cine camera, the **D-20**, to 2005 and the production introduction of **ALEXA** to 2010. The same history describes film scanning and digital-to-film recording, showing that the transition was not simply “film disappeared and pixels arrived”. See [ARRI's century of cinema](https://www.arri.com/en/company/the-arri-philosophy/history/the-history-of-arri-in-a-century-of-cinema).
+
+A digital cinema workflow joins capture, monitoring, colour interpretation, storage, sound synchronisation, editing and finishing. A camera may feel familiar in the hand while the recorded representation changes substantially. The familiar vocabulary—**lens, aperture, focus, exposure, framing**—therefore remains useful, but it is no longer sufficient on its own. We also need **sensor readout, codec, raw data, metadata, monitoring transform** and **recording media**.
+
+### A comparison that matters more than a list of dates
+
+| Example | What receives or converts the image? | What is retained? | Main distinction to explain |
+| --- | --- | --- | --- |
+| Giroux daguerreotype camera | A prepared photographic plate | A photograph produced through the appropriate process | Optical image formation is older than electronic image data. |
+| Cinématographe / ARRIFLEX film camera | Photographic film at the gate | Successive photochemical images | Intermittent transport and exposure make the sequence possible. |
+| Analogue still-video camera | An electronic image sensor | Analogue picture-signal recording | Electronic and filmless do not imply digital coding. |
+| Kodak 1975 prototype | CCD plus an electronic data chain | Digital image data on cassette | A tape can carry digital data. |
+| Professional digital still/cinema camera | Sensor, conversion and processing circuits | Digitally encoded image information and metadata | The recording needs interpretation, data handling and a complete workflow. |
+
+The developments do not form a rule that newer is automatically appropriate for every purpose. Film, digital photography and digital cinema continue to raise questions of image character, workflow, preservation and access. To compare equipment meaningfully, specify the task and follow the signal or image through the system.
+
+Individual exercises **C13–C15** ask you to classify the examples, qualify a “first” claim and explain what changed between two systems.
+
+
 ### Inside the sensor: light, charge, voltage and bits
+
+At a light-sensitive site, arriving photons can contribute to collected electrical charge. The readout circuitry makes that charge measurable, and conversion assigns numerical codes. These are distinct steps: a photon is not itself a bit, and a photosite under one colour filter is not yet a complete red–green–blue output pixel. The numerical example below follows the quantities one by one so that the units do not disappear inside the phrase “the camera records pixels”.
 
 The sensor sits at the image plane. Before light reaches its sensitive regions, it may pass through protective glass, an infrared-cut filter, an **optical low-pass filter**, a colour-filter array and microscopic lenses. A low-pass filter reduces optical detail likely to alias against the sampling grid. An IR-cut filter limits unwanted infrared response. Not every camera uses the same filters, and some omit an optical low-pass filter. A functional diagram cannot establish the exact physical order or construction of every camera's filter stack. [ARRI: sensors and optical low-pass filtering](https://www.arri.com/en/learn/arri-camera-technology/alev-sensors).
 
@@ -1702,6 +2698,8 @@ A sensor's **photosite count**, its resolved detail, and the final file's pixel 
 A monochrome sensor may omit the colour-filter array. Other cameras use different filter patterns or separate sensors with a colour-separating prism. Therefore, neither Bayer sampling nor demosaicing is a compulsory stage in every camera. Sony's own documentation includes alternative pixel arrangements, illustrating why “one pixel equals one red, green and blue measurement” is unsafe shorthand. [Sony: Quad Bayer sensor structure](https://www.sony-semicon.com/files/62/pdf/p-13_IMX299CJK_Flyer.pdf), [Nikon MicroscopyU: digital-imaging fundamentals](https://www.microscopyu.com/digital-imaging/fundamentals-of-digital-imaging).
 
 ### Exposure time, frame rate and shutter behaviour
+
+Frame rate tells us how frequently pictures are produced. Exposure time tells us how long light contributes to a particular exposure. At 25 fps, a frame period is 40 milliseconds; an exposure might use 20 milliseconds of that period. Longer exposure can blur movement more. If different sensor rows begin their exposures at different times, a moving object can also change shape in the recorded image. Those are separate effects.
 
 **Frame rate** says how many frames are captured or presented per second. **Exposure time** says how long a photosite integrates light for a particular frame. **Readout timing** says when measurements from different locations are transferred or sampled. None is a substitute for the other two.
 
@@ -1866,7 +2864,7 @@ Use **increase the f-number** or **close down the aperture** when that is what y
 
 The Slovene column supplies orientation, not a claim that every workplace uses one fixed equivalent. In English, use the term that identifies the actual mechanism. An accurate explanation can be short: “This control changes the exposure index in the monitoring workflow; it does not change the selected base sensor mode.” That sentence is more useful than a long description built around an unidentified “quality” setting.
 
-## 5. People, professions and terminology
+## 7. People, professions and terminology
 
 Professional vocabulary makes responsibilities and decisions precise. Saying that you *edit dialogue scenes, organise rushes, or pull focus* identifies a contribution. Learn terms with their usual verbs: a director **blocks a scene**, a camera assistant **pulls focus**, an editor **assembles a sequence**, and a colourist **matches shots**.
 
@@ -2205,7 +3203,7 @@ A production sound mixer records on location; a re-recording mixer combines and 
 
 ADR is not the same as Foley: replacing a spoken line and performing footsteps solve different problems. Expansions of *ADR* vary in professional usage, so explaining the actual process is more useful than insisting on one expansion. A Foley artist performs sound events; an effects editor may also use recordings from other sources. Both can contribute to the same finished moment.
 
-An unseen speaker does not automatically make a line voice-over. In screenplay notation, distinguish narration or another designated V.O. use from a character speaking outside the frame within the scene. Chapter 13 explains this distinction; see also [Final Draft's guidance on V.O. and O.S.](https://www.finaldraft.com/blog/how-to-use-voice-over-in-a-screenplay-formatting-and-best-practices-explained).
+An unseen speaker does not automatically make a line voice-over. In screenplay notation, distinguish narration or another designated V.O. use from a character speaking outside the frame within the scene. Chapter 15 explains this distinction; see also [Final Draft's guidance on V.O. and O.S.](https://www.finaldraft.com/blog/how-to-use-voice-over-in-a-screenplay-formatting-and-best-practices-explained).
 
 Sources: ScreenSkills, [Supervising sound editor](https://www.screenskills.com/job-profiles/browse/film-and-tv-drama/post-production/supervising-sound-editor/), [Dialogue editor skills](https://www.screenskills.com/skills-checklists/unscripted-tv/post-production-department/dialogue-editor-skills/), [Sound-effects editor skills](https://www.screenskills.com/skills-checklists/unscripted-tv/post-production-department/sound-effects-editor-skills/), [Foley artist](https://www.screenskills.com/job-profiles/browse/post-production/sound-studios/foley-artist-post-production/) and [Dubbing mixer](https://www.screenskills.com/job-profiles/browse/post-production/sound-studios/dubbing-mixer-post-production/).
 
@@ -2270,7 +3268,7 @@ Expand an abbreviation when its meaning is not already established. **AD**, **AC
 
 A useful terminology entry contains a term, a brief definition, a typical phrase and a source. Add a Slovene explanation where it resolves a distinction. Record “**picture lock — the approved picture timing used for downstream work — confirm picture lock / changes after picture lock**”, rather than only “picture lock = zaklep slike”. Understanding the responsibility and the consequence makes the term usable.
 
-## 6. English on set and in the studio
+## 8. English on set and in the studio
 
 ### Make an instruction actionable
 
@@ -2312,7 +3310,7 @@ Identify the subject, framing, movement and relevant action. Include the purpose
 
 The first two sentences describe the proposed image and movement. The last explains the intended effect. A technical description and an interpretation can therefore coexist without being confused.
 
-Distinguish moving the camera through space from changing focal length. A zoom changes the framing through the lens; physically moving the camera changes its position. The resulting images can differ in spatial relationships and perspective. Chapter 5 explains the relevant terminology.
+Distinguish moving the camera through space from changing focal length. A zoom changes the framing through the lens; physically moving the camera changes its position. The resulting images can differ in spatial relationships and perspective. Chapter 7 explains the relevant terminology.
 
 When giving a note, use only the dimensions that matter. A long list of technical details can obscure the actual decision:
 
@@ -2379,7 +3377,7 @@ End with a specific request when a decision is needed:
 > Could you identify the preferred take before I revise the sequence?  
 > I need the correct spelling of the contributor's name before updating the title.
 
-## 7. Working in English
+## 9. Working in English
 
 ### Communication begins with a purpose
 
@@ -2429,7 +3427,7 @@ For a specialist audience, a familiar term can stand alone. For a non-specialist
 
 > We created lower-resolution editing copies, or proxies, so that the editor could work smoothly with the footage.
 
-Avoid using a near-synonym that changes the concept. A *take* is not simply another word for a *scene*. A *producer* and a *director* do not name the same role. Chapter 5 develops these distinctions by profession.
+Avoid using a near-synonym that changes the concept. A *take* is not simply another word for a *scene*. A *producer* and a *director* do not name the same role. Chapter 7 develops these distinctions by profession.
 
 Slovene equivalents in this material are orientation aids. Credit conventions and the division of work vary between countries and productions. When a title has no exact equivalent, explain its responsibilities before choosing a translation.
 
@@ -2476,7 +3474,7 @@ This is more useful than a promise made before the requirements are understood. 
 
 In every chapter, pay attention to these small differences. They determine whether the recipient understands a sentence as an observation, a possibility, a request or a promise.
 
-## 8. Reading, listening and checking sources
+## 10. Reading, listening and checking sources
 
 ### Identify the kind of text
 
@@ -2563,7 +3561,7 @@ A small terminology record is useful:
 | Source | Author or organisation, page or URL, and version/date when relevant. |
 | Slovene orientation | A suitable equivalent or a description of the function. |
 
-Professional roles can vary with region, budget and production type. Distinguish the role's function from the particular credit used on one project. Chapter 5 identifies several cases where this matters.
+Professional roles can vary with region, budget and production type. Distinguish the role's function from the particular credit used on one project. Chapter 7 identifies several cases where this matters.
 
 ### Evaluate an online explanation
 
@@ -2589,7 +3587,7 @@ The revision is fluent and reverses the meaning. A subtler error would preserve 
 
 For any suggested source, open the source and check that it exists and supports the claim. For a suggested term, inspect examples from the relevant professional field. Treat the result of the check as the basis of your decision.
 
-## 9. Production documents and technical information
+## 11. Production documents and technical information
 
 ### Documents organise different decisions
 
@@ -2731,7 +3729,7 @@ A useful memo separates confirmed actions, unresolved questions and observations
 
 The memo identifies different kinds of information. A question remains a question; an observation does not become a confirmed diagnosis; an optional opening does not silently replace the approved structure.
 
-## 10. Emails and international collaboration
+## 12. Emails and international collaboration
 
 ### Make the purpose visible
 
@@ -2856,7 +3854,7 @@ Read the message once for meaning and once for practical details. Check the reci
 
 Then ask whether the recipient can answer the request without guessing what *it, that, the file* or *the last version* refers to. Replace an ambiguous reference with a short, exact description.
 
-## 11. Describing stories and presenting projects
+## 13. Describing stories and presenting projects
 
 ### Different texts serve different purposes
 
@@ -2986,7 +3984,7 @@ A festival entry can show how a synopsis, credits, biography and press material 
 
 When writing your own publicity text, distinguish a factual description from an evaluation. *A short documentary about a film archive* is descriptive. *An unforgettable documentary* is an evaluative claim. Select wording that suits the purpose and the evidence.
 
-## 12. Giving feedback and discussing post-production
+## 14. Giving feedback and discussing post-production
 
 ### Make a judgement useful
 
@@ -3052,7 +4050,7 @@ A shot can change meaning when its sound changes. Likewise, the effect of a soun
 
 > The music stops before the character answers. The resulting pause makes the answer more exposed.
 
-The terminology in Chapter 5 helps distinguish sound overlap, dialogue editing, ambience, score and final mixing. A request to alter a sound's timing differs from a request to alter its level. “Bring it in earlier” concerns timing; “make it quieter” concerns level; “reduce its prominence” describes a perceptual aim that may require clarification.
+The terminology in Chapter 7 helps distinguish sound overlap, dialogue editing, ambience, score and final mixing. A request to alter a sound's timing differs from a request to alter its level. “Bring it in earlier” concerns timing; “make it quieter” concerns level; “reduce its prominence” describes a perceptual aim that may require clarification.
 
 ### Explain what has changed
 
@@ -3076,7 +4074,7 @@ A critical paragraph can move from a claim to evidence, interpretation and quali
 
 The paragraph identifies concrete formal choices and explains a possible effect. It avoids a catalogue of disconnected adjectives. The same method supports an individual oral explanation: make the claim, identify the evidence and explain the connection.
 
-## 13. Dialogue, scripts and subtitles
+## 15. Dialogue, scripts and subtitles
 
 ### Read a screenplay as a working text
 
@@ -3206,7 +4204,7 @@ I am bringing the projector in.
 
 The first cue lasts two seconds and contains nineteen characters when spaces and punctuation are counted. For this example, define reading rate as visible characters divided by display duration: 19 ÷ 2 = **9.5 characters per second**. This is an arithmetic example, not a universal acceptable rate. A delivery specification must define the relevant limit and counting convention.
 
-The comma before the final three digits marks milliseconds. It does not introduce a frame number. At 25 fps, one frame lasts 0.04 seconds, or 40 milliseconds; `00:00:12:10` in frame timecode therefore cannot be copied unchanged into SRT notation. Chapter 9 explains the distinction with an explicitly stated sequence origin.
+The comma before the final three digits marks milliseconds. It does not introduce a frame number. At 25 fps, one frame lasts 0.04 seconds, or 40 milliseconds; `00:00:12:10` in frame timecode therefore cannot be copied unchanged into SRT notation. Chapter 11 explains the distinction with an explicitly stated sequence origin.
 
 For a classroom exercise, the brief might specify at most two lines, 37 characters per line and 15 characters per second, counting spaces and punctuation. Those figures belong to that exercise. Meeting them is only one part of success: the subtitle must also preserve the dialogue's meaning and fit its timing and context.
 
@@ -3221,7 +4219,7 @@ The lost negative reverses the instruction. A spelling checker may find nothing 
 
 Reviewing the text as a document helps reveal language and consistency problems. Reviewing it with the image and sound is needed to assess timing, speaker reference and audiovisual meaning. In the exercises, the supplied dialogue, context and timing data define what can be checked; identify any judgement that would require seeing the actual scene.
 
-## 14. Language in context
+## 16. Language in context
 
 ### Choose grammar to preserve the message
 
@@ -3474,7 +4472,7 @@ Begin with meaning and facts: have you preserved the requirement, the degree of 
 
 A grammatically polished text can still be inaccurate. A technically correct text can still be hard to follow. A successful revision addresses both, and leaves you able to explain the final wording in your own words.
 
-## 15. References
+## 17. References
 
 ### Main book reference
 
@@ -3495,9 +4493,19 @@ This book supports the connection between professional media vocabulary and read
 
 The professional scenarios, explanatory prose, model documents and exercises in this course material are original. The book is a supporting reference; its own tasks and recordings are separate resources. Current technical documentation supplements the book where terminology, software or delivery practices require a more specific account.
 
+### Pronunciation and spoken terminology
+
+The pronunciation addition in Chapter 2 draws on the following sources, distinct from the Cambridge media textbook. The word bank, production sentences, listening sequence, tongue twisters and exercises P01–P12 were written for this course.
+
+- **Šuštaršič, Rastislav. 1999.** “A Contrastive Approach to Teaching English Pronunciation for Slovene Students of English.” *Proceedings of the 14th International Congress of Phonetic Sciences*, 763–766. [Author's paper and abstract](https://www.internationalphoneticassociation.org/icphs-proceedings/ICPhS1999/p14_0763.html). English–Slovene contrasts, consonants, voicing and connected speech.
+- **Stopar, Andrej. 2019.** “Perception of General British Monophthongs: The Case of Slovene Students of English as a Foreign Language.” *Jezikoslovlje* 20(3): 475–496. [Publication record and article](https://hrcak.srce.hr/231459). Evidence on vowel perception and the limits of predicting learner difficulty from inventories alone.
+- **Metruk, Rastislav. 2018.** “‘West’ or ‘Vest’? Pronunciation of English Consonants [w] and [v] in the Utterances of Slovak EFL Speakers.” *Journal of Language and Education* 4(2): 24–29. [Research article](https://jle.hse.ru/en/article/view/7384). Evidence concerning Slovak, not a substitute for examining Slovene learners individually.
+- **British Council, TeachingEnglish.** [Word stress](https://www.teachingenglish.org.uk/professional-development/teachers/knowing-subject/word-stress), [schwa](https://www.teachingenglish.org.uk/professional-development/teachers/teaching-knowledge-database/q-s/schwa), [weak forms](https://www.teachingenglish.org.uk/professional-development/teachers/teaching-knowledge-database/t-w/weak-forms) and [consonant-cluster listening practice](https://africa.teachingenglish.org.uk/classroom/pronunciation/consonant-clusters). Used selectively for pronunciation teaching; the course does not adopt pair-work activities or a literally isochronous account of English rhythm.
+- **Cambridge Dictionary.** Word-specific British and American pronunciation models and audio, linked directly in the word bank. Stress guides in capitals are course annotations rather than dictionary transcription. Audio remains on the publisher's site and is not included in the offline package.
+
 ### Computers, digital media and cameras
 
-The first four chapters cite technical sources beside the claims they support. The following groups indicate where to continue reading. Mathematical examples and schematics state their own assumptions; they do not substitute for the service manual or delivery specification of an actual device or production.
+Chapters 3–6 cite technical sources beside the claims they support. The following groups indicate where to continue reading. Mathematical examples and schematics state their own assumptions; they do not substitute for the service manual or delivery specification of an actual device or production.
 
 | Field | Primary references and their role |
 | --- | --- |
@@ -3507,23 +4515,23 @@ The first four chapters cite technical sources beside the claims they support. T
 | Audio conversion | Walt Kester's Analog Devices tutorials on [sampling](https://www.analog.com/media/en/training-seminars/tutorials/MT-002.pdf), [quantisation](https://www.analog.com/media/en/training-seminars/tutorials/MT-001.pdf), [successive approximation](https://www.analog.com/media/en/training-seminars/tutorials/MT-021.pdf) and [delta-sigma conversion](https://www.analog.com/media/en/training-seminars/tutorials/MT-022.pdf). |
 | Digital sound history and coding | Sony's [history of the compact disc](https://www.sony.com/en/SonyInfo/CorporateInfo/History/SonyHistory/2-07.html); the shared CD physical-coding description in [ECMA-130](https://ecma-international.org/publications-and-standards/standards/ecma-130/); codec, container and preservation sources linked in the sound chapter. |
 | Video signals and colour | ITU-R [BT.601](https://www.itu.int/rec/R-REC-BT.601/en), [BT.709](https://www.itu.int/rec/R-REC-BT.709/en), [BT.2020](https://www.itu.int/rec/R-REC-BT.2020/en) and [BT.2100](https://www.itu.int/rec/R-REC-BT.2100/en); EBU's [digital video level guidance](https://tech.ebu.ch/publications/r103). |
-| Video compression and preservation | IETF/RFC documentation, codec specifications and manufacturer documentation linked in Chapter 3. Codec capabilities must be matched to the exact profile, precision and operating mode. |
-| Image formation and exposure | Canon, Nikon, ZEISS and Edmund Optics documentation linked in Chapter 4 for focal length, entrance pupil, transmission, focus and diffraction. |
-| Sensors and camera processing | Sony Semiconductor Solutions, Hamamatsu, Basler, ARRI, RED, Adobe and Blackmagic Design documentation linked in Chapter 4. Sensor architecture, exposure timing, raw processing and monitoring behaviour are tied to the documented implementation. |
+| Video compression and preservation | IETF/RFC documentation, codec specifications and manufacturer documentation linked in Chapter 5. Codec capabilities must be matched to the exact profile, precision and operating mode. |
+| Image formation and exposure | Canon, Nikon, ZEISS and Edmund Optics documentation linked in Chapter 6 for focal length, entrance pupil, transmission, focus and diffraction. |
+| Sensors and camera processing | Sony Semiconductor Solutions, Hamamatsu, Basler, ARRI, RED, Adobe and Blackmagic Design documentation linked in Chapter 6. Sensor architecture, exposure timing, raw processing and monitoring behaviour are tied to the documented implementation. |
 
 ### Professional terminology and documentation
 
-Chapter 5 gives direct links next to the relevant groups of terms. The following overview identifies the main source organisations and their uses. A role profile describes a professional context; it should be read with attention to country, production type and the division of responsibilities. A manufacturer document explains a particular system or process and may change with its version.
+Chapter 7 gives direct links next to the relevant groups of terms. The following overview identifies the main source organisations and their uses. A role profile describes a professional context; it should be read with attention to country, production type and the division of responsibilities. A manufacturer document explains a particular system or process and may change with its version.
 
 | Source | Use in this material |
 | --- | --- |
-| **ScreenSkills.** Film and television job profiles and skills checklists; for example, [Director of photography](https://www.screenskills.com/job-profiles/browse/film-and-tv-drama/technical/director-of-photography-dop/), [Supervising sound editor](https://www.screenskills.com/job-profiles/browse/film-and-tv-drama/post-production/supervising-sound-editor/) and [Vision mixer](https://www.screenskills.com/job-profiles/browse/unscripted-tv/editorial/vision-mixer/). | Departmental responsibilities, relationships between roles and variation in professional titles. The individual profiles used are linked throughout Chapter 5. |
+| **ScreenSkills.** Film and television job profiles and skills checklists; for example, [Director of photography](https://www.screenskills.com/job-profiles/browse/film-and-tv-drama/technical/director-of-photography-dop/), [Supervising sound editor](https://www.screenskills.com/job-profiles/browse/film-and-tv-drama/post-production/supervising-sound-editor/) and [Vision mixer](https://www.screenskills.com/job-profiles/browse/unscripted-tv/editorial/vision-mixer/). | Departmental responsibilities, relationships between roles and variation in professional titles. The individual profiles used are linked throughout Chapter 7. |
 | **Adobe.** Premiere and Media Encoder documentation; for example, [Slip edits](https://helpx.adobe.com/premiere/desktop/edit-projects/trim-clips/perform-slip-edits.html), [EDL export](https://helpx.adobe.com/premiere/desktop/render-and-export/export-files/export-a-project-as-an-edl-file.html) and [Export settings](https://helpx.adobe.com/media-encoder/desktop/encoding-and-exporting/export-settings-reference.html). | Editing operations, interchange, compositing and delivery terminology. |
 | **Avid.** [AAF format](https://kb.avid.com/pkb/articles/en_US/Knowledge/en336549). | Exchange of project information and media between applications. |
-| **ARRI.** [Editorial workflow](https://www.arri.com/en/learn/camera-systems/pre-postproduction/editorial-workflow), [Visual-effects FAQ](https://www.arri.com/en/learn-help/learn-help-camera-system/image-science/vfx-faq) and technical documents linked in Chapter 5. | Camera and post-production relationships, image transforms and technical terminology. |
+| **ARRI.** [Editorial workflow](https://www.arri.com/en/learn/camera-systems/pre-postproduction/editorial-workflow), [Visual-effects FAQ](https://www.arri.com/en/learn-help/learn-help-camera-system/image-science/vfx-faq) and technical documents linked in Chapter 7. | Camera and post-production relationships, image transforms and technical terminology. |
 | **Nikon.** [Understanding maximum aperture](https://www.nikonusa.com/learn-and-explore/c/tips-and-techniques/understanding-maximum-aperture) and [A basic look at exposure](https://www.nikonusa.com/learn-and-explore/c/tips-and-techniques/a-basic-look-at-the-basics-of-exposure). **ZEISS.** [Zoom or prime lens?](https://lenspire.zeiss.com/photo/en/article/3-zoom-or-prime-lens-a-shootout-comparison/). | Optical and exposure distinctions used in explaining cinematography vocabulary. |
 | **Blackmagic Design.** [ATEM Constellation: features](https://www.blackmagicdesign.com/products/atemconstellationip/features). | Examples of live-production terminology, including feeds and tally. |
-| **Shure.** [Educational guide to audio systems](https://www.shure.com/en-US/docs/education/house-of-worship-audio-systems), especially microphone characteristics. | The distinction between sensitivity, noise and suitability for a recording situation; further sound sources are linked in Chapter 5. |
+| **Shure.** [Educational guide to audio systems](https://www.shure.com/en-US/docs/education/house-of-worship-audio-systems), especially microphone characteristics. | The distinction between sensitivity, noise and suitability for a recording situation; further sound sources are linked in Chapter 7. |
 | **Final Draft.** [Glossary of Screenwriting Terms](https://kb.finaldraft.com/hc/en-us/articles/15575065049492-Glossary-of-Screenwriting-Terms). Hartman, Steven. 2026. [How to Use Voice Over in a Screenplay: Formatting and Best Practices Explained](https://www.finaldraft.com/blog/how-to-use-voice-over-in-a-screenplay-formatting-and-best-practices-explained). | Screenplay labels and the distinction between voice-over and off-screen scene dialogue. |
 
 ### Subtitles, accessibility and authentic project materials
@@ -3536,19 +4544,185 @@ Chapter 5 gives direct links next to the relevant groups of terms. The following
 
 **Festival de Cannes.** [*La Chimera*: official film entry](https://www.festival-cannes.com/en/f/la-chimera/). An authentic example of a project entry with synopsis, credits and related publicity material.
 
-Online sources were consulted for this edition on **7 October 2026**. For an actual production, check the current document and the brief that applies to that delivery.
+The original technical and professional chapters retain their source references from the earlier edition. Sources for the added language, analogue-equipment and historical material were checked on **15 October 2026**; the pronunciation references were checked on **20 October 2026**. For an actual production, consult the current document and the brief that applies to the delivery.
+
+### Numbers, English usage, analogue equipment and historical cases
+
+The numerical notation chapter uses NIST's [SI writing guidance](https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-7-rules-and-style-conventions-expressing-values), [binary prefixes](https://physics.nist.gov/cuu/Units/binary.html), Cambridge Dictionary's [billion entry](https://dictionary.cambridge.org/us/dictionary/english/billion), and the Slovene dictionary entries for [milijarda](https://fran.si/iskanje?Query=milijarda&View=1) and [bilijon](https://fran.si/iskanje?Query=bilijon&View=1).
+
+For grammar, consult Cambridge *English Grammar Today*, particularly [word order and focus](https://dictionary.cambridge.org/us/grammar/british-grammar/word-order-and-focus_2), and British Council explanations of [reported questions](https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/reported-speech-questions), [uncount nouns](https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/uncount-nouns) and [count/uncount meaning differences](https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/common-problems-count-uncount-nouns). The learner comparisons are teaching explanations, not the findings of a frequency study of Slavic speakers.
+
+Historical and material sources are linked at the relevant cases: the National Park Service and Smithsonian for early sound reproduction; IASA for carrier terminology and preservation; the National Cryptologic Museum and CIA for the Great Seal; the Science Museum Group for early cameras; IEEE's historical milestone for the portable 1975 digital prototype; and manufacturer histories from Kodak, Canon, Sony and ARRI. A manufacturer's historical claim is qualified by its stated product category rather than adopted as an unrestricted claim of priority.
+
+For material vocabulary, distinguish the Museum of Fine Arts CAMEO entries for [acetone](https://cameo.mfa.org/wiki/Acetone) and [acetate film](https://cameo.mfa.org/wiki/Acetate_film), and ACMI's [film-splicer collection](https://www.acmi.net.au/works/100531--film-splicers/). These resources support terminology; they do not replace a current safety data sheet, equipment manual or professional conservation assessment.
 
 ### Citing this course material
 
-Popič, Damjan. **2026. *English for Film and Television: Course materials / Učno gradivo*. Version 1.0.** [Version 1.0 source](https://github.com/damjan-popic/damjan-popic.github.io/blob/agrft-v1.0/assets/files/AGRFT_English_ucno_gradivo_v1.0.md).
+Popič, Damjan. **2026. *English for Film and Television: Course materials / Učno gradivo*. Version 1.2, 20 October 2026.** File: `AGRFT_English_ucno_gradivo_v1.2.md`.
 
-Use the version number when referring to this edition. The current course page may be revised; the archived version preserves the teaching text associated with this citation.
+When referring to a passage, give the edition and chapter or exercise identifier. The source repository records changes; an edition-specific file must not be confused with an evolving webpage.
 
-## 16. Exercises
+## 18. Exercises
 
 Complete these exercises individually. Oral work consists of explaining, reading, presenting or responding to the lecturer. Calculation tasks specify their assumptions; practical observation uses the demonstrated equipment or the indicated schematic. State quantities, units and the limits of any inference.
 
 The production, people, documents, source cards and dialogue in the professional exercises are fictional teaching examples. Their delivery and subtitle limits apply to the stated task. Answers follow all the exercise prompts; open tasks allow other defensible solutions.
+
+### Numbers and notation
+
+#### N01. Quantity or identifier?
+
+For each item, identify whether the number expresses a quantity, a position, an identifier or a measurement. Then give an unambiguous spoken form: **21 microphones; the 21st microphone; microphone 021; version 1.10; 0.125 s; 1920 × 1080**. Explain why the first two and the third cannot simply be interchanged.
+
+#### N02. Say the number before translating it
+
+Write these values in English words: **13, 30, 15, 50, 21, 108, 250, 1,024**. Write the ordinals for **1, 2, 3, 5, 12, 20, 21**. Give a clarification sentence that would distinguish thirteen from thirty over a noisy connection.
+
+#### N03. Translate the scale, not the spelling
+
+Convert each expression into the other language and state its power-of-ten multiplier: **3 billion bytes; 2 trillion euros; 4,5 milijarde; 1,2 bilijona**. A translation changes *2 billion* to *2 bilijona*. By what factor has the numerical value changed?
+
+#### N04. Make decimal notation unambiguous
+
+Rewrite the following Slovene-formatted values for an English technical note: **1.250,75 €; 0,25 s; 48.000 Hz; 2,5 GB**. Then explain why you must not automatically replace every comma with a point inside a CSV or subtitle file.
+
+#### N05. Percent or percentage points?
+
+A drive is 40% full before a transfer and 50% full afterwards. Give the change in percentage points and the relative increase in occupied space. Another file falls from 800 MB to 200 MB. State both the percentage reduction and the final size as a percentage of the original.
+
+#### N06. Bits, bytes and elapsed time
+
+Assume decimal MB and a constant useful payload rate with no overhead. A file is 240 MB and the rate is 80 Mbit/s. Calculate the time needed. Then explain the difference between **1 GB** and **1 GiB**, and why a 1 TB storage device does not have a speed of 1 TB.
+
+#### N07. Repair quantity formatting
+
+For technical SI-style quantity statements, repair: **5 kgs; 48KHz; 20°C; an angle of 180 °; 3 mW, intended to mean three megawatts; a 35-mm lens**. Explain the difference between the last expression and the fully written compound *a thirty-five-millimetre lens*.
+
+#### N08. Separate dates, durations and frame addresses
+
+Rewrite **10/11/2026** unambiguously for an international message when the intended date is 10 November. At 25 fps, convert **00:00:10:12** into seconds from zero. Explain why its final field is not a decimal fraction. Say what extra information a deadline of *Friday at four* may need.
+
+#### N09. Explain what the value measures
+
+Write a one-sentence explanation of each: **50 mm focal length; 750 W power-supply rating; 48 kHz sample rate; 24-bit PCM; 25 fps; 100 Mbit/s; 1 TB capacity**. Do not use one generic sentence claiming that each larger number means better quality.
+
+#### N10. Preserve literal technical text
+
+A log contains the exact filename `take_003_v1.10.wav` and error message `Sample rate mismatch: expected 48000, got 44100`. Write a short email quoting both, then explain the problem in ordinary English. Do not rename the file or localise numbers inside the quotation.
+
+#### N11. Give a clear read-back
+
+The lecturer reads a specification containing **13, 30, 0.15, 0.50, 24, 48 kHz and 80 Mbit/s**. Write the values, then read them back individually. When uncertain, ask for the exact item and repeat its digits. Explain why *eighty megs* is inadequate.
+
+#### N12. Turn a Slovene note into a delivery specification
+
+Write an English delivery note from this fictional brief: **12 posnetkov; slika 1920 × 1080, 25 progresivnih slik/s; zvok 48 kHz, 24 bitov, stereo; največ 2,5 GB na datoteko; oddaja do 15. oktobra 2026 ob 16.00 po ljubljanskem času.** State what remains unspecified instead of inventing a codec or container.
+
+### English checkpoints
+
+#### G01. Supply the right subject
+
+Rewrite as ordinary complete English statements: **Is ready**, referring to the recorder; **In the case is one spare battery**, as a neutral first mention; **Is raining outside**. Then explain why **Check the battery** does not need an added subject.
+
+#### G02. Word order and emphasis
+
+Make a neutral statement from **the editor / carefully / checked / the export / yesterday**. Write another grammatical version beginning with *Yesterday*. Explain the difference between **Only Maja changed the filename** and **Maja changed only the filename**.
+
+#### G03. Direct and embedded questions
+
+Turn these into polite requests for information beginning *Could you tell me…*: **Where is the recorder? Why did the export fail? Does the file contain audio?** Correct **Who did changed the settings?** for a question asking which person changed them.
+
+#### G04. Choose a determiner from the context
+
+Complete the gaps: **We need ___ camera; any suitable model will do. Please return ___ camera you borrowed yesterday. She is ___ editor. He arrived ___ hour late. We need ___ USB cable and ___ SD card. ___ microphones convert acoustic signals into electrical signals**, as a general statement. Explain the sound rule for *a/an*.
+
+#### G05. Count the item, not an uncountable label
+
+Revise: **Three equipments are missing. These informations are useful. I have two advices. One of the cameras are faulty. The list of clips are complete.** Then explain why both **light** and **three lights** can be correct in appropriate contexts.
+
+#### G06. Choose the time relationship
+
+Correct these for the stated meanings: **I have sent it yesterday**, completed yesterday; **I work on this edit since Monday**, continuing now; **We are usually recording room tone**, a neutral description of regular practice. Complete **We have waited ___ three hours** and **We have waited ___ noon**.
+
+#### G07. Do not reverse an instruction
+
+Explain **You must not disconnect it** versus **You do not have to disconnect it**. Correct **We didn't record nothing** for neutral professional writing meaning that no material was recorded. Rewrite **If the copy will finish, I will check it**, as an ordinary future condition.
+
+#### G08. Use the verb's construction
+
+Revise: **Explain me the setting. We discussed about the scene. Listen the recording. It depends from the codec. Turn off it. I need the file until Friday**, where Friday is the latest completion date.
+
+#### G09. Check familiar-looking words
+
+Choose a clear English expression for: **aktualna različica; eventualno bomo potrebovali drug kabel**, meaning perhaps; **občutljiv mikrofon; preveriti nivo; izvedli bomo načrt; evidenca posnetkov**. Explain what **We eventually found the fault** actually means.
+
+#### G10. Punctuate the intended meaning
+
+Punctuate these for neutral English: **I know that the file is complete. If it is complete send it. Send it if it is complete.** Then explain the difference between **The cameras that have charged batteries are ready** and **The cameras, which have charged batteries, are ready**.
+
+#### G11. Revise a short report
+
+Revise this fictional report without adding technical facts: **Yesterday we have tested new recorder. Is working good, but the informations on screen is confusing. Could you tell me why does it show 44.1? We need 48, but I am not sure what this numbers mean.** Identify one specification you would query.
+
+#### G12. Correct language without inventing certainty
+
+A student writes: **Probably the adapter is faulty. We mustn't replace it because is expensive**, but explains that replacement is *not yet necessary*, not prohibited. Rewrite the message. Include an appropriate request for a diagnostic check, and preserve the fact that the fault has not been confirmed.
+
+### Pronunciation checkpoints
+
+These individual tasks accompany the pronunciation section in Chapter 2. Use the dictionary model or lecturer's demonstration specified for the task. Where a recording is requested, a phone or computer recording is sufficient; there is no requirement to publish it. Retain established accent differences rather than marking every departure from one model as an error.
+
+#### P01. Hear a contrast before producing it
+
+Prepare an answer line with eight spaces. The lecturer reads the eight target words in the P01 answer once each, without displaying that sequence. For each item, select the word heard from the corresponding pair: (1) *ship/sheep*, (2) *fill/feel*, (3) *cap/cup*, (4) *west/vest*, (5) *thin/tin*, (6) *coat/code*, (7) *safe/save*, (8) *full/fool*. After the reveal, read both words in each pair and identify the contrasting sound. For independent study, use the dictionary audio to check the contrast rather than pretending that visible answers constitute a blind listening test.
+
+#### P02. Explain /w/ and /v/
+
+Say *west–vest*, *wine–vine* and *wet–vet*, then **a very wide view**, **white balance** and **video waveform**. Describe what your lips and upper teeth do for the first consonant of *view* and *wide*. Record one sentence about the viewfinder. Does your description preserve the contrast without replacing every written *v* with /w/?
+
+#### P03. A word, a sound and a spelling
+
+Read **three thin threads**, **those other directors**, **take a breath**, and **breathe slowly**. Identify the two pronunciation changes between *breath* and *breathe*. Explain why knowing the spelling *th* is not enough to pronounce the name *Thomas*. Use a chosen dictionary model; do not equate every regional English pronunciation with a learner error.
+
+#### P04. Preserve endings without adding syllables
+
+Read *coat–code*, *safe–save*, *script–scripts* and *mix–mixed*. Then say **The editor saved three scripts and mixed six tracks.** Mark the endings that indicate number or past time. Explain why making every final consonant noisier is not a sufficient solution and why *scripts-uh* is not the target form.
+
+#### P05. Sort -s and -ed by sound
+
+Sort **clips, files, lenses, cameras, tracks, changes** into the /s/, /z/ and /ɪz/ groups. Sort **checked, filmed, edited, stopped, saved, recorded, mixed, played, needed** into the /t/, /d/ and /ɪd/ groups. Identify which words gain a syllable when the ending is attached. Explain each classification from the final sound of the base, not the spelling of the ending.
+
+#### P06. Put the stress where the listener expects it
+
+Mark primary stress in **computer, equipment, camera, microphone, technician, photography, photographic, cinematography, resolution, acetone**. Then read: **Keep a record of the settings. Record the scene. The project is ready. Project the final sequence.** Identify the two noun–verb stress contrasts. Explain why this does not establish a stress-changing rule for all English nouns and verbs.
+
+#### P07. Weak forms and strong corrections
+
+Read **We can send a copy to the editor** as an ordinary offer, then **We CAN send it, but we cannot publish it** as a correction. Identify places where weak forms are possible and the word that receives contrastive stress in the second sentence. Give one English word with schwa and one unstressed vowel that you should not automatically replace with schwa. Do not remove a word from the sentence just because it is unstressed.
+
+#### P08. Make the intended correction audible
+
+Read **Move the blue light** three times: first correct *red*, then correct *switch off*, then correct *reflector*. State which word you stress each time and why. Divide **After the interview save the original files and label the copy** into useful spoken groups without changing the order of the actions. Distinguish spoken grouping from a compulsory written-comma rule.
+
+#### P09. Read back a critical instruction
+
+The brief is: **Keep thirteen original files. Do not format card B. Record at forty-eight kilohertz, twenty-four-bit PCM.** Give a clear read-back. The lecturer then says, **“Thirty files?”** Correct the misunderstanding using both the number word and separate digits. Explain why neither an assumed stress pattern nor a nearly inaudible final consonant is sufficient protection on a poor connection.
+
+#### P10. Build a spoken terminology record
+
+Select eight words from the pronunciation word bank, including **aperture, diaphragm, cinematography** and **analogue**. For each word, record its meaning, the dictionary's accent label, primary stress, a broad transcription or clear listening note, and one original production phrase. Say each word in its phrase, not just in isolation. Identify one legitimate alternative pronunciation and explain why you have not labelled it an error.
+
+#### P11. Use a tongue twister as a controlled drill
+
+Choose three of T01–T12 targeting different features. For each, name the target before speaking. Say the drill slowly, repeat at an ordinary comfortable pace, then produce one new, useful production sentence containing that feature. Record the ordinary sentence. Evaluate preservation of the contrast or stress pattern, grammatical endings and intelligibility. Speed is not a scoring criterion. Do this individually, with feedback from the lecturer where available.
+
+#### P12. Give a short technical handover
+
+Read and record the following text at a natural, comprehensible pace:
+
+> We recorded three short interviews. The first camera used a wide lens, and the second camera recorded the close-ups. I checked the audio and saved the original files. There are thirteen clips, not thirty. Please keep the originals and send the editor a copy. Do not format card B.
+
+Choose three features to assess before listening back: for example, /w/–/v/, /θ/–/ð/, vowel contrasts, endings, word stress, or the clarity of numbers and the negative. Identify one successful phrase and one specific improvement. Make a second recording and explain what you changed. Do not use automatic speech recognition as the sole judge of pronunciation.
 
 ### Computer exercises
 
@@ -3625,6 +4799,14 @@ Revise this report into an accurate, useful handover. Where the writer has not s
 #### H16. Explain one complete mechanism
 
 Prepare an individual explanation of approximately three minutes, supported by one of the schematics. Choose the CMOS inverter and adder, the teaching processor, or the route from a stored clip to picture and sound. Identify the input, internal stages, retained state, output and one limitation. Define five technical terms in context. Answer the lecturer's questions about the mechanism. This is practice; formal presentation requirements remain those announced for the course.
+
+#### H17. Explain a component without hiding behind its name
+
+Choose the RAM, SSD, CPU, GPU or cooler. Give a 60–100-word explanation for a reader who has never opened a computer. Say what the part receives, what it does and what it passes on or retains. You may use an analogy, but state where the analogy stops working.
+
+#### H18. What does pressing Play change?
+
+In six connected sentences, describe pressing Play in an editing application. Include an input event, program instructions, working memory, encoded media, decoding and a timed output. Explain why a spinning fan does not prove that this entire process is working.
 
 ### Digital sound exercises
 
@@ -3774,6 +4956,18 @@ Write 180–230 words handing a fictional recording to an assistant editor. Use 
 
 Identify what is known, what needs checking and what the review copy is for. Avoid unsupported claims such as “perfectly synchronised”, “lossless from microphone to listener” or “the distortion can definitely be repaired”.
 
+#### A16. Classify the carrier and representation
+
+Compare **a shellac record, a vinyl record, an analogue reel-to-reel tape, an audio CD and a cassette containing digital image data**. For each, identify the carrier and whether the retained programme representation is analogue or digital. Explain why *disc* and *tape* are not sufficient format descriptions.
+
+#### A17. Describe a tape transport fault
+
+An analogue tape's sustained test tone wavers in pitch. Identify the capstan, pinch roller and reels by function. Offer one transport-related hypothesis without declaring it proven. Explain why changing the bit depth of a later digital capture is not a repair for the original speed variation.
+
+#### A18. Explain the Great Seal without calling it digital
+
+Write 120–180 words explaining the Great Seal device to a film student. Identify the recipient and location; distinguish the role of sound from external radio illumination; and explain **passive**, **transduction**, **transmission** and **recording**. State which digital stages are not established by the historical account.
+
 ### Video exercises
 
 These tasks are individual. Use complete technical explanations when a question asks how or why; a term alone is insufficient. Calculations use decimal MB and GB, and active-picture payloads exclude sound, metadata and padding unless stated.
@@ -3844,6 +5038,18 @@ Write one sentence distinguishing UHD, wide colour gamut and HDR.
 At 25 fps, calculate the duration from in-point `01:02:14:08` to exclusive out-point `01:02:18:16`. Write the next valid 29.97 drop-frame label after `00:00:59;29` and after `00:09:59;29`. Explain whether any pictures were removed.
 
 Finally, write a 100–140-word handover note for an analogue capture. Distinguish the preservation master, an editing representation if needed, and a viewing copy. Mention field order, colour interpretation, audio, verification and retained source identification. Treat the format choice as a reasoned proposal rather than a universal preservation rule.
+
+#### V13. Explain three recording systems
+
+In a table, compare photochemical film, analogue videotape and a digital video file. Identify what carries the picture information and what is needed for playback. Explain why discrete film frames do not make the photographic image representation digital, and why a digital file can still show analogue-tape defects.
+
+#### V14. Pictures, flashes and film movement
+
+For a hypothetical projector running at 24 frames per second with two flashes per frame, calculate the flash rate and the number of different frames shown in ten seconds. Explain the gate, shutter, pull-down and film loops. Why should film move smoothly at a traditional optical sound reader?
+
+#### V15. Do not confuse material names
+
+Explain **acetone, cellulose acetate, cellulose nitrate, polyester, emulsion, film cement** and **splicing tape**. A proposed note says: *All old film is acetate, so clean it with acetone and glue it with ordinary cement.* Replace it with an accurate short instruction that does not prescribe an unverified treatment.
 
 ### Camera exercises
 
@@ -3958,6 +5164,18 @@ For an original classroom shot, the agreed recording is progressive 25 fps with 
 2. Write a concise camera report specifying recording mode, frame rate, exposure time or shutter angle, lens and focus information, white balance, colour encoding, monitoring LUT status, clip/take identification and useful sound information. Supply plausible proposed values where the brief leaves a field open, and label those as your choices.
 3. Describe the route from light entering the lens to the editor opening the verified copy in 120–180 words.
 4. Name one decision belonging to photographic practice, one to camera operation, and one to media handling. Explain how responsibilities should be confirmed when the production has a small crew.
+
+#### C13. Qualify a first-camera claim
+
+Revise: *Kodak invented every kind of electronic camera in 1975; Sony then invented digital photography in 1981.* Use the historical cases to give two precise sentences. Explain why *prototype*, *commercial system* and *widely adopted system* are different categories.
+
+#### C14. Follow the image in two cameras
+
+Choose the ARRIFLEX 35 and Kodak's 1975 prototype. For each, describe the role of optics, the recording surface or sensor, the retained representation, and the route to a viewable result. Name at least four elements or operations that should not be silently transferred from one system to the other.
+
+#### C15. Electronic, analogue or digital?
+
+A camera has a battery, a CCD, an LCD settings panel and a magnetic recording disc. Is that evidence sufficient to call its image recording digital? Use the Canon RC-701 example in your explanation. Then explain why a modern film camera's electronic controls do not turn its negative into a digital file.
 
 ### People, professions, and terminology
 
@@ -4514,7 +5732,157 @@ Assessment concerns understandable, organised professional English; appropriate 
 
 The calculations below follow the stated assumptions. For explanation, writing and diagnosis, other answers can be valid if they preserve the facts, identify the mechanism and communicate clearly. Model texts illustrate useful wording; expand them where a prompt requires a longer submission.
 
+**Numbers and notation**
+
+#### N01. Answer
+
+21 microphones is a quantity: *twenty-one microphones*. The 21st is an ordinal position: *the twenty-first microphone*. Microphone 021 is an identifier: *microphone zero two one*, if those digits form the agreed label. Version 1.10 is an identifier: *version one dot ten*, not necessarily the decimal value 1.1. 0.125 s is a duration: *zero point one two five seconds*. 1920 × 1080 states two dimensions, here to be identified as an image grid rather than a physical size. The label of an item need not equal its current position or the number of items present.
+
+#### N02. Answer
+
+The cardinals are *thirteen, thirty, fifteen, fifty, twenty-one, one hundred and eight, two hundred and fifty, one thousand and twenty-four*. Common American counting omits some instances of *and*. The ordinals are *first, second, third, fifth, twelfth, twentieth, twenty-first*. A useful clarification is: *Thirteen, one three, not thirty.* Correct spelling includes *forty* and *twelfth*.
+
+#### N03. Answer
+
+3 billion bytes = *3 milijarde bajtov*, with billion = 10⁹. 2 trillion euros = *2 bilijona evrov*, with trillion = 10¹². *4,5 milijarde* = 4.5 billion. *1,2 bilijona* = 1.2 trillion. Translating 2 billion as 2 bilijona changes 2 × 10⁹ into 2 × 10¹²: the value becomes 1,000 times as large. A historical source using a different scale would require explicit qualification.
+
+#### N04. Answer
+
+Suitable English forms are *€1,250.75; 0.25 s; 48,000 Hz* (or *48 000 Hz*); and *2.5 GB*. Separators can be part of file syntax. A comma may delimit CSV fields, and a subtitle timestamp may require a comma before milliseconds. A global replacement could change structure or invalidate the file. Establish the format and parser requirements first.
+
+#### N05. Answer
+
+Occupancy increases by 10 percentage points. Relative increase in occupied space is (50 − 40)/40 = 25%, assuming the same total capacity. The file is reduced by 600/800 = 75%; it is reduced to 25% of the original size. *Reduced by 25%* would instead produce 600 MB.
+
+#### N06. Answer
+
+80 Mbit/s ÷ 8 = 10 MB/s. Time = 240 MB ÷ 10 MB/s = 24 s. 1 GB is 1,000,000,000 bytes; 1 GiB is 1,073,741,824 bytes. TB alone is capacity, not rate. A rate needs a time denominator and a relevant measurement of actual throughput. Real transfers also involve overhead and other limitations.
+
+#### N07. Answer
+
+Use *5 kg; 48 kHz; 20 °C; an angle of 180°; 3 MW; a 35 mm lens*. Prefix and symbol case matter. SI notation retains a space between a numerical value and a unit symbol even in the modifier *35 mm*. Spelled-out English compounds normally use hyphens: *a thirty-five-millimetre lens*. This does not prohibit ordinary compounds such as *a ten-second clip*.
+
+#### N08. Answer
+
+Write *10 November 2026* or *2026-11-10* in an agreed year–month–day notation. The timecode represents 10 + 12/25 = 10.48 s under the stated simple counting assumption. The final field counts frames, not hundredths of a second. A deadline may need the calendar date, whether four means 04:00 or 16:00, and the time zone.
+
+#### N09. Answer
+
+A 50 mm designation identifies focal length, not barrel length. A 750 W PSU rating concerns supported power delivery under specified conditions, not constant consumption. 48 kHz gives sample timing: 48,000 samples per second per channel. 24-bit integer PCM provides a specified number of code bits per sample. 25 fps states the frame rate. 100 Mbit/s is a data rate, whose role and overhead must be specified. 1 TB is a decimal storage capacity. Quality depends on the task and the rest of the system.
+
+#### N10. Answer
+
+A suitable answer is: *The file `take_003_v1.10.wav` produces the message `Sample rate mismatch: expected 48000, got 44100`. The application reports that the file's sample rate differs from the expected rate. Could you confirm whether the session settings or the delivered file should change?* A good answer preserves literal evidence, translates it into an explanation, and does not invent the cause or an authorised fix.
+
+#### N11. Answer
+
+This is a listening and individual read-back task. Accept exact values with correct units and clear requests for clarification. *Eighty megs* leaves at least the bit/byte distinction and the time denominator unresolved. A suitable clarification is: *Do you mean eighty megabits per second? Eight zero Mbit/s?* Do not award accuracy for a confident but unverified guess.
+
+#### N12. Answer
+
+A suitable note is: *Please deliver twelve clips at 1920 × 1080, 25 fps progressive, with 48 kHz, 24-bit stereo audio. Each file must be no larger than 2.5 GB. The deadline is 15 October 2026 at 16:00 Ljubljana local time. Please confirm the required video codec, container and colour specification before export.* Do not silently treat the audio specification as a complete video-delivery brief. An actual cross-border deadline can use an explicit confirmed UTC offset in addition to the location.
+
+**English checkpoints**
+
+#### G01. Answer
+
+Use *The recorder is ready* or *It is ready* with a clear antecedent; *There is one spare battery in the case*; and *It is raining outside*. The first version of the battery sentence can be a marked locative presentation, but the exercise requests a neutral first mention. *Check the battery* is an imperative with an understood addressee, not a defective declarative statement.
+
+#### G02. Answer
+
+A neutral model is *The editor checked the export carefully yesterday*. Another is *Yesterday, the editor checked the export carefully*. Other clear orders can be grammatical. In the first *only* sentence, Maja alone performed the action. In the second, the filename was the only thing Maja changed. Prosody can interact with scope, but the written positions guide the reading.
+
+#### G03. Answer
+
+Use *Could you tell me where the recorder is?*; *Could you tell me why the export failed?*; and *Could you tell me whether/if the file contains audio?* Use *Who changed the settings?* when *who* is the subject. Embedded questions do not keep ordinary direct-question inversion, and *did* is not needed in this neutral subject question.
+
+#### G04. Answer
+
+Use *a; the; an; an; a; an*; and no article before generic plural *Microphones*. *USB* begins with the sound /j/ when pronounced as letter names; *SD* begins with the vowel sound in *ess*. The choice follows the next spoken sound, not merely the first written letter. The first two answers differ because one camera is unspecified and the other is identified.
+
+#### G05. Answer
+
+Use *Three pieces/items of equipment are missing*, preferably naming the actual items; *This information is useful*; *I have two suggestions* or *two pieces of advice*; *One of the cameras is faulty*; and *The list of clips is complete*. *Light* can mean illumination, while *three lights* can mean three lighting units. Countability depends on the noun's meaning in the construction.
+
+#### G06. Answer
+
+Use *I sent it yesterday*; *I have been working on this edit since Monday*; and *We usually record room tone*. The last progressive is possible in a different context, but the simple form is the requested neutral habit description. Use *for three hours* and *since noon*. Explain the intended time relationship rather than replacing forms solely because a Slovene verb has a particular aspect.
+
+#### G07. Answer
+
+The first prohibits disconnection; the second says disconnection is not required. Use *We didn't record anything* or *We recorded nothing*. Use *If the copy finishes, I will check it*. A good answer preserves obligation and negation; it does not soften a prohibition into advice. Negative concord may be appropriate in a represented dialect or character's dialogue, but that is not the requested register.
+
+#### G08. Answer
+
+Use *Explain the setting to me; We discussed the scene; Listen to the recording; It depends on the codec; Turn it off; I need the file by Friday*. *Until Friday* would be appropriate for a different meaning, such as keeping access to the file throughout that interval. Preserve the intended relationship rather than swapping every preposition mechanically.
+
+#### G09. Answer
+
+Suitable expressions are *the current version; we may need another cable / perhaps we will need another cable; a sensitive microphone; check the level; we will carry out/implement the plan; a recording log / record of the takes*. *Eventually found* means the fault was found in the end, usually after time or effort. It does not mean that finding it is merely possible. Other equivalents can be valid when the intended context is stated.
+
+#### G10. Answer
+
+The first stays without a comma before *that*. Use *If it is complete, send it* and *Send it if it is complete*. The restrictive relative identifies the cameras with charged batteries; the supplementary relative supplies information about the already identified group. Do not change one into the other as a merely cosmetic correction.
+
+#### G11. Answer
+
+A suitable version is: *Yesterday, we tested a new recorder. It is working well, but the information on the screen is confusing. Could you tell me why it shows 44.1? We need a setting of 48, but I am not sure what these numbers mean.* Query the parameter and units rather than asserting without evidence that they are sample rates in kHz. Other revisions can be valid if they preserve the writer's uncertainty and correct the sentence structure.
+
+#### G12. Answer
+
+A model is: *The adapter may be faulty, but we have not confirmed the cause. We do not have to replace it yet. Could we test the connection with a known-working adapter before ordering a replacement?* Keep the original cost concern if relevant: *A replacement would be expensive.* *Mustn't* would prohibit replacement; the intended meaning is lack of a present requirement. A language correction should not turn a hypothesis into a confirmed diagnosis.
+
 **Computer**
+
+#### P01. Answer and lecturer's listening script
+
+Read **sheep; fill; cup; west; thin; code; save; full** in that order, at a clear but ordinary pace in the chosen model. Avoid supplying the written word or its meaning before the student has chosen. The contrasts are /ɪ/–/iː/, /ɪ/–/iː/, /æ/–/ʌ/, /w/–/v/, /θ/–/t/, final /t/–/d/, final /f/–/v/, and /ʊ/–/uː/. These labels use the teaching model described in Chapter 2. Reversing a choice identifies a contrast worth checking; it does not establish a general hearing problem or a complete pronunciation profile.
+
+#### P02. Answer
+
+For /v/ in *view*, the upper teeth approach the lower lip and friction is produced. For /w/ in *wide*, the lips round without that labiodental friction and the tongue participates in the glide. **Very** and **view** begin with /v/; **wide**, **white** and **waveform** begin with /w/. **Video** begins with /v/. A suitable sentence is **The viewfinder shows a wider view than I expected**. Check the actual recorded contrast; merely describing it correctly does not show that the production is distinct.
+
+#### P03. Answer
+
+*Three, thin* and *threads* begin with /θ/; *those, other* and the final consonant in *breathe* use /ð/ in the specified places. More precisely, **breath** /breθ/ and **breathe** /briːð/ differ both in the vowel and in the final consonant. **Thomas** begins with /t/ in the common English dictionary model. The sounds /θ/ and /ð/ are fricatives: the airflow is not stopped in the way required for /t/ and /d/. Legitimate accent variation is assessed separately from the learner's chosen target contrast.
+
+#### P04. Answer
+
+The contrasting endings are /t/–/d/ in *coat–code* and /f/–/v/ in *safe–save*. **Scripts** adds plural /s/; **mixed** adds past-tense /t/. In the sentence, **saved** and **mixed** mark past time, and **scripts** and **tracks** mark plural number. The whole syllable supplies information: a final stop need not have a strong audible release, and a final lenis consonant need not be voiced throughout. Adding /ə/ creates an unwanted extra syllable rather than solving the word contrast.
+
+#### P05. Answer
+
+**/s/:** clips, tracks. **/z/:** files, cameras. **/ɪz/:** lenses, changes. The final sounds of the bases *lens* and *change* are /z/ and /dʒ/, respectively. Only those two listed plural forms add a syllable.
+
+**/t/:** checked, stopped, mixed. **/d/:** filmed, saved, played. **/ɪd/:** edited, recorded, needed. The last group adds a syllable because its bases end in /t/ or /d/. **Filmed** does not gain an extra syllable after *film*. **Mixed** is /mɪkst/ in the model, not a two-syllable *mix-ed*. The written *x* of *mix* represents /ks/, whose final sound is /s/.
+
+#### P06. Answer
+
+Stress guides: **com-PU-ter; e-QUIP-ment; CAM-era; MI-cro-phone; tech-NI-cian; pho-TOG-ra-phy; pho-to-GRAPH-ic; cin-e-ma-TOG-ra-phy; res-o-LU-tion; AC-e-tone**. Capitals identify the part carrying primary stress; they do not replace the dictionary's pronunciation. The usual contrasts are noun **RE-cord** versus verb **re-CORD**, and noun **PRO-ject** versus verb **pro-JECT**. Words such as **edit** do not follow this shifting pattern simply because they can function as both noun and verb.
+
+#### P07. Answer
+
+Possible weak forms include unstressed **can** /kən/, **a** /ə/ and **to** /tə/. The ordinary sentence might highlight **SEND**, **COPY** and **EDITOR**, depending on context. In the correction, **CAN** is explicitly stressed and normally uses its strong /kæn/ form. **About** begins with schwa in the model /əˈbaʊt/; the second vowel in **video** is not automatically schwa. These are possible context-sensitive readings, not a requirement to reduce every function word or preserve mechanically equal timing.
+
+#### P08. Answer
+
+**BLUE** corrects the colour, **MOVE** corrects the action, and **LIGHT** corrects the object type. A suitable grouping is **After the interview / save the original files / and label the copy**. Other sensible grouping is possible. The pause after the opening phrase is not proof that every comparable English phrase requires a written comma; spoken planning and punctuation are related but not identical systems.
+
+#### P09. Answer
+
+A suitable read-back is **“Keep thirteen original files. Do not format card B. Forty-eight kilohertz, twenty-four-bit PCM. Confirmed.”** Correct the question with **“Thirteen, not thirty. One three.”** Retain the negative and the identifying letter; spell or clarify the letter further when the channel makes it uncertain. A conversational stress shift or noise can obscure one cue, so digits and an explicit confirmation provide additional protection. Do not change the intended value while trying to make it easier to say.
+
+#### P10. Answer
+
+The four required entries include British models **aperture /ˈæpətʃə(r)/**, **diaphragm /ˈdaɪəfræm/**, **cinematography /ˌsɪnəməˈtɒɡrəfi/** and **analogue /ˈænəlɒɡ/**. Check initial stress in *aperture* and *diaphragm*, the primary stress in *cinematography*, and the absence of a separate final vowel syllable in *analogue*. General American **cinematography** has a different stressed-vowel model, as shown in the linked dictionary. A valid entry identifies that variety rather than presenting it as a correction of British English. The other four words and the production phrases can differ between students.
+
+#### P11. Answer and assessment guide
+
+There is no single written answer. For example, select T01 for /w/–/v/, T08 for endings and clusters, and T10 for lexical stress. Each submission should identify the target, provide a controlled performance and transfer it to an original sentence such as **The video includes a wide shot**, **We checked both scripts**, or **Please record a short test**. Judge the target contrast and the comprehensibility of the ordinary sentence, not the student's nationality, maximum speed or resemblance to a celebrity's voice. A stumble in a tongue twister alone does not establish an everyday communication problem.
+
+#### P12. Answer and assessment guide
+
+Relevant features include the extra syllable in **recorded** but not **checked** or **saved**; /w/ in **wide** and /v/ in **interviews** and **saved**; /θ/ in **three** and **thirteen**; familiar word stress in **camera, audio, original, editor**; plural endings in **interviews, close-ups, files, clips, originals**; and the explicit contrast **thirteen, not thirty**. **Do not format card B** must remain an unambiguous negative instruction. Select three targets and assess those across the two recordings; do not infer success solely because a speech-to-text system guessed the intended words. Accept a coherent established accent model with an intelligible message.
 
 #### H01. Answer
 
@@ -4606,6 +5974,14 @@ Use “copied” if no conversion occurred. A completed handover must replace th
 #### H16. Answer
 
 Evaluate the accuracy of the chosen mechanism, clear sequencing, correct quantities and terminology, and responses to questions. For the processor option, a complete explanation connects stored instruction bytes to opcode decoding, operand selection, arithmetic, register capture and the store to memory. For playback, it distinguishes encoded file data from decoded working buffers and from physical light and sound. A statement that a component “makes it better” requires a more specific function or measurable consequence.
+
+#### H17. Answer
+
+A suitable RAM explanation is: *Main memory holds much of the information the running computer needs now, including instructions and working data. The processor obtains and changes values through the memory system. Unlike ordinary saved files on an SSD, the contents of ordinary RAM are not retained without power. Calling RAM a workbench helps describe temporary working space, but real memory consists of addressed electronic storage locations, not objects physically moved by a person.* Other components require the equivalent functional distinctions.
+
+#### H18. Answer
+
+The input device reports an event. The operating system and application handle it according to the running program. The application arranges access to the necessary media and working buffers. A decoder reconstructs media information as required by its encoding. Processing and output systems prepare the picture and sound. Their presentation is scheduled for the intended times. A fan demonstrates only a limited mechanical/power outcome; it does not verify software execution, media reading, decoding or synchronised output.
 
 **Sound**
 
@@ -4763,6 +6139,18 @@ One take contains a distorted shout. Its cause has not yet been established. Ple
 
 Other answers can be equally strong if they preserve the facts, name the technical stages correctly and separate observations from hypotheses.
 
+#### A16. Answer
+
+The first two use physical discs with analogue groove modulation, but their materials differ. The specified reel-to-reel recording uses magnetic tape with analogue audio representation. The audio CD carries digitally coded audio through its optical recording system. The stated cassette contains digital image data despite using magnetic tape. A carrier name alone does not establish coding, track layout or the required player.
+
+#### A17. Answer
+
+In a common transport, the capstan and pinch roller establish linear tape movement while the reels feed and collect it under suitable tension. Speed instability is a plausible explanation for wavering pitch, but the fault could be in the recording or playback and requires appropriate comparison. Greater capture bit depth gives a different numerical representation; it does not remove a timing variation already present in the signal. Avoid experimental servicing of an irreplaceable original.
+
+#### A18. Answer
+
+The explanation should identify W. Averell Harriman and the ambassador's residence in Moscow, the 1945 gift and discovery in 1952. Sound moved a diaphragm and modulated a resonant structure's response; external radio illumination supplied radio energy, and an external receiver recovered the sound-related variation. Passive does not mean energy-free. Transduction changes the physical representation, transmission carries information, and recording retains it. The account does not establish an ADC, PCM sample sequence, digital codec or internal data storage. Lodge's 1960 UN presentation was a later public event. No operational construction details are required.
+
 **Video**
 
 #### V01
@@ -4846,6 +6234,18 @@ Other well-reasoned format proposals are acceptable. A checksum can support late
 
 These are model answers and marking guidance. Alternative wording is valid when the technical meaning, assumptions and units are correct.
 
+#### V13. Answer
+
+Film carries photographic image variation in successive frames and needs optical projection or scanning. Analogue videotape carries a magnetic recording from which an electrical video signal is recovered by a compatible player. A digital file carries coded data needing interpretation and decoding. Temporal separation alone does not establish numerical image coding. A digital capture can faithfully retain damage, noise or timing problems already present in an analogue source.
+
+#### V14. Answer
+
+The flash rate is 48 per second; there are 240 different frames in ten seconds, assuming continuous forward projection. The gate positions each image, the pull-down advances the strip, the shutter hides movement and provides the specified interruption pattern, and loops accommodate transport differences. Smooth movement at the sound reader supports stable timing of the recovered audio. Repeated flashes do not create new captured positions between film frames.
+
+#### V15. Answer
+
+A suitable instruction is: *Do not apply a cleaner or make a splice until the film base, image layer and condition have been identified. Use the procedure and materials approved for that film, with specialist advice where necessary.* Acetone is a solvent; acetate, nitrate and polyester are distinct possible supports; emulsion is the image-forming layer; film cement and splicing tape are different joining materials. Acetone can attack materials, and conventional film cement does not join polyester. Unknown old film must not be identified through casual solvent, flame or deliberate sniffing tests.
+
 #### C01. Answer
 
 Example: “This is the lens mount. It is the mechanical interface at the front of the camera body. It secures the lens and establishes its position relative to the sensor. Its flange focal distance is different from the lens's focal length.”
@@ -4927,6 +6327,18 @@ Examples of responsibilities: choosing photographic contrast and aperture; maint
 **Professional English and integrated work**
 
 Alternatives may preserve the facts and fulfil the task equally well. Short model passages illustrate wording; develop them when the exercise requires a longer text.
+
+#### C13. Answer
+
+A suitable answer is: *Kodak's 1975 prototype is recognised as a self-contained portable solid-state digital still camera. Sony's 1981 Mavica prototype exemplifies an early electronic still-video system and must not be conflated with later digital-file cameras.* A prototype demonstrates a design, a commercial system is offered for use in a market, and adoption describes subsequent use; their dates need not coincide. The history does not support either sweeping statement in the prompt.
+
+#### C14. Answer
+
+Both use optics to form an image. The ARRIFLEX exposes film and uses a reflex-viewing arrangement; the recorded pictures require photochemical processing and subsequent projection or scanning. The Kodak prototype used a CCD, electronic conversion/data handling, RAM and digital cassette recording, with a playback system reconstructing the image. A film magazine, emulsion and photochemical development are not RAM, a digital buffer or decoding; conversely, a PCM-like numerical image-data path should not be invented for the film negative. State the actual representation rather than simply calling one old and the other new.
+
+#### C15. Answer
+
+No. Those components establish electronic control or conversion and a magnetic carrier, not the encoding of the retained picture. Canon documents the RC-701's still-video system as analogue. A film camera can control exposure and transport electronically while the image is retained photographically on film. To establish digital image recording, identify numerical coding/data representation and the relevant recording format.
 
 #### E01–E03. Introductions and clarification
 
