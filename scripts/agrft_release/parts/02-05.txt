@@ -1,0 +1,26 @@
+Choose **one contrast or stress pattern**, not every issue at once. Listen to the lecturer or linked dictionary recording. Say two contrasting words, then a short phrase. Record one ordinary production sentence. Listen for the chosen feature and check that the message remains clear. Repeat once after making a specific adjustment.
+
+A useful note is **“I keep turning /w/ into /v/ at the start of *wide*”**, followed by the word, a model and a later recording. **“My English pronunciation is bad”** is not a workable diagnosis. Speech recognition can provide an extra observation, but its transcription is not a reliable pronunciation score: it may guess a word from context or reject a perfectly intelligible accent.
+
+The independent tasks **P01–P12**, including a lecturer-read listening script, technical words, endings, stress, read-back and tongue-twister practice, are collected after G01–G12 in the final exercise section. No pair or group task is required.
+
+### A short self-editing routine
+
+Read once for the intended action and once for language. Underline the subject and verb of each complete statement. Check whether each singular count noun has an appropriate determiner. Check reference: can the reader identify *it*, *this*, *they* and *the other one*? Then inspect time expressions, negatives, numbers and units.
+
+Finally, read the message aloud. A sentence that you cannot explain confidently may be more elaborate than you need. Prefer an accurate short explanation to impressive wording that obscures who should do what.
+
+The individual practice for this chapter is collected under **English checkpoints: G01–G12** and **Pronunciation checkpoints: P01–P12**. Later chapters revisit these patterns in longer professional texts; that repetition is intentional.
+
+
+## 3. How computers work, deep down
+
+### Start with pressing a key
+
+You press a key and a letter appears on a screen. The keyboard reports an event, the running program interprets it, and the display system changes the picture. Several parts do different jobs. A **processor** carries out instructions. **Memory** keeps the information those instructions need at that moment. **Storage** keeps saved information for later. Connections move information between parts, and the power supply makes the electrical work possible.
+
+A computer can edit a film because the film's recorded information has a representation on which instructions can operate. Trimming a clip may initially change an edit decision rather than erase the original pictures. Increasing audio gain changes numerical values in a processing path. Exporting requires the machine to produce an output according to the chosen instructions and format. Those are related tasks, but they are not the same operation.
+
+While looking into the opened case, begin with function rather than specifications: **this part supplies power; this part retains working data; this part stores files; this part processes values; this part moves heat**. Then ask how it accomplishes that function. The details below follow those questions from familiar equipment into the circuits inside it. You do not need to understand every circuit before learning to identify and describe the visible parts.
+
+### From the overview to the mechanism
