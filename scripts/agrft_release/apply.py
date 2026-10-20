@@ -10,7 +10,8 @@ import zipfile
 ROOT = Path(__file__).resolve().parents[2]
 PARTS = Path(__file__).resolve().parent / 'parts'
 BASE = '0f46347dd0a6b27108d989dc7b39f6b8de5dc5836b4014147ade9f00449ffd03'
-TARGET = 'a44d45266da2737380289e70fef1c82642d8692b8a1efb780b26b892ecdfd88b'
+ASSEMBLED = 'a44d45266da2737380289e70fef1c82642d8692b8a1efb780b26b892ecdfd88b'
+TARGET = 'e4fd1a82a147b1a07d4962a26e6e679f74e5a86e27bc432b053a71dcec121756'
 STANDALONE = 'b8575fb1a1c90edd2aa5e1f40af9fa96ba58bdbc5e5fa219a930ef3b7e3fcb6e'
 EXPECTED = {
  '01.json':'0714f0520d50523dcd1c4808cfcbb471894b3661c80b92c2171e28ef2a3afecf',
@@ -52,7 +53,10 @@ lines = original.decode().splitlines(True)
 for start, end, replacement in reversed(ops):
     lines[start:end] = replacement.splitlines(True)
 source = ''.join(lines)
-assert sha(source.encode()) == TARGET, 'Full manuscript checksum mismatch.'
+assert sha(source.encode()) == ASSEMBLED, 'Assembled manuscript checksum mismatch.'
+# An absolute URL distinguishes a downloadable Markdown asset from a content page.
+source = source.replace('](/assets/files/AGRFT_English_ucno_gradivo_v1.2.md)', '](https://damjan-popic.github.io/assets/files/AGRFT_English_ucno_gradivo_v1.2.md)')
+assert sha(source.encode()) == TARGET, 'Final manuscript checksum mismatch.'
 exercises = source.split('## 18. Exercises', 1)[1].split('### Answers and model responses', 1)[0]
 ids = re.findall(r'^#### ([A-Z]\d{2})[.\s]', exercises, re.M)
 assert len(ids) == len(set(ids)) == 152
